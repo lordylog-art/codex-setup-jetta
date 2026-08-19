@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "Deploy Zero Down VPS"
+  short_description: "Audita deploy mínimo na VPS"
+  default_prompt: "Avalie os commits locais sem push e diga se dá para fazer deploy zero downtime na VPS."

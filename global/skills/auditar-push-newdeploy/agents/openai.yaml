@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auditar Push para NewDeploy"
+  short_description: "Valida commits antes do push e do NewDeploy"
+  default_prompt: "Use $auditar-push-newdeploy para auditar os commits locais sem push e dizer se o NewDeploy consegue publicá-los com segurança."

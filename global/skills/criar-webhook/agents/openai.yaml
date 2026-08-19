@@ -1,0 +1,4 @@
+interface:
+  display_name: "Criar webhook"
+  short_description: "Cria webhooks do ERP Jetta ponta a ponta."
+  default_prompt: "Crie um webhook no ERP Jetta seguindo backend, testes e cadastro na tela admin."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Investigar Detalhes"
+  short_description: "Mapeia fluxos e lacunas de TDD"
+  default_prompt: "Use $investigar-detalhes para investigar profundamente este fluxo e listar cliques, estados, dados, contratos e lacunas de TDD."

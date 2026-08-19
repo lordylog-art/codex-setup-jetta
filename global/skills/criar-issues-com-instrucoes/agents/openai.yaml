@@ -1,0 +1,4 @@
+interface:
+  display_name: "Criar Issues em MD"
+  short_description: "Issues locais em Markdown com escopo fechado."
+  default_prompt: "Use esta skill para transformar uma demanda em issues locais bem instru?das em `.requirements/issues`; quando a ideia n?o estiver clara, consulte arquivos de ideias antes de perguntar e confirme o resumo final antes de criar ou atualizar o `.md`."

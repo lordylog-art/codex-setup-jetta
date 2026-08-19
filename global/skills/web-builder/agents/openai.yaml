@@ -1,0 +1,4 @@
+interface:
+  display_name: "Web Builder"
+  short_description: "Incremental secure web development with TDD"
+  default_prompt: "Use $web-builder to implement a web feature incrementally with backend-first security and TDD."

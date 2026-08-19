@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resolver"
+  short_description: "Fix reviewer findings with discipline"
+  default_prompt: "Use $resolver to address the reviewer findings with TDD, clean structure, and full validation."

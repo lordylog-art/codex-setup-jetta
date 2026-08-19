@@ -1,0 +1,4 @@
+interface:
+  display_name: "Apps Script"
+  short_description: "TDD maintenance and development for Apps Script/Sheets"
+  default_prompt: "Use $appscript to analyze, test first, implement safely, and debug a Google Apps Script/Sheets change."

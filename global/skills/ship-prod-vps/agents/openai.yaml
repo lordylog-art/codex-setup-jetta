@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ship Prod VPS"
+  short_description: "Commit, push, deploy to prod, and verify"
+  default_prompt: "Use $ship-prod-vps to commit the change, push the branch, deploy to production, and validate the live feature end to end."

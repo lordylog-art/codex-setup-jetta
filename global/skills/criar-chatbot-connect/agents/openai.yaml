@@ -1,0 +1,7 @@
+interface:
+  display_name: "Criar Chatbot Connect"
+  short_description: "Gera chatbots Connect por JSON"
+  default_prompt: "Use $criar-chatbot-connect para criar ou alterar um chatbot da Connect Channels automaticamente a partir do meu briefing."
+
+policy:
+  allow_implicit_invocation: true

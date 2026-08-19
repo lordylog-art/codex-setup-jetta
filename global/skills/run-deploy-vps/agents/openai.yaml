@@ -1,0 +1,4 @@
+interface:
+  display_name: "Run Deploy VPS"
+  short_description: "Git pull, deploy e webhooks na VPS."
+  default_prompt: "Use $run-deploy-vps para rodar o deploy da VPS do ERP Jetta e avisar se deu bom ou deu ruim."

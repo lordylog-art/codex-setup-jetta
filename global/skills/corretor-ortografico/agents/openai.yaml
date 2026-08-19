@@ -1,0 +1,7 @@
+interface:
+  display_name: "Corretor Ortografico"
+  short_description: "Revisa strings PT-BR do codigo"
+  default_prompt: "Use $corretor-ortografico to audit source strings in PT-BR and apply safe LanguageTool fixes."
+
+policy:
+  allow_implicit_invocation: true

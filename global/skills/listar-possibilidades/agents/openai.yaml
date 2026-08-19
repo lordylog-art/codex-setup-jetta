@@ -1,0 +1,4 @@
+interface:
+  display_name: "Listar Possibilidades"
+  short_description: "Tabela anti-burro de cenários."
+  default_prompt: "Use $listar-possibilidades para listar todos os cenários possíveis do contexto ativo em uma tabela anti-burro."

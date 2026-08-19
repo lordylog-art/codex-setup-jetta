@@ -1,0 +1,4 @@
+interface:
+  display_name: "ClickUp MOVE"
+  short_description: "Cria pastas, listas e tarefas no ClickUp MOVE"
+  default_prompt: "Use $clickup-move para transformar este pedido em uma tarefa na lista MOVE."

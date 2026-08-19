@@ -1,0 +1,7 @@
+interface:
+  display_name: "Workflow Discovery Gate"
+  short_description: "Discovery, risk gate, and execution handoff"
+  default_prompt: "Use $workflow-discovery-gate before any implementation to clarify scope, lock understanding, stress-test risks, and release an execution-ready handoff."
+
+policy:
+  allow_implicit_invocation: true

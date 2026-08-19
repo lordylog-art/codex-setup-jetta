@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spec Kit Orquestrador"
+  short_description: "Orquestra Spec Kit com gates completos"
+  default_prompt: "Execute o fluxo completo do Spec Kit para esta feature, exigindo prompt inicial completo, separação frontend/backend e validação antes de concluir."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "3 Corações"
+  short_description: "Define unidade antes de mexer no cliente 3 Corações."
+  default_prompt: "Antes de agir no cliente 3 Corações, identifique a unidade afetada ou peça confirmação."

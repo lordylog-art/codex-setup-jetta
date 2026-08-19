@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hacker Safado"
+  short_description: "Descontinuado — use $reviewer (modo ofensivo embutido)"
+  default_prompt: "Use $reviewer no lugar de $hacker-safado. O reviewer agora inclui auditoria ofensiva automaticamente quando o escopo envolve auth, API ou dados sensíveis."

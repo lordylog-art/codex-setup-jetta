@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fábrica de Agentes Connect"
+  short_description: "Cria e ajusta agentes pela fábrica Connect"
+  default_prompt: "Use $fabrica-agentes-connect para criar um agente novo na Connect com segurança."

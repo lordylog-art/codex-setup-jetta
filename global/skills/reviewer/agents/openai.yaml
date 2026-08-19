@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reviewer"
+  short_description: "Correctness, security, and optimization review with strict verdicts; offensive mode auto-activates for auth/API/data scope"
+  default_prompt: "Use $reviewer to review implemented code. Provide: files changed, domain (auth/API/UI/data/jobs/etc), risk level, and whether the change touches hot paths, queries, rendering, batching, or infrastructure cost. Offensive security mode activates automatically when relevant."

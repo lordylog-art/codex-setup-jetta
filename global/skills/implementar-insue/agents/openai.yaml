@@ -1,0 +1,4 @@
+interface:
+  display_name: "Implementar Insue"
+  short_description: "Implementa issues locais por subissues."
+  default_prompt: "Use esta skill para receber uma issue local em Markdown, quebrar em subissues execut?veis e implementar uma por vez, registrando status e progresso nos arquivos `.md`."

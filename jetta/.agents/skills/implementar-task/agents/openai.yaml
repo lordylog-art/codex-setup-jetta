@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "Implementar Task"
+  short_description: "Implementa tasks do ClickUp com subtasks e status"
+  default_prompt: "Use $implementar-task para localizar a task do ClickUp alinhada a este contexto, decompor o trabalho em subtasks executáveis e implementar cada etapa com atualização de status e validação."

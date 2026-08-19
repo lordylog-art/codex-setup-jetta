@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auditar Erros VPS"
+  short_description: "Audita erros operacionais da VPS"
+  default_prompt: "Use $auditar-erros-vps para auditar erros novos da operação na VPS e enviar um resumo por e-mail."

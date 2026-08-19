@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brainstorm ERP Jetta"
+  short_description: "Ideias ranqueadas para o ERP Jetta"
+  default_prompt: "Use $brainstorm-erp-jetta para sugerir ideias priorizadas para melhorar o ERP Jetta."

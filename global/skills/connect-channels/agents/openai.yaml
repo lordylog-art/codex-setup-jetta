@@ -1,0 +1,3 @@
+display_name: Connect Channels
+short_description: Executa ações da Connect Channels
+default_prompt: Use a Connect Channels para consultar templates/canais e enviar modelos de mensagem quando eu pedir.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Testar Implementação"
+  short_description: "Testa endpoints locais com autenticação real."
+  default_prompt: "Use $testar-implementacao para testar no local o endpoint informado, iniciar API ou site se necessário, validar o fluxo completo e desfazer os dados criados."

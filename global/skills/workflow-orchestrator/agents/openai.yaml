@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Orchestrator"
+  short_description: "Implementa, revisa, consolida findings e corrige em ciclos com multiplos agentes"
+  default_prompt: "Use $workflow-orchestrator para classificar a task, escolher o executor, rodar reviews paralelos, consolidar findings e iterar correcao ate aprovacao ou limite de 3 ciclos."

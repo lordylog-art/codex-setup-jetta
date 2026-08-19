@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mojibake PT-BR"
+  short_description: "Localiza e corrige mojibake em PT-BR"
+  default_prompt: "Use $mojibake-ptbr para revisar mojibake e corrigir texto em português do Brasil."

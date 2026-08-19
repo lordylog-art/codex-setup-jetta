@@ -1,0 +1,4 @@
+interface:
+  display_name: "Architect Handoff"
+  short_description: "Plan architecture and generate execution prompts"
+  default_prompt: "Use $architect-handoff to plan a change and generate a compact handoff prompt for an implementer."

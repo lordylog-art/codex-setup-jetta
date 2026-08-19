@@ -1,0 +1,4 @@
+interface:
+  display_name: "Creative Ideation"
+  short_description: "Generate bold, structured idea options"
+  default_prompt: "Use $creative-ideation to generate strong, differentiated ideas for this challenge."

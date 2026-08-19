@@ -1,0 +1,4 @@
+interface:
+  display_name: "Olheiro FC 26"
+  short_description: "Encontra reforços ideais no seu save do FC 26"
+  default_prompt: "Use $olheiro-fc26 para encontrar jogadores no meu save que atendam ao perfil e ao orçamento informados."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Testar Suite Completa"
+  short_description: "Rodar todos os testes sem mascarar falhas."
+  default_prompt: "Use esta skill para rodar todos os testes do ERP Jetta, mostrar falhas sem mascarar resultado e perguntar se cada falha e legado antigo ou regressao recente antes de propor mudancas."

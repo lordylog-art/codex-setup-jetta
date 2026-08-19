@@ -1,0 +1,4 @@
+interface:
+  display_name: "Treinador FC 26"
+  short_description: "Monta escalações e planos táticos no FC 26"
+  default_prompt: "Use $treinador-fc26 para analisar meu elenco e criar o plano completo do treinador que eu informar."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Table operacional"
+  short_description: "Padrão visual para tabelas operacionais do ERP Jetta."
+  default_prompt: "Aplique o padrão de table operacional nesta tela."

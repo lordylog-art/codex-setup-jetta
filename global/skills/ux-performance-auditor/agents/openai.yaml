@@ -1,0 +1,4 @@
+interface:
+  display_name: "UX Performance Auditor"
+  short_description: "Audita UX, lentidao, travamentos e nota 0 a 10"
+  default_prompt: "Use $ux-performance-auditor para analisar uma pagina, fluxo ou componente em termos de experiencia do usuario, travamentos, gargalos perceptiveis e nota final de 0 a 10."

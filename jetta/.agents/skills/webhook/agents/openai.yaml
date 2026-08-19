@@ -1,0 +1,4 @@
+interface:
+  display_name: "Webhook"
+  short_description: "Padrao de webhooks do ERP Jetta"
+  default_prompt: "Use $webhook para criar ou adaptar uma webhook no ERP Jetta seguindo o padrao atual de API, admin e VPS."

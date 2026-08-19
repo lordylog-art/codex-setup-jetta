@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tabelas por Status"
+  short_description: "Blocos operacionais por status"
+  default_prompt: "Use $tabelas-por-status para replicar uma tela operacional com tabelas separadas por blocos de status, busca eficiente, blocos vazios recolhidos, finalizados/concluídos embaixo, header clicável, SVG laranja e rolagem por bloco."

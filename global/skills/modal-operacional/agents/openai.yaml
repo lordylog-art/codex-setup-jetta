@@ -1,0 +1,4 @@
+interface:
+  display_name: "Modal operacional"
+  short_description: "Criar e ajustar modais operacionais no padrão visual ERP Jetta."
+  default_prompt: "Crie ou ajuste o modal seguindo o padrão operacional ERP Jetta."

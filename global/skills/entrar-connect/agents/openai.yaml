@@ -1,0 +1,4 @@
+interface:
+  display_name: "Entrar Connect"
+  short_description: "Abrir e controlar Connect Channels"
+  default_prompt: "Use $entrar-connect para abrir o Connect Channels, validar a sessao e perguntar o que fazer no site."

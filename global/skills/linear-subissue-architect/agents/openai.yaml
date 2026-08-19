@@ -1,0 +1,4 @@
+interface:
+  display_name: "Subissue Architect Local"
+  short_description: "Quebra issues locais em etapas seguras."
+  default_prompt: "Use $linear-subissue-architect para quebrar uma issue m?e local em Markdown em subissues pequenas, seguras e test?veis em `.requirements/issues`."

@@ -1,0 +1,21 @@
+name: workflow-discovery-gate
+description: Gate obrigatorio de discovery, fechamento de escopo, analise de risco e liberacao de handoff antes de qualquer implementacao.
+entrypoint: SKILL.md
+version: 1
+triggers:
+  - discovery antes de implementar
+  - clarificar escopo antes de codar
+  - understanding lock
+  - stress test de arquitetura
+  - execution gate
+  - handoff arquitetural
+  - bug estrutural com ambiguidade
+  - integracao sensivel
+  - refactor sensivel
+  - tela operacional com risco real
+outputs:
+  - understanding_lock
+  - destruction_report
+  - execution_gate_verdict
+  - architect_handoff
+  - optional_orchestration_prompts

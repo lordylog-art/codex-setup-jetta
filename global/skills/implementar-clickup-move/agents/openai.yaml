@@ -1,0 +1,4 @@
+interface:
+  display_name: "Implementar ClickUp MOVE"
+  short_description: "Lê e implementa tarefas da lista MOVE no ClickUp"
+  default_prompt: "Use $implementar-clickup-move para implementar uma tarefa do ClickUp MOVE."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Criar agente/chatbot Connect"
+  short_description: "Cria agentes IA e chatbots de automação na Connect por API."
+  default_prompt: "Crie um agente de IA com supervisor, base de conhecimento e chatbot de automação na Connect Channels usando sessão autenticada, sem publicar sem autorização."

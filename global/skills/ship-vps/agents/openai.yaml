@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ship VPS"
+  short_description: "Commit, push, deploy to staging, and verify"
+  default_prompt: "Use $ship-vps to commit the change, push the branch, deploy to the staging VPS, and validate the feature end to end before production."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Subir Local para Prod SQL"
+  short_description: "Enriquece local e migra SQL para prod."
+  default_prompt: "Suba meu PC para produção com segurança: rode o enriquecimento SQL local com produção, depois migre o SQL local para prod e valide web/API online."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Na pratica"
+  short_description: "Valida fluxos reais com seguranca"
+  default_prompt: "Use $na-pratica para executar o fluxo real, validar o resultado e corrigir ate funcionar com seguranca."

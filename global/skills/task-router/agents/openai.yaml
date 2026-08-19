@@ -1,0 +1,4 @@
+interface:
+  display_name: "Task Router"
+  short_description: "Classify tasks and route to the right skill"
+  default_prompt: "Use $task-router to classify a task and decide which skill, model, and review level to use."
