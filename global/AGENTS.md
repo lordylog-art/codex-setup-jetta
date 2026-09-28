@@ -9,3 +9,12 @@
 - Quando houver subagentes disponíveis, delegue reconhecimento read-only, leitura/análise de dados e execução de testes. Receba apenas um resumo com evidências; decisões, alterações, aprovações e operações sensíveis permanecem no agente principal. Execute direto apenas se a tarefa for trivial, exigir contexto imediato ou a delegação não estiver disponível.
 
 Para chatbot/agente Connect Channels, use `C:\Users\caila\.codex\references\padrao-chatbot-connect-cc047.md` como referência estrutural. Adapte ao cliente, mantenha em rascunho e não publique nem execute ação externa sem autorização.
+
+## Obsidian
+
+- Consulte o Obsidian quando notas, decisões, reuniões, planejamento ou referências registradas puderem melhorar a resposta.
+- Prefira o MCP `obsidian` para pesquisar, ler e editar notas; use a CLI oficial para diagnóstico, templates e comandos de plugins.
+- Antes de instalar plugins, consulte os plugins e comandos existentes.
+- Preserve frontmatter, wikilinks, aliases, tags, templates e estrutura. Leia a nota antes de editar e evite duplicatas.
+- Não grave credenciais no vault nem trate informação incerta como fato confirmado.
+- Regras locais, skills, specs, issues e contratos do projeto têm precedência. Operações destrutivas ou em massa exigem pedido explícito.

@@ -1,10 +1,17 @@
 [CmdletBinding()]
 param(
     [string]$JettaPath = 'C:\Projetos\Jeta Move',
-    [switch]$InstallRtk
+    [switch]$InstallRtk,
+    [switch]$InstallObsidian,
+    [string]$ObsidianVaultPath
 )
 
 $ErrorActionPreference = 'Stop'
+if ($InstallObsidian) {
+    & (Join-Path $PSScriptRoot 'install-obsidian.ps1') -VaultPath $ObsidianVaultPath
+    if ($InstallRtk) { & (Join-Path $PSScriptRoot 'install-rtk.ps1') }
+    return
+}
 $root = Split-Path -Parent $PSScriptRoot
 $codexHome = Join-Path $env:USERPROFILE '.codex'
 $stamp = Get-Date -Format 'yyyyMMdd-HHmmss'
