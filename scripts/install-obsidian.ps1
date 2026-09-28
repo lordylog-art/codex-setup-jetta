@@ -57,7 +57,7 @@ if ($LASTEXITCODE -eq 0 -and $gitRoot) {
     if ($LASTEXITCODE -eq 0) { throw "Configuração com chave já versionada em Git: $tracked" }
     $excludePath = & git -C $gitRoot rev-parse --git-path info/exclude
     if (-not [IO.Path]::IsPathRooted($excludePath)) { $excludePath = Join-Path $gitRoot $excludePath }
-    $excludeLines = @("/$relativePlugin/", "/$([IO.Path]::GetRelativePath($gitRoot, (Join-Path $VaultPath '.obsidian\community-plugins.json')).Replace('\', '/'))")
+    $excludeLines = @("/$relativePlugin/")
     $existingExcludes = if (Test-Path -LiteralPath $excludePath) { @(Get-Content -LiteralPath $excludePath) } else { @() }
     foreach ($line in $excludeLines) {
         if ($existingExcludes -notcontains $line) { Add-Content -LiteralPath $excludePath -Value $line }
