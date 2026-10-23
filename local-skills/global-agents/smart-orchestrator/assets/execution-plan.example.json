@@ -1,0 +1,127 @@
+{
+  "version": 2,
+  "feature": "synthetic",
+  "spec": "SPEC.md",
+  "shared_contracts": [
+    "contract.md"
+  ],
+  "criteria": [
+    {
+      "id": "C1",
+      "ticket": "T1",
+      "gate": "integration"
+    }
+  ],
+  "capacity": {
+    "implementation": 1,
+    "validation": 1
+  },
+  "tickets": [
+    {
+      "id": "T1",
+      "ticket": "tickets/T1.md",
+      "author": "implementer",
+      "scope": [
+        "code.py",
+        "other.py"
+      ],
+      "integration_owner": "integrator",
+      "maturity": {
+        "functional_review": true,
+        "expected": "complete local increment",
+        "incomplete": [],
+        "final_qa": true
+      },
+      "dependencies": [],
+      "resources": [
+        "browser"
+      ],
+      "estimate_minutes": 10,
+      "gates": [
+        {
+          "id": "local",
+          "stage": "CODE_READY",
+          "kind": "test",
+          "required": true,
+          "scope": [
+            "code.py"
+          ],
+          "artifacts": [
+            "local-proof"
+          ],
+          "criteria": []
+        },
+        {
+          "id": "unaffected",
+          "stage": "CODE_READY",
+          "kind": "test",
+          "required": true,
+          "scope": [
+            "other.py"
+          ],
+          "artifacts": [
+            "other-proof"
+          ],
+          "criteria": []
+        },
+        {
+          "id": "standards",
+          "stage": "REVIEWED",
+          "kind": "review",
+          "required": true,
+          "independent": true,
+          "scope": [
+            "code.py"
+          ],
+          "artifacts": [
+            "standards-proof"
+          ],
+          "criteria": []
+        },
+        {
+          "id": "spec",
+          "stage": "REVIEWED",
+          "kind": "review",
+          "required": true,
+          "independent": true,
+          "scope": [
+            "code.py"
+          ],
+          "artifacts": [
+            "spec-proof"
+          ],
+          "criteria": []
+        },
+        {
+          "id": "security",
+          "stage": "REVIEWED",
+          "kind": "security",
+          "required": true,
+          "independent": true,
+          "scope": [
+            "code.py"
+          ],
+          "artifacts": [
+            "security-proof"
+          ],
+          "criteria": []
+        },
+        {
+          "id": "integration",
+          "stage": "ACCEPTED",
+          "kind": "integration",
+          "required": true,
+          "scope": [
+            "code.py"
+          ],
+          "artifacts": [
+            "integration-proof"
+          ],
+          "criteria": [
+            "C1"
+          ]
+        }
+      ]
+    }
+  ]
+}

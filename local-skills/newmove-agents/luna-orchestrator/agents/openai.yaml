@@ -1,0 +1,6 @@
+interface:
+  display_name: "Luna Orchestrator"
+  short_description: "Audita tickets em tasks de contexto zerado"
+  default_prompt: "Use $luna-orchestrator para coordenar uma fila de tickets: mantenha Luna na auditoria e crie uma task sem histórico herdado com $implement para cada ticket no mesmo worktree permanente."
+policy:
+  allow_implicit_invocation: true

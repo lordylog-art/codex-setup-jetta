@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian Visual Style"
+  short_description: "Style vault folders, icons, and statuses"
+  default_prompt: "Use $obsidian-visual-style to style the Mega Brain vault consistently."

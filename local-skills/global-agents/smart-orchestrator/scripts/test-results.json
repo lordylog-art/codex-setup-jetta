@@ -1,0 +1,7 @@
+{
+  "tests_run": 40,
+  "failures": [],
+  "errors": [],
+  "status": "PASS",
+  "surface": "real Python filesystem/controller/CLI/multiprocess; no semantic agent validation"
+}

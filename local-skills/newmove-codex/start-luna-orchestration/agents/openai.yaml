@@ -1,0 +1,6 @@
+interface:
+  display_name: "Start Luna Orchestration"
+  short_description: "Abre Luna em projeto-worktree permanente"
+  default_prompt: "Use $start-luna-orchestration com a issue da spec para preparar sua worktree permanente e abrir o coordenador Luna."
+policy:
+  allow_implicit_invocation: false

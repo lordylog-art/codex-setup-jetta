@@ -1,0 +1,7 @@
+interface:
+  display_name: "Grill to Front"
+  short_description: "Fecha decisões funcionais e de frontend"
+  default_prompt: "Use $grill-to-front para fechar decisões funcionais e de frontend antes da especificação."
+
+policy:
+  allow_implicit_invocation: true

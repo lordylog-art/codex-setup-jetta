@@ -1,0 +1,6 @@
+interface:
+  display_name: "Smart Orchestrator"
+  short_description: "Orquestra entrega, recursos e aceite por evidências"
+  default_prompt: "Use $smart-orchestrator para entregar os tickets autorizados, coordenando dependências, implementação, revisão e aceite."
+policy:
+  allow_implicit_invocation: true

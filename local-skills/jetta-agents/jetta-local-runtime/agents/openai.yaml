@@ -1,0 +1,6 @@
+interface:
+  display_name: "Jetta Local Runtime"
+  short_description: "Inicia e valida o ERP Jetta localmente com segurança"
+  default_prompt: "Use $jetta-local-runtime para iniciar, validar ou diagnosticar o ERP Jetta no ambiente local."
+policy:
+  allow_implicit_invocation: true

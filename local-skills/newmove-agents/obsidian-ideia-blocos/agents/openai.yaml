@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian: Ideia em Blocos"
+  short_description: "Entrevista e organiza uma nota manual em blocos"
+  default_prompt: "Use $obsidian-ideia-blocos para detalhar esta nota do Mega Brain e preparar blocos para spec-driven."

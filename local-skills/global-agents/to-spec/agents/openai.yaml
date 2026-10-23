@@ -1,0 +1,5 @@
+interface:
+  display_name: "To Spec"
+  short_description: "Turn a conversation into an Obsidian or tracker spec"
+policy:
+  allow_implicit_invocation: false

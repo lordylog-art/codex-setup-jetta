@@ -1,0 +1,3514 @@
+[
+  {
+    "path": "global-codex/.system/.codex-system-skills.marker",
+    "sha256": "ba5d940b1629aae4e79ad941f308a1914dfe9191647ad70a3bde2e9afdde7e8b"
+  },
+  {
+    "path": "global-codex/.system/imagegen/agents/openai.yaml",
+    "sha256": "1797be4076717806df54aa9331c07ac8eebe32c69f32132d5858712b05406146"
+  },
+  {
+    "path": "global-codex/.system/imagegen/assets/imagegen-small.svg",
+    "sha256": "087c1632a3b8a2ed4d6218952e7ba7ae2221a979f84233667ed2c587998784da"
+  },
+  {
+    "path": "global-codex/.system/imagegen/assets/imagegen.png",
+    "sha256": "95952f644064eb9e890f98d8db07216347186526e4c41ad66d3420629eb86e20"
+  },
+  {
+    "path": "global-codex/.system/imagegen/LICENSE.txt",
+    "sha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc"
+  },
+  {
+    "path": "global-codex/.system/imagegen/references/cli.md",
+    "sha256": "29dc8c1e3e5d9a20aee587fedb46a464552b6ec118d93bbd90c8d86e30502c8c"
+  },
+  {
+    "path": "global-codex/.system/imagegen/references/codex-network.md",
+    "sha256": "cba3b4d24d30f38adf8021b6e9b49ec5261a9e45e7df31047ec451c916c99b0a"
+  },
+  {
+    "path": "global-codex/.system/imagegen/references/image-api.md",
+    "sha256": "695909437b792aff171477dba127476a11235c220beb06533cce7c1495a042c8"
+  },
+  {
+    "path": "global-codex/.system/imagegen/references/prompting.md",
+    "sha256": "d957a45cb24fe2cf1a85858674fc533f15a5f4621355f559a13a93168999c2dd"
+  },
+  {
+    "path": "global-codex/.system/imagegen/references/sample-prompts.md",
+    "sha256": "76cc8a2988efb6e844a99ff9908b2b11cc07467510fc909002abcc0ee3f0701b"
+  },
+  {
+    "path": "global-codex/.system/imagegen/scripts/image_gen.py",
+    "sha256": "3666b807de3f0a1d0a4a767b886d612c0b8f71025c500bba6693d1c6995a0873"
+  },
+  {
+    "path": "global-codex/.system/imagegen/scripts/remove_chroma_key.py",
+    "sha256": "fa2989807052b857bed08f7fee0caa2502b54c46afc0a6f28cd706c25f636630"
+  },
+  {
+    "path": "global-codex/.system/imagegen/SKILL.md",
+    "sha256": "706d4d96e1d5c9e6023fe3ccabba1bb34b364024d344fd25b8515ec7d28fe3c4"
+  },
+  {
+    "path": "global-codex/.system/openai-docs/agents/openai.yaml",
+    "sha256": "0dd6c5ffa81a09782fd24cfa9fe1ec5c9633c90500b166ae18a462e613e876be"
+  },
+  {
+    "path": "global-codex/.system/openai-docs/assets/openai-small.svg",
+    "sha256": "85ef0a2cde497872edec1525f1d538ccc42b33ff47acdbb88499a1631a4bdb21"
+  },
+  {
+    "path": "global-codex/.system/openai-docs/assets/openai.png",
+    "sha256": "156cc84d7332bfe95b310350bd470b690d22aa33d65340cc6c2e06022946194c"
+  },
+  {
+    "path": "global-codex/.system/openai-docs/LICENSE.txt",
+    "sha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc"
+  },
+  {
+    "path": "global-codex/.system/openai-docs/references/codex-self-knowledge.md",
+    "sha256": "f945bf2a7cea6892d7a11ac38fb18b744fefd6d273654a8410c4c79e9f647fbe"
+  },
+  {
+    "path": "global-codex/.system/openai-docs/references/latest-model.md",
+    "sha256": "66303f714cd51408fcd6eaa81acef1769cbeb6af844883fef2847926fe324fe4"
+  },
+  {
+    "path": "global-codex/.system/openai-docs/references/mcp-diagnostics.md",
+    "sha256": "e9df2b2f8faa28930db4a2937cdb3665b4548ac958e80a8601a5dd0da1e6fad0"
+  },
+  {
+    "path": "global-codex/.system/openai-docs/references/model-migration.md",
+    "sha256": "3c08623b8870ef5e38fc16b945f4b8f231e00f61deb422e68575703d97a3a5ad"
+  },
+  {
+    "path": "global-codex/.system/openai-docs/references/model-selection.md",
+    "sha256": "ce020100a28004500c927abcd57cff154c5c360eb72d918ef7d72492e2484cce"
+  },
+  {
+    "path": "global-codex/.system/openai-docs/references/official-docs.md",
+    "sha256": "b2301d72b8092be5f5727d8d1cbc75740887d836f4f13b469f40c1db16b39fe3"
+  },
+  {
+    "path": "global-codex/.system/openai-docs/references/prompting-guide.md",
+    "sha256": "69517cde6c3bac945100a9da946d65c9effdd145d7600dead41f8adc1c1a7e38"
+  },
+  {
+    "path": "global-codex/.system/openai-docs/references/upgrade-guide.md",
+    "sha256": "3ec7763f8adab0e2d35d752cc762f1382726108e166bbf10dbe9d38608d3fc5a"
+  },
+  {
+    "path": "global-codex/.system/openai-docs/references/upgrading-to-gpt-6-astra.md",
+    "sha256": "789fcaf0999f56cebf801d0f6e6bdfe347dcfb5eff3d9a40ff815c15336f8699"
+  },
+  {
+    "path": "global-codex/.system/openai-docs/scripts/fetch-codex-manual.mjs",
+    "sha256": "d29c536eb9a8971be60beb7145b7697e929593ed8da58014b4081434c11efdc4"
+  },
+  {
+    "path": "global-codex/.system/openai-docs/scripts/resolve-latest-model-info",
+    "sha256": "8f5006efa15c034ede29821b627d7b86c43f7dfaab422d335f45b9be8d04e2d5"
+  },
+  {
+    "path": "global-codex/.system/openai-docs/scripts/resolve-latest-model-info.cjs",
+    "sha256": "8febe1acc3269662fb258090001a6848591070aa23a9633a89022433661aea0c"
+  },
+  {
+    "path": "global-codex/.system/openai-docs/SKILL.md",
+    "sha256": "8ce8021101bcea594ff92ee6cfd8ca7641a49ee66d7bc6070555f1a33fc239d9"
+  },
+  {
+    "path": "global-codex/.system/review-agent/agents/openai.yaml",
+    "sha256": "579774dde24f21ee57d5cb63f69c2fce0da04b81538c636a0e0dd37dc836c811"
+  },
+  {
+    "path": "global-codex/.system/review-agent/SKILL.md",
+    "sha256": "bb46315f6bc4b7051c05f807d19b1689b20418ac6c42590406d805c10fa2fd1a"
+  },
+  {
+    "path": "global-codex/.system/skill-creator/agents/openai.yaml",
+    "sha256": "b750627cdd588fdbb5b46e854d3384d1a504fad3b8ed73ca5d7ead3804df78b6"
+  },
+  {
+    "path": "global-codex/.system/skill-creator/assets/skill-creator-small.svg",
+    "sha256": "edb19a0c59f9a1b5253b9af6d2f9f03cac27b2fe6a0275ebccbbdbff07891a1a"
+  },
+  {
+    "path": "global-codex/.system/skill-creator/assets/skill-creator.png",
+    "sha256": "a4024b0306ddb05847e1012879d37aaf1e658205199da596f5145ed7a88d9162"
+  },
+  {
+    "path": "global-codex/.system/skill-creator/license.txt",
+    "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+  },
+  {
+    "path": "global-codex/.system/skill-creator/references/openai_yaml.md",
+    "sha256": "7039d465b05342cbacf861f08d20192ab1eeee112bc5d8ff0fb66234756887a9"
+  },
+  {
+    "path": "global-codex/.system/skill-creator/scripts/generate_openai_yaml.py",
+    "sha256": "30c73f1ea7d47dbab2b231bb92c5bf9026f1ad14ba8e3b3a4a544092c4d24ebe"
+  },
+  {
+    "path": "global-codex/.system/skill-creator/scripts/init_skill.py",
+    "sha256": "74dfa9361a93bee6932d6cbb332ed19ac26a27ba3800e69fb07ba7512c1025f9"
+  },
+  {
+    "path": "global-codex/.system/skill-creator/scripts/quick_validate.py",
+    "sha256": "6068513d924ed3559e186dfcdead7439129828dcf402167fd925c06dffbf2806"
+  },
+  {
+    "path": "global-codex/.system/skill-creator/SKILL.md",
+    "sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288"
+  },
+  {
+    "path": "global-codex/.system/skill-installer/agents/openai.yaml",
+    "sha256": "bd64b4d6893138706b3e3540f266ab809ccdcd08375652ae9f9d1e029fe50d02"
+  },
+  {
+    "path": "global-codex/.system/skill-installer/assets/skill-installer-small.svg",
+    "sha256": "099e5a4b5e5f0f918a8de0d2059f0a86211da623dbb75f86f13dc9f7c08c778d"
+  },
+  {
+    "path": "global-codex/.system/skill-installer/assets/skill-installer.png",
+    "sha256": "d0a230b1a79b71b858b7c215a0fbb0768d6459c14ea4ef80c61592629bf0e605"
+  },
+  {
+    "path": "global-codex/.system/skill-installer/LICENSE.txt",
+    "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+  },
+  {
+    "path": "global-codex/.system/skill-installer/scripts/github_utils.py",
+    "sha256": "2f9702afb9f0da740181fa4a3214f663e460f80cd5cea2e7dcaab00ad269082e"
+  },
+  {
+    "path": "global-codex/.system/skill-installer/scripts/install-skill-from-github.py",
+    "sha256": "110cc7e4e395c2c9ba070d47db7d21be5164591c35015ae364fc9c9905b08de8"
+  },
+  {
+    "path": "global-codex/.system/skill-installer/scripts/list-skills.py",
+    "sha256": "2cd6eecbaf9be7c86e80a14d7042f95d6abb83b6baee5f17dd075fa7a71c83de"
+  },
+  {
+    "path": "global-codex/.system/skill-installer/SKILL.md",
+    "sha256": "2892d8b2fb11631132118f340aed80ae17e59d5a571fc2c4f4a4a7e73f139d52"
+  },
+  {
+    "path": "global-codex/_checklists/check-5s.md",
+    "sha256": "dbbafa216180ca776ac5c01ec0d108d8a0834e8806dd084f89f7f106bf2efac0"
+  },
+  {
+    "path": "global-codex/_checklists/checklist-admin.md",
+    "sha256": "35fa423c20e84ac186a7f8e6ac0b5d07ca99ef048af92272d2d57095d934b2d6"
+  },
+  {
+    "path": "global-codex/_checklists/checklist-api.md",
+    "sha256": "0a4f1925917adc85c0f5b5bfc53e95e9b3a6a8b3598c98507aa3a8b70d4c0a1a"
+  },
+  {
+    "path": "global-codex/_checklists/checklist-auth.md",
+    "sha256": "3a02f66e23bc0d851ab16fbf271c1c81aefb97096da2c4694b7ef101fdc2b936"
+  },
+  {
+    "path": "global-codex/_checklists/checklist-sheets.md",
+    "sha256": "1dd60a7182c0a7c87a150f5afe4fbefe94fd19c185a4e391ad9fd5baefc20f37"
+  },
+  {
+    "path": "global-codex/_shared/tdd-decente.md",
+    "sha256": "01e9f0b569be919aca908fd3d66bbb59ccb6d467e72365f0107dec170b027ae3"
+  },
+  {
+    "path": "global-codex/AGENTS.md",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "global-codex/bug-resolver/agents/openai.yaml",
+    "sha256": "91e7342101cdf6d4382d3f92b5a67a7e1aecd0ec05bf968444a5e02f62d73560"
+  },
+  {
+    "path": "global-codex/bug-resolver/scripts/bug-memory.py",
+    "sha256": "d376a82a0ec0d4aa951613d9331bbbc5df96a646a14d2ee0d7741e98cc252e1b"
+  },
+  {
+    "path": "global-codex/bug-resolver/SKILL.md",
+    "sha256": "6bb3d6686c938d3ab314fe0fbefee9fbf4b6dc2a079dda8caaf8a8a944ab4afa"
+  },
+  {
+    "path": "global-codex/bug-resolver/tests/test_bug_memory.py",
+    "sha256": "04d692cf9e72726b14462f295465b9f6f446d11c7c719eace03dd12cb73dcedd"
+  },
+  {
+    "path": "global-codex/connect-channels-ai-agents/references/architecture.md",
+    "sha256": "af9b6177a868cbdb5b5e1727defecbae85ba51e67d8bd47c74125a7d9ad316e6"
+  },
+  {
+    "path": "global-codex/connect-channels-ai-agents/references/contracts.md",
+    "sha256": "c20a6998d0610a06d3a8a847d6a9b18c276a6aef8467ede6aae2445b10d4f71b"
+  },
+  {
+    "path": "global-codex/connect-channels-ai-agents/references/evidence.md",
+    "sha256": "d45a06213e2dde4b70d65239f9db9dca1f951b52cb7c27c97ba3ea0f62884cf7"
+  },
+  {
+    "path": "global-codex/connect-channels-ai-agents/references/knowledge.md",
+    "sha256": "299c860ffa2dfd0565459c4f2fd97f6bddd0b7b3ec8c8591a09fc117ca93be6c"
+  },
+  {
+    "path": "global-codex/connect-channels-ai-agents/references/skills.md",
+    "sha256": "00d1b71bc47beaff39b61c0bb12d6d23205a344d21b638c5884ec3e6587c4570"
+  },
+  {
+    "path": "global-codex/connect-channels-ai-agents/references/testing-and-integration.md",
+    "sha256": "6fa93f055d213f08d357d65bfbcb130164097bc593ed09ad2f1fde84700c252a"
+  },
+  {
+    "path": "global-codex/connect-channels-ai-agents/scripts/agents.mjs",
+    "sha256": "d7189a47aefbb39d529291cf02e48e5229117de50f863189967638d993403f4d"
+  },
+  {
+    "path": "global-codex/connect-channels-ai-agents/scripts/agents.test.mjs",
+    "sha256": "54e2fe554dedf9843585dfed84122b9c9008723026ea4d73f024a6637d3d3492"
+  },
+  {
+    "path": "global-codex/connect-channels-ai-agents/SKILL.md",
+    "sha256": "87e769015a1b4a362b5a001b61bd18e0f8a7cc3e1cb191e5007422d908643936"
+  },
+  {
+    "path": "global-codex/connect-channels-chatbots/references/contracts.md",
+    "sha256": "0e138ac6e463a229ef0576fbd25af438f7814c53e4032f814d508a51b333ad24"
+  },
+  {
+    "path": "global-codex/connect-channels-chatbots/scripts/auth.mjs",
+    "sha256": "c72f4464fcabed28677d52bd0a9a27cdb7ec057b6132d9be9b4cee5b42e8a6c9"
+  },
+  {
+    "path": "global-codex/connect-channels-chatbots/scripts/auth.test.mjs",
+    "sha256": "3845b84f5eb527aff93e27aff09cee810d7a84ab8d71a6550474333db19b4af4"
+  },
+  {
+    "path": "global-codex/connect-channels-chatbots/scripts/connect.mjs",
+    "sha256": "e2bfdb3409bb15d05e2f93f1fcd09638ed4449fecea7646858b3a8501d2f8a9c"
+  },
+  {
+    "path": "global-codex/connect-channels-chatbots/scripts/connect.test.mjs",
+    "sha256": "59da76114031d09b1b5dd4c06beec42c6f7b5156f138c98b607c953798b6f1a7"
+  },
+  {
+    "path": "global-codex/connect-channels-chatbots/scripts/session.mjs",
+    "sha256": "85555bb8fb517790bfd12fb7e93217005f3ccdf7821d288895a2e562c3acb547"
+  },
+  {
+    "path": "global-codex/connect-channels-chatbots/SKILL.md",
+    "sha256": "84b9f932312971c600747241e8c76a85217b77f036511452842b2c067ae6a5d7"
+  },
+  {
+    "path": "global-codex/engenheiro-de-ticket/scripts/frontier.py",
+    "sha256": "69bae682f5e88d0a40dff6905a0b20acddcbd4bbe51c639ae3d6e7571b692ef6"
+  },
+  {
+    "path": "global-codex/engenheiro-de-ticket/scripts/integration_lock.py",
+    "sha256": "97659259b50ca33796892d35d2c312466e94c33a27e59ebc79f5000a9f5a18e2"
+  },
+  {
+    "path": "global-codex/engenheiro-de-ticket/scripts/test_frontier.py",
+    "sha256": "07f5b6c8b20cc3f7eac0cb1b18475ba6c2e93b791ed73a14c6201bca4295c27d"
+  },
+  {
+    "path": "global-codex/engenheiro-de-ticket/scripts/test_integration_lock.py",
+    "sha256": "9933f0760662d7bcda1c4e01137536744d0cd9e03b28238e26115edac54b2ebe"
+  },
+  {
+    "path": "global-codex/engenheiro-de-ticket/scripts/test_thread_context.py",
+    "sha256": "ae53edbaeb1661e5bbc8e58b137d090cb9c984d8c354362e874a9345559e8c04"
+  },
+  {
+    "path": "global-codex/engenheiro-de-ticket/scripts/thread_context.py",
+    "sha256": "46f18b68678e0d7e715aeb1f001a08ef70ac7e480e255415b23a9b2f1d3b69c6"
+  },
+  {
+    "path": "global-codex/engenheiro-de-ticket/SKILL.md",
+    "sha256": "5deb0fc07214ac63f8be0a26a7f8040bd6287496cf1739d4313ffd3a36082f63"
+  },
+  {
+    "path": "global-codex/grill-to-front/agents/openai.yaml",
+    "sha256": "f70cd7e7b4dd5733c0681b29cc216c695ffcaa83c38185d573a2a90d488ec023"
+  },
+  {
+    "path": "global-codex/grill-to-front/SKILL.md",
+    "sha256": "2d480127ac8fde5808ed558c9759e67f188379e90992f8c52e274c79aa40fa6e"
+  },
+  {
+    "path": "global-codex/jetta-local-runtime/SKILL.md",
+    "sha256": "3a561a6fd7bece8e2f98c688c8362c873d4c4b0bf9134e3afb6bce1f936a2907"
+  },
+  {
+    "path": "global-codex/obsidian-feature-blocks/agents/openai.yaml",
+    "sha256": "e38fb1e7af05564f04e310911850bd6a2ed0e9c88b00cb23e9eb8c672a7a34a9"
+  },
+  {
+    "path": "global-codex/obsidian-feature-blocks/references/grill-integration.md",
+    "sha256": "3116fa2ca052198b55167d0ca46f30bf3d24f0119faf83684cf16f3e1f4db5fb"
+  },
+  {
+    "path": "global-codex/obsidian-feature-blocks/references/templates.md",
+    "sha256": "03cd919c0a116b6c25a08dc2407d8fbdc57c1da54caae49cfacf0c56b4131caf"
+  },
+  {
+    "path": "global-codex/obsidian-feature-blocks/SKILL.md",
+    "sha256": "a74afff96573bffa0fe4d2fd45ad07da427829eee7085b0f80a91ca6893f5241"
+  },
+  {
+    "path": "global-agents/ask-matt/agents/openai.yaml",
+    "sha256": "d30cfa5b0e84e2ca10b8d263b9dfcc13c3aa089ae6bc26096bc549fc037d274e"
+  },
+  {
+    "path": "global-agents/ask-matt/PHASE-BOUNDARIES.md",
+    "sha256": "4e2a891beb182df8c2eb2a7dfbff20ba43ae008d29c77ac41b005181018f7ccd"
+  },
+  {
+    "path": "global-agents/ask-matt/SKILL.md",
+    "sha256": "b25d86fb36b1d294eeead5d7db529f86135f9671f2afcd607579a63bb2213769"
+  },
+  {
+    "path": "global-agents/cavecrew/README.md",
+    "sha256": "42e9972951719548b83402c726e8c07a01305e609c3d49626d1cab7dc5af7315"
+  },
+  {
+    "path": "global-agents/cavecrew/SKILL.md",
+    "sha256": "4b57643e2bc1f496e3218f8c3072468d9178c365675c614e124e5c3361f2ea0a"
+  },
+  {
+    "path": "global-agents/caveman/README.md",
+    "sha256": "e86f4b56765fc288859a8a1f3e3814c990ba920b326c40c55667b56d44c58c1e"
+  },
+  {
+    "path": "global-agents/caveman/SKILL.md",
+    "sha256": "e34ef21a5808fe941123f007509c2519f19ff3e82a85b3dfa48d71222feef681"
+  },
+  {
+    "path": "global-agents/caveman-commit/README.md",
+    "sha256": "a2e82924b487fc1845114c247b47c2d3c2d1bd60f90bbfa60e9831319eb964fa"
+  },
+  {
+    "path": "global-agents/caveman-commit/SKILL.md",
+    "sha256": "c788a282fc75b981b421dfdad5d84ea7f83f946c126daa39cfc7d3f97845e193"
+  },
+  {
+    "path": "global-agents/caveman-compress/README.md",
+    "sha256": "0aa36450deb180d3ae73d9c04838f37ce2a3c3e089a774c2949d214fc3d1910c"
+  },
+  {
+    "path": "global-agents/caveman-compress/scripts/__init__.py",
+    "sha256": "429c3e1c5cc5b9705f28d77f303c728304ae68693913ad3d5ce9b5a44c8ee40f"
+  },
+  {
+    "path": "global-agents/caveman-compress/scripts/__main__.py",
+    "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279"
+  },
+  {
+    "path": "global-agents/caveman-compress/scripts/benchmark.py",
+    "sha256": "6ff5098db623154161503595e3ef513516d1d47bed7c264c7e0378581945767b"
+  },
+  {
+    "path": "global-agents/caveman-compress/scripts/cli.py",
+    "sha256": "04d615a66dbf204e3a883b53706320c0c48e0a4c717b0516d41f647a7cfafeb2"
+  },
+  {
+    "path": "global-agents/caveman-compress/scripts/compress.py",
+    "sha256": "a6194e59d3e620482cb134bba98dcf3439de93da62ea031eae16372267b29eca"
+  },
+  {
+    "path": "global-agents/caveman-compress/scripts/detect.py",
+    "sha256": "8dbdce1df5b6ccb049cd2c84b16f3409ac5551abb9fbc07ddd1616393b78b8f5"
+  },
+  {
+    "path": "global-agents/caveman-compress/scripts/validate.py",
+    "sha256": "ca18ee71e206063077de128bc1e6569d01f8b2c0d52e071430d5a138edcec879"
+  },
+  {
+    "path": "global-agents/caveman-compress/SECURITY.md",
+    "sha256": "7393f90a3a9953251554a68ad2daef273d8d656d050e2ad47a483e76c8223b2d"
+  },
+  {
+    "path": "global-agents/caveman-compress/SKILL.md",
+    "sha256": "377b0b8682d9db1a832c20ee6732ed0f19f55e4f7048955296128244c869c916"
+  },
+  {
+    "path": "global-agents/caveman-discover/SKILL.md",
+    "sha256": "0483d17fce14ca5bbfcf1e085c180412dc20a672f5e8e4171fd0bbbb6f42b81a"
+  },
+  {
+    "path": "global-agents/caveman-evidence-review/SKILL.md",
+    "sha256": "05bd896c76a41918fe7b87113dabe852117727a579a7e445891aa41391ed57c2"
+  },
+  {
+    "path": "global-agents/caveman-explore/package.json",
+    "sha256": "cfc33f3925ebe6f174442811abe452392441d4551a7c7af24b53d70579aede57"
+  },
+  {
+    "path": "global-agents/caveman-explore/SKILL.md",
+    "sha256": "908f504ce45f5f8517ac7b64dc89fef57c4519d26f92b0b1843febf4b6fe2ac8"
+  },
+  {
+    "path": "global-agents/caveman-explore/tests/skill-file.test.mjs",
+    "sha256": "dad62b37f948351424438b3ae272e8b4c8462a78b5ace86ded9f0f7d136edb5c"
+  },
+  {
+    "path": "global-agents/caveman-help/README.md",
+    "sha256": "5fcfa700fbf6c07259db74bc6bb602f4590623c86b754b153061cf82b59c48ee"
+  },
+  {
+    "path": "global-agents/caveman-help/SKILL.md",
+    "sha256": "3effbc5b8943900c7500da48f73ab9de297866705c105df1b324d4337dec3a9a"
+  },
+  {
+    "path": "global-agents/caveman-learn/CLAUDE.md",
+    "sha256": "47ea9086cd56fe03df0218d10ce850e4c5425e2c7c11e2b2a2125abb571a76e2"
+  },
+  {
+    "path": "global-agents/caveman-learn/package.json",
+    "sha256": "5de5b280cc8828f41ef9cf2b28e1729c8a854bcc3ca5dcc8f3c583eb15021523"
+  },
+  {
+    "path": "global-agents/caveman-learn/README.md",
+    "sha256": "47df267aa8b21a27914cefef9f6a79affd24f0c332a0329669593d8cc41ff4a6"
+  },
+  {
+    "path": "global-agents/caveman-learn/SKILL.md",
+    "sha256": "8b210c266f5c14cfded85b1c32b3742b4b23b4a0628b9cafa6627fd954609026"
+  },
+  {
+    "path": "global-agents/caveman-learn/tests/index.js",
+    "sha256": "93e0e2e9f6f2ec9ebf0c1ef494ecc0a083f82317aca074e20a1b0b2e50da2e05"
+  },
+  {
+    "path": "global-agents/caveman-learn/tests/skill-file.test.mjs",
+    "sha256": "77f8e246c2cf426d324186db6408c5376028956d3f42d6adb78b64e3ef417088"
+  },
+  {
+    "path": "global-agents/caveman-manage/SKILL.md",
+    "sha256": "3404a3c8651d63b6a7c02ccda17fcb4fca2489e931bb814580979a9ff548a48e"
+  },
+  {
+    "path": "global-agents/caveman-optimize/SKILL.md",
+    "sha256": "93f391beb93198b5bf9c0c21bc8b7b194e57cb7855fbf05384a4a5d6dd8c06cb"
+  },
+  {
+    "path": "global-agents/caveman-review/README.md",
+    "sha256": "a06403b2722a069a9a2b0011772ae73296e68b4e46ace2f4b42b4ea546052b64"
+  },
+  {
+    "path": "global-agents/caveman-review/SKILL.md",
+    "sha256": "3b9c650744cb686578a02d6a27f73f05aa06a88a1b660021c5d0f229a39a9a6d"
+  },
+  {
+    "path": "global-agents/caveman-setup/SKILL.md",
+    "sha256": "42c8b8eeba19c6d4ffd3c421be60a7e8b5c0e5108fd4496f0be3c7ced90bfd5f"
+  },
+  {
+    "path": "global-agents/caveman-stats/README.md",
+    "sha256": "8da1a84ea911894e1e32784a8c1ad2bfe8be6e18cf3e768c778f8d70965ddde5"
+  },
+  {
+    "path": "global-agents/caveman-stats/SKILL.md",
+    "sha256": "4632f1611a56483df7851a0dabcc1e0c1952393cd8f5d08ddeda17f81a4e1e50"
+  },
+  {
+    "path": "global-agents/claude-handoff/agents/openai.yaml",
+    "sha256": "c49d051126b7ef690418b431a4317298a5bbb2bcf4cb0661d3a06f115ce12263"
+  },
+  {
+    "path": "global-agents/claude-handoff/SKILL.md",
+    "sha256": "6738e8b7c7899ea0038fb7a5c859ca1b90c7b1eb40123dcdbe94c51b5b119f12"
+  },
+  {
+    "path": "global-agents/code-review/agents/openai.yaml",
+    "sha256": "3f72329747a916ac8ab2b4004490c79e1be6774a8a83e5b258d6ddc7e866abfe"
+  },
+  {
+    "path": "global-agents/code-review/SKILL.md",
+    "sha256": "22f337772c6dbc54a6a83a9e845d07644bc9a12602ff7a28d0527b24e586838a"
+  },
+  {
+    "path": "global-agents/codebase-design/agents/openai.yaml",
+    "sha256": "967df5c80a2a00e8fea9ce0e7914fb57114c93d16baa3b7743347a4dfeed61fc"
+  },
+  {
+    "path": "global-agents/codebase-design/DEEPENING.md",
+    "sha256": "a67260cb384580b60430486edeb47a6e656ea5f8a42b7196b24461459031f00c"
+  },
+  {
+    "path": "global-agents/codebase-design/DESIGN-IT-TWICE.md",
+    "sha256": "4c3b083988c0b34449dfef3f4fcee963e3d7fc614c71beacfaa51023f1b24d78"
+  },
+  {
+    "path": "global-agents/codebase-design/SKILL.md",
+    "sha256": "49e8f02342a33629eec7b8053c3bee344ac8703850b39d1a390c359349df6cbb"
+  },
+  {
+    "path": "global-agents/diagnosing-bugs/agents/openai.yaml",
+    "sha256": "167ab1659754b8c53706ecca7502ccc7fb219ff14f0c36bfb1db05ae31a8ac58"
+  },
+  {
+    "path": "global-agents/diagnosing-bugs/scripts/hitl-loop.template.sh",
+    "sha256": "063ef14e7212113c7778258172e7c76e963926963e448934048f505d6e576e8f"
+  },
+  {
+    "path": "global-agents/diagnosing-bugs/SKILL.md",
+    "sha256": "77f3cf31bc99b2f49af943222526531fcc9fc41d047626d3640e875e85af3e84"
+  },
+  {
+    "path": "global-agents/domain-modeling/ADR-FORMAT.md",
+    "sha256": "b7021c31a1c2485b07356a8110fd1fd1ae4facbab3e210983789f425f867d95b"
+  },
+  {
+    "path": "global-agents/domain-modeling/agents/openai.yaml",
+    "sha256": "ce496c77c77a090877bff10f198c9770fb52e23088351350ea0826380f948ff8"
+  },
+  {
+    "path": "global-agents/domain-modeling/CONTEXT-FORMAT.md",
+    "sha256": "6097d3a11b96be24425091ed6e8a744c53644d3685455b2d828100f1853b9b89"
+  },
+  {
+    "path": "global-agents/domain-modeling/SKILL.md",
+    "sha256": "327a2b50620e2fd70abc6893cd6965e76b20f8d0adb0dc2c8d5eb3845efb643e"
+  },
+  {
+    "path": "global-agents/git-guardrails-claude-code/agents/openai.yaml",
+    "sha256": "9151961c68ab52e07e2463df15e8ff7c9331c3b7afbf716c3461623f87c57c14"
+  },
+  {
+    "path": "global-agents/git-guardrails-claude-code/scripts/block-dangerous-git.sh",
+    "sha256": "bb5dc3a96ae81924ff3b88b959979b4eb68b7810f6fa9bd395fb8f781e0d8c12"
+  },
+  {
+    "path": "global-agents/git-guardrails-claude-code/SKILL.md",
+    "sha256": "f5729b85402293efc3e58a5d02f3e25c93c971560ea028eec7e0575cf8250158"
+  },
+  {
+    "path": "global-agents/grill-me/agents/openai.yaml",
+    "sha256": "c03a1eee1161bb70ca360b3d17705638b93bc8eec41319732725dc05a53196a5"
+  },
+  {
+    "path": "global-agents/grill-me/SKILL.md",
+    "sha256": "caaf8b8de1684f96e26b28f3c29189db5c89cce4b73e1c93d86164f66ef88637"
+  },
+  {
+    "path": "global-agents/grill-with-docs/agents/openai.yaml",
+    "sha256": "81e6af95559517a292767439da8f46a468b4d88a6773a3316d511a428eb16ff3"
+  },
+  {
+    "path": "global-agents/grill-with-docs/SKILL.md",
+    "sha256": "7de372c13488f1ee96cc11cd8907b56b6809cc93eef776eeddd37de6b6cbe3fe"
+  },
+  {
+    "path": "global-agents/grilling/agents/openai.yaml",
+    "sha256": "ad75163922ff8263acdd25ebc37420e8fcf1fccb93483fd5742e9bd26f5c45f6"
+  },
+  {
+    "path": "global-agents/grilling/SKILL.md",
+    "sha256": "10ff989e7498b23b5acb49d5048f11dcd906757d2f79c5cdf8a00001381296f2"
+  },
+  {
+    "path": "global-agents/handoff/agents/openai.yaml",
+    "sha256": "deb645c801764579994bd23d1954aa991ef1d0d55bf30043d47ada631fcff5f4"
+  },
+  {
+    "path": "global-agents/handoff/SKILL.md",
+    "sha256": "7c62de979fdc7ac32fb5ddb2146156c917f80ee070d30fadc9d40343c4b6ed25"
+  },
+  {
+    "path": "global-agents/impeccable/agents/impeccable_asset_producer.toml",
+    "sha256": "88d8a42f430ec9000c17edc9a69de387a9a8ba2c3869371e71624ab2e9b78f5e"
+  },
+  {
+    "path": "global-agents/impeccable/agents/impeccable_documenter.toml",
+    "sha256": "dda3050e01b58d1ed3f64ab760069b716e796c6b194d030ed3d66db8ef593493"
+  },
+  {
+    "path": "global-agents/impeccable/agents/impeccable_finish_reviewer.toml",
+    "sha256": "779be824d0af85681add0035013f3417e418ee0b08a8c80bf1b52d8e6d829f9e"
+  },
+  {
+    "path": "global-agents/impeccable/agents/impeccable_manual_edit_applier.toml",
+    "sha256": "517031fa28b8c10fd4344818bacf4f52a798568d3e851d66c6ef41b7326244f6"
+  },
+  {
+    "path": "global-agents/impeccable/agents/openai.yaml",
+    "sha256": "aa8140ebe247f42686ee1e0b6f0ca4c391493703bfd499613e4a3d4685691619"
+  },
+  {
+    "path": "global-agents/impeccable/reference/adapt.md",
+    "sha256": "8e4330cb63a5fd12514195b2d5d4936f3376a6daf55d6b1166678ea0cb0b10da"
+  },
+  {
+    "path": "global-agents/impeccable/reference/adapt.native.md",
+    "sha256": "0abc89f44b1416f173cd2576b6a5ed5e54d4030348e8f5142017a29a7e19e688"
+  },
+  {
+    "path": "global-agents/impeccable/reference/android.md",
+    "sha256": "a3757686a0c2778ccbc0ea321f4460368f26bc0229d2b24c3c694a42ce40b1a0"
+  },
+  {
+    "path": "global-agents/impeccable/reference/animate.md",
+    "sha256": "9d6d186e5da3d4ebffb333f9b58209d847705d11d9b4e761bfb2529bf47b0d3a"
+  },
+  {
+    "path": "global-agents/impeccable/reference/audit.md",
+    "sha256": "5ba03c25f490f455069473e0f2a50f7e02a7efd86e286938c8b8b4c832ed4b0f"
+  },
+  {
+    "path": "global-agents/impeccable/reference/audit.native.md",
+    "sha256": "66955f8233c567753c1893e0ee6a524c84988500efa14a60d971b62d966c14fa"
+  },
+  {
+    "path": "global-agents/impeccable/reference/bolder.md",
+    "sha256": "51169d458d53e1fdb1bb682ab96c9817601e2bc1417c0a9f27aa48ff87249d6b"
+  },
+  {
+    "path": "global-agents/impeccable/reference/clarify.md",
+    "sha256": "cbbf5647e0e14f6b10c7fd43392ecc1d6924acfbf43994d1d147047d73497f42"
+  },
+  {
+    "path": "global-agents/impeccable/reference/colorize.md",
+    "sha256": "a3cd4b18154e8c06edfbf7e7316077e8dd500d9777ea723c09fc02fe32b3fba2"
+  },
+  {
+    "path": "global-agents/impeccable/reference/component-review.md",
+    "sha256": "e11396893093af3f48968eeafbdde0c43232619afa0809e6b34a7452c238d0ca"
+  },
+  {
+    "path": "global-agents/impeccable/reference/craft-floor.md",
+    "sha256": "a609728fd438209860711ed3b8c9efc2cc28c4245164ae67ca98a379097f9c33"
+  },
+  {
+    "path": "global-agents/impeccable/reference/craft.md",
+    "sha256": "39b5fefbf524ad156a4cab2fbc5b65f2358c213a30d59a4c7510704e8d9dd56b"
+  },
+  {
+    "path": "global-agents/impeccable/reference/critique.md",
+    "sha256": "5d6d8f897b3ea443b6778ce7b4e799189075b20edcc4188c7e4e08213215c59a"
+  },
+  {
+    "path": "global-agents/impeccable/reference/degraded/asset-producer.md",
+    "sha256": "b9eb6761216a10ade859c61c05fe8efc9537de4406d10af139a3df5ef964077e"
+  },
+  {
+    "path": "global-agents/impeccable/reference/degraded/documenter.md",
+    "sha256": "4609eff24dc4e74450a80b696092085255bb3fd068e8046163934e44bda49503"
+  },
+  {
+    "path": "global-agents/impeccable/reference/degraded/finish-reviewer.md",
+    "sha256": "cc813fb9521002b33c8f0147bfb43e3590a0ceee0261d9222a9fc25ef1232b7d"
+  },
+  {
+    "path": "global-agents/impeccable/reference/degraded/manual-edit-applier.md",
+    "sha256": "1b3672f3f3ae0065fbaac8a9025b759da40caeaa75cb716b629e4544c03ad8fb"
+  },
+  {
+    "path": "global-agents/impeccable/reference/delight.md",
+    "sha256": "14a5700220c44c9addf2bca02036969b4cede7ea51fd98fe290892942bb89d2c"
+  },
+  {
+    "path": "global-agents/impeccable/reference/distill.md",
+    "sha256": "591858c868281bfa65f76e8c8eb60bd32d614a22065c5a490a0dd82bb46c271d"
+  },
+  {
+    "path": "global-agents/impeccable/reference/doctor.md",
+    "sha256": "0f7c3c9984f5356833d0d3e6b5d2963657525cca2aba753d219d47e84a2f2c48"
+  },
+  {
+    "path": "global-agents/impeccable/reference/document.md",
+    "sha256": "b222f790f1809a5da91b82a7e4cd5b14402b3d9bb58a6fc83bcefa9efc768136"
+  },
+  {
+    "path": "global-agents/impeccable/reference/extract.md",
+    "sha256": "3b0b82a3f0c5f8d60b300503d5b75dd4785ebaf1c73ffe88a1c0dd4093e4f1a8"
+  },
+  {
+    "path": "global-agents/impeccable/reference/generate.md",
+    "sha256": "48ea29e1bce10bbe94989cab61290c225557dedf9ae839040ae5d3f7b46a0e0c"
+  },
+  {
+    "path": "global-agents/impeccable/reference/harden.md",
+    "sha256": "0a99614fe8426d26eb8b49e113320489fa9991fa8d7f8727901d5c7667682e1c"
+  },
+  {
+    "path": "global-agents/impeccable/reference/hooks.md",
+    "sha256": "60902e47536ed7aa04bab633af5f93416b283498123ce9ef6ae125c6fe262eda"
+  },
+  {
+    "path": "global-agents/impeccable/reference/init.md",
+    "sha256": "facd4bbaaa87884fe5aaca63d7b6b754f1f07859f23af447882aea98c30d2e6e"
+  },
+  {
+    "path": "global-agents/impeccable/reference/ios.md",
+    "sha256": "60ada207bfb419ad0a570b8319c29403713ca2ad3fb9a2f5bdffa62ab25611bb"
+  },
+  {
+    "path": "global-agents/impeccable/reference/layout.md",
+    "sha256": "875ceae18559e953dc9949e50374c2daadaebdb58520406b909f552a06c3e081"
+  },
+  {
+    "path": "global-agents/impeccable/reference/live-setup.md",
+    "sha256": "d297e5a3e3695e94bccc732d4cb38187602349893e7f215a8d400a95b8af55d7"
+  },
+  {
+    "path": "global-agents/impeccable/reference/live.md",
+    "sha256": "c7106d35a408b96a1c427de09f0eb4d7690592453a507105f266309ad8646a65"
+  },
+  {
+    "path": "global-agents/impeccable/reference/new-work.md",
+    "sha256": "395ad20254b8481272653dfbdc0ce5bb0f675feb9f016a4b20a0a07b6c3e4c60"
+  },
+  {
+    "path": "global-agents/impeccable/reference/onboard.md",
+    "sha256": "b149f0c1dc513cef5dd925d6a524d5df084f92e283d3e77718dde6e8e9572c21"
+  },
+  {
+    "path": "global-agents/impeccable/reference/operate.md",
+    "sha256": "c4b169ab7932329c833750971c53bc129d0385e16d0219b31f002792fce939e8"
+  },
+  {
+    "path": "global-agents/impeccable/reference/optimize.md",
+    "sha256": "226cba5d157bf282a7e3e2d6e674f4a473c44a95ba25503e42a606f53884f917"
+  },
+  {
+    "path": "global-agents/impeccable/reference/overdrive.md",
+    "sha256": "813d1f7570f3e02e97bf699e1e77447fad4210bb908c3ec9652c241bcbf8c94d"
+  },
+  {
+    "path": "global-agents/impeccable/reference/polish.md",
+    "sha256": "e0f8997a76ff955449cc65bf2d9fcc542d893700a30b56fb2c5e5d8a438410f7"
+  },
+  {
+    "path": "global-agents/impeccable/reference/quieter.md",
+    "sha256": "7ab134c0b7bed0a174c77dd44142e8f2dc94bbd18eb8d31d4f9eb669b25c3476"
+  },
+  {
+    "path": "global-agents/impeccable/reference/region-map.md",
+    "sha256": "b3f95d3f11f23ae32b760855ebdce1da19fa6e0f350adda2673afd8125c7456c"
+  },
+  {
+    "path": "global-agents/impeccable/reference/routing.md",
+    "sha256": "3347cc1bf41d7b34e32617a468a7064fc1740eb7c1abe4ff479be07cfebec5b5"
+  },
+  {
+    "path": "global-agents/impeccable/reference/shape.md",
+    "sha256": "51960b514f8437baf12484dd5be824e0c2d0ee8802e29e7f511e431493a6c417"
+  },
+  {
+    "path": "global-agents/impeccable/reference/typeset.md",
+    "sha256": "c4207b441bf95affaa9eb1a0c7daa124b8a91b22aeadfb0d47643c56fe12a563"
+  },
+  {
+    "path": "global-agents/impeccable/reference/visualize.md",
+    "sha256": "2aa76db167784a9f64111d6b55ff7e966c250eb811f10c1a17d230f4c587d756"
+  },
+  {
+    "path": "global-agents/impeccable/scripts/command-metadata.json",
+    "sha256": "96a05614e8c3d0ed091415d496758d878fd86ac7b129a616e00493951c186f01"
+  },
+  {
+    "path": "global-agents/impeccable/scripts/data/font-index-failures.json",
+    "sha256": "7461de9923357d70b1365647b0a85d181eac1702f622cbf24465767f4ba99d06"
+  },
+  {
+    "path": "global-agents/impeccable/scripts/data/font-index.json",
+    "sha256": "47edbdfaf27073c47033d1ac7dfee881be49e2dcbda7671d1157300481dde6da"
+  },
+  {
+    "path": "global-agents/impeccable/scripts/impeccable",
+    "sha256": "9bbce8956aa928fa221414867bffe70c3599cbcf9a51e01e198d308826ef5214"
+  },
+  {
+    "path": "global-agents/impeccable/scripts/impeccable.cmd",
+    "sha256": "79a668bc148b4d12e98cbfd5ccc90d6118696196e26597164e557ebe77a92c9c"
+  },
+  {
+    "path": "global-agents/impeccable/scripts/live-browser-dom.js",
+    "sha256": "be62ec795d2bc25463858676243782a6dcca90226efb6f22b1bf2ee00c01b500"
+  },
+  {
+    "path": "global-agents/impeccable/scripts/live-browser-ignores.js",
+    "sha256": "cab20ca388425390b961d698b37445ba9416b4614852feace997c2375bcf4519"
+  },
+  {
+    "path": "global-agents/impeccable/scripts/live-browser-session.js",
+    "sha256": "2ba63b1d0a4805e367c0939d897742814b85025f65cb0d7862efbca4873d6586"
+  },
+  {
+    "path": "global-agents/impeccable/scripts/live-browser.js",
+    "sha256": "afc14e3e27123b4ffc7bc5ac51cd824a41d4ab4ca156ac91fc22fdcc4f8677d0"
+  },
+  {
+    "path": "global-agents/impeccable/scripts/modern-screenshot.umd.js",
+    "sha256": "9b0dc34415466edac6e6802574006608b5e5c0da9fdcb7b2651dbd1ea06713a6"
+  },
+  {
+    "path": "global-agents/impeccable/scripts/VERSION",
+    "sha256": "6968573b1e1d5b61659dd9fa7aef9711cd445861d8f47bbcf4e2663a9fd86d3c"
+  },
+  {
+    "path": "global-agents/impeccable/SKILL.md",
+    "sha256": "fd123ee1935213bf7b84937b008bd3f31ef852dd408374dca873614a2491fdd0"
+  },
+  {
+    "path": "global-agents/implement/agents/openai.yaml",
+    "sha256": "8494f83602c58f8ab33d047d0516cdb90b8c29e6d564de0cef810daaca378bcb"
+  },
+  {
+    "path": "global-agents/implement/scripts/sync_issue_acceptance.py",
+    "sha256": "4b1cdef25f8bf2386f897de00d276b8496512786bdc59ae9a80c77bae793463f"
+  },
+  {
+    "path": "global-agents/implement/SKILL.md",
+    "sha256": "a0e084ac0efe88ad0e04c96c3f6f88fb22e33212f00c76e24caee89299ef27ef"
+  },
+  {
+    "path": "global-agents/implement-spec/agents/openai.yaml",
+    "sha256": "3f7f8a55426d174c0fbe13405633d130a23e14a7b8e3157e1ba88da84c41c2d3"
+  },
+  {
+    "path": "global-agents/implement-spec/SKILL.md",
+    "sha256": "f703b5f41df9c2202e19540d203e0d5fc32613572a838a070136cc22e712b129"
+  },
+  {
+    "path": "global-agents/improve-codebase-architecture/agents/openai.yaml",
+    "sha256": "6b69701fc3f4f31ec626c1ae5c090dc5c640fab147a63be81b575c2f9c5231fa"
+  },
+  {
+    "path": "global-agents/improve-codebase-architecture/HTML-REPORT.md",
+    "sha256": "870acb4262373ae536af7d1f4a9b56d33e7e7faa632bd425c09edb4f897fb828"
+  },
+  {
+    "path": "global-agents/improve-codebase-architecture/SKILL.md",
+    "sha256": "d1ac25511a936ff4250a48dbcefda363837d6bb9321b3cba73df99fa37270a75"
+  },
+  {
+    "path": "global-agents/investigate-first/agents/openai.yaml",
+    "sha256": "9836c3e7e71564810abb1eeb66341e8ef180c457d4e121fe772cbf53e41a9268"
+  },
+  {
+    "path": "global-agents/investigate-first/SKILL.md",
+    "sha256": "623bbe2f375d18e5313d2a834ac63790d32636ffe878cfbb1e328ff535fd9d7f"
+  },
+  {
+    "path": "global-agents/jetta-local-runtime/SKILL.md",
+    "sha256": "27b8f6f081586a5a05a718b97175c4cb0e4244ee93ce4c75d1330bc7faedb2cc"
+  },
+  {
+    "path": "global-agents/jetta-qa/assets/report.md",
+    "sha256": "fd25d90eb5007c02e26605b1d67e684a1ce5e72cc6a9c8b31969e3012cfa2dca"
+  },
+  {
+    "path": "global-agents/jetta-qa/references/contracts.md",
+    "sha256": "e6940fcdcf754c9bef375a1b44dcde1f5a630446026a9e8ccb90f25b1c0cac89"
+  },
+  {
+    "path": "global-agents/jetta-qa/references/safety.md",
+    "sha256": "4629e4c3893dfb0815d43bfa09751f762cb1576ae22c501a7105ddbda7fbd32e"
+  },
+  {
+    "path": "global-agents/jetta-qa/references/strategies.md",
+    "sha256": "c848ed7783d2ed3fbfacbfe678c3c43f245507a3117914366148773d42bb7a69"
+  },
+  {
+    "path": "global-agents/jetta-qa/references/visual.md",
+    "sha256": "5bb41a3ff91db64be08b0ba21b8d3f49c77c1269021e1bbda3a389ec52597a1b"
+  },
+  {
+    "path": "global-agents/jetta-qa/scripts/dispatch.py",
+    "sha256": "2b1bcf7dc0de53e32591639ac971756dfb9f72c22b8436abdb944b23e38ce2f2"
+  },
+  {
+    "path": "global-agents/jetta-qa/scripts/helpers.test.mjs",
+    "sha256": "0e0b7eccbaf5f070ecc5dc4b29cdfdc6f68c9464e12914ee693764959ba1fdb7"
+  },
+  {
+    "path": "global-agents/jetta-qa/scripts/plan.mjs",
+    "sha256": "8544320953c2904000623b12979adeb158d6d4e8d15bfdbf0e7c4a41e433e083"
+  },
+  {
+    "path": "global-agents/jetta-qa/scripts/validate-run.mjs",
+    "sha256": "4b20f85890a92f3ae71226959191a2dea2edc0e94575090192236f24087ef86b"
+  },
+  {
+    "path": "global-agents/jetta-qa/SKILL.md",
+    "sha256": "0c4cab6ddee497b3644ce19265445693be9be3f5c8de7defc875f989e8971e63"
+  },
+  {
+    "path": "global-agents/lean-build/agents/openai.yaml",
+    "sha256": "8eb3226d28dae6e1d301bee89919e1309574e41b871761155547b1b510500335"
+  },
+  {
+    "path": "global-agents/lean-build/SKILL.md",
+    "sha256": "579dd9229445b2d85a63579e64d8b8b7343f259a6b5b6ac6de504f1ba79fc258"
+  },
+  {
+    "path": "global-agents/loop-me/agents/openai.yaml",
+    "sha256": "ec257a7995d8eba46b6a95471f5fb569798aa975a1b1c438542b1a9c82bc33d3"
+  },
+  {
+    "path": "global-agents/loop-me/SKILL.md",
+    "sha256": "e44d1cc3e760fb86ac42964c2a5f1fcac511715db50fb375f3f7be814de1eaa7"
+  },
+  {
+    "path": "global-agents/migrate-to-shoehorn/agents/openai.yaml",
+    "sha256": "43d8fbb6347d771e82eb866bae6987acede6dc1d16d46b9c69e2b06930771180"
+  },
+  {
+    "path": "global-agents/migrate-to-shoehorn/SKILL.md",
+    "sha256": "de4da4c11d924fac79c924b2ee3d2db4a5cb98386eb490a599119463d036ae72"
+  },
+  {
+    "path": "global-agents/migration/agents/openai.yaml",
+    "sha256": "ca7090ae9c9465fb7075eb650d530757bd73530437a02ae1ed22e41e3bf0ba79"
+  },
+  {
+    "path": "global-agents/migration/SKILL.md",
+    "sha256": "fe7cf96a58b0521130fbb886dab2a326869d6ed0001e0306fd244014ba7a9662"
+  },
+  {
+    "path": "global-agents/orchestrate/agents/openai.yaml",
+    "sha256": "5bdbeb5bfd7740e341f69c3f9f65eb5d205319a0b9797bed9766fcb55c9d9a28"
+  },
+  {
+    "path": "global-agents/orchestrate/SKILL.md",
+    "sha256": "25cebc30df3d16ec09817d06de49c89094f12cdff0a455377abe274b32d1a0fc"
+  },
+  {
+    "path": "global-agents/prototype/agents/openai.yaml",
+    "sha256": "cc1ce1ceaba1442c431dc76abb84b271ad72ecb94dcefee53130df742dc11787"
+  },
+  {
+    "path": "global-agents/prototype/LOGIC.md",
+    "sha256": "8d7e31de7ce73b8e62f207e3f3ecbd90a7a54fdc728f8965f5f0739976f9959a"
+  },
+  {
+    "path": "global-agents/prototype/SKILL.md",
+    "sha256": "c2f14572f4f568e604c026d30068b8dfe120dcfee0f48dda7c2b6249d9e88ced"
+  },
+  {
+    "path": "global-agents/prototype/UI.md",
+    "sha256": "5ea83263ba72174c9055d58045f053d6577c0db6802c1e15bd1468dd16f78a0b"
+  },
+  {
+    "path": "global-agents/research/agents/openai.yaml",
+    "sha256": "73840328dfa6b689d81ee645d8aaf8570a0cc44d64a32b119ea6091d2828d412"
+  },
+  {
+    "path": "global-agents/research/SKILL.md",
+    "sha256": "09dc0a4a896899177402ea33604debcb4a7b58a0f8fe0c41fde84590e51babb0"
+  },
+  {
+    "path": "global-agents/resolving-merge-conflicts/agents/openai.yaml",
+    "sha256": "ad953099f6df6fe1b1e6e395ce38dfab3eb3a4e37461cfb318b0e81a32a35b4b"
+  },
+  {
+    "path": "global-agents/resolving-merge-conflicts/SKILL.md",
+    "sha256": "9d8114f8ef0b31f535a265fc05c364bd8cf2e2895a830040e06c22acb11f54b0"
+  },
+  {
+    "path": "global-agents/retro/agents/openai.yaml",
+    "sha256": "61afaa61443da49b3ff8fcc9d04735362bfec03e213791226134a3a21a9c6fd3"
+  },
+  {
+    "path": "global-agents/retro/SKILL.md",
+    "sha256": "33fbc28568e3146f20fd908b12998bc0ab30aa4f4c87288199a40793efa94696"
+  },
+  {
+    "path": "global-agents/reverse-engineer-anything/references/android-applications.md",
+    "sha256": "67a9237d76a5b736640c6404f5e1fe01d83369848142feb7e11d78f4a5e62732"
+  },
+  {
+    "path": "global-agents/reverse-engineer-anything/references/android-applications.md.rea.backup",
+    "sha256": "412d9cb462d85b07f6fdbc2453dd741ca3da2c0dbba627867d5624df94afa74c"
+  },
+  {
+    "path": "global-agents/reverse-engineer-anything/references/connection-and-recovery.md",
+    "sha256": "a33760c84ae100f6ffd27d666e515956c5014ac33a6ee2414807833ae666a2b1"
+  },
+  {
+    "path": "global-agents/reverse-engineer-anything/references/connection-and-recovery.md.rea.backup",
+    "sha256": "668e421e2a27b63058f42ebd36bec04db73404c136e5f47611119ab9d4b4f607"
+  },
+  {
+    "path": "global-agents/reverse-engineer-anything/references/evidence-workflows.md",
+    "sha256": "2bdee98a843d018cf850c706111bb74c459ba8640da00799e9208122e4d5ab80"
+  },
+  {
+    "path": "global-agents/reverse-engineer-anything/references/evidence-workflows.md.rea.backup",
+    "sha256": "dd23217d55342bbe3e98a2bf47a7f208b35a4b41c98645ac160a4d0aac5316f9"
+  },
+  {
+    "path": "global-agents/reverse-engineer-anything/references/javascript-applications.md",
+    "sha256": "aaa78502a3e95268f6269e75f373908045291fedf6ddd106001555ed06bb2bf6"
+  },
+  {
+    "path": "global-agents/reverse-engineer-anything/references/javascript-applications.md.rea.backup",
+    "sha256": "04cc298e2485d1db7925b8789097fc5fdd042e937ed11980d3eabc29cb176e59"
+  },
+  {
+    "path": "global-agents/reverse-engineer-anything/references/javascript-applications.md.rea.backup.b3e5e999833baac828addbb6b7a4ed859f0c68befd465812597bf19c27aa7a0b.recovery",
+    "sha256": "b3e5e999833baac828addbb6b7a4ed859f0c68befd465812597bf19c27aa7a0b"
+  },
+  {
+    "path": "global-agents/reverse-engineer-anything/references/native-and-artifacts.md",
+    "sha256": "18b8828aec6476be03ca92bdb9506c47cc9ef8c1415c37d33e4af2f8c55cf8f9"
+  },
+  {
+    "path": "global-agents/reverse-engineer-anything/references/native-and-artifacts.md.rea.backup",
+    "sha256": "1947af57448ba7be6a0736ffbe976c7ecdab4105f315ecc06c830727cc5205fe"
+  },
+  {
+    "path": "global-agents/reverse-engineer-anything/references/native-and-artifacts.md.rea.backup.1d2ac5f64feb5ad6ef8b98d803d570e1c48aa588281ff91a4bbf50d40f924450.recovery",
+    "sha256": "1d2ac5f64feb5ad6ef8b98d803d570e1c48aa588281ff91a4bbf50d40f924450"
+  },
+  {
+    "path": "global-agents/reverse-engineer-anything/references/runtime-observation.md",
+    "sha256": "fea85e2005a8fd1c86a946eeede24c20e57592a1deb36576b45216e9854803c8"
+  },
+  {
+    "path": "global-agents/reverse-engineer-anything/references/runtime-observation.md.rea.backup",
+    "sha256": "b3eea94dd7d0c6474634de22ac3ccae317f42ba1ba2389d93535ee8dae7d94e1"
+  },
+  {
+    "path": "global-agents/reverse-engineer-anything/SKILL.md",
+    "sha256": "d005425f7ebb9b30b0f46380175fda2e4b82dea9b335c675eba641fed08b2677"
+  },
+  {
+    "path": "global-agents/reverse-engineer-anything/SKILL.md.rea.backup",
+    "sha256": "46b495fe6459c283c1432294ebe67799a54391cd2ded197ee7df3f8ac0a8ac8f"
+  },
+  {
+    "path": "global-agents/reverse-engineer-anything/SKILL.md.rea.backup.3456aab99d48c3294726065c9d5bd586bc165f2849fd5a3d5080381630564715.recovery",
+    "sha256": "3456aab99d48c3294726065c9d5bd586bc165f2849fd5a3d5080381630564715"
+  },
+  {
+    "path": "global-agents/safe-refactor/agents/openai.yaml",
+    "sha256": "df608465dc32de1926bfc91ea0beabe9bc61198c121ff1eef0d2e6d74dd67ac1"
+  },
+  {
+    "path": "global-agents/safe-refactor/SKILL.md",
+    "sha256": "dcbb69cbc4ced30f41194d5ea4fe75a5bde373a38f2e28f18e0805c4088c0565"
+  },
+  {
+    "path": "global-agents/scaffold-exercises/agents/openai.yaml",
+    "sha256": "f3ab550f1077150f0fe728fe3ff187e8672f4df7eedc7f233cdd1a61f347f1db"
+  },
+  {
+    "path": "global-agents/scaffold-exercises/SKILL.md",
+    "sha256": "0c2809b1944cc67023619b246505d5dc6b2aada9587a1af955675328bea5cf6d"
+  },
+  {
+    "path": "global-agents/setup-matt-pocock-skills/agents/openai.yaml",
+    "sha256": "53d0bf3786862a1cb5013ca78f12013b166d0819823dae0d3f9eb13eee2acdf2"
+  },
+  {
+    "path": "global-agents/setup-matt-pocock-skills/domain.md",
+    "sha256": "19f59c9e72afd05199a79f82500baae05f0c445528636282dcd4400da3facd54"
+  },
+  {
+    "path": "global-agents/setup-matt-pocock-skills/issue-tracker-github.md",
+    "sha256": "0809582ea8cf5f91fd72ae2b59aa62a07c1236ad194ef7dd40d9e2f01c3e753b"
+  },
+  {
+    "path": "global-agents/setup-matt-pocock-skills/issue-tracker-gitlab.md",
+    "sha256": "6fe462c8dbffdf90e66d2ee62f6fa74666d777d0933c244e2a22a295848cb3ab"
+  },
+  {
+    "path": "global-agents/setup-matt-pocock-skills/issue-tracker-local.md",
+    "sha256": "a604b658f0730eae3107671b09323ed8382bd546e82dc3bedc265bccbeb35021"
+  },
+  {
+    "path": "global-agents/setup-matt-pocock-skills/SKILL.md",
+    "sha256": "2bcd89e97777cdb705914424e39c97d5db524c8eb4eafac8120778a07774f0ec"
+  },
+  {
+    "path": "global-agents/setup-matt-pocock-skills/triage-labels.md",
+    "sha256": "493d08d7a8007d3604cdf64d45717045034a5037c9e9917bae1ad9340fad75b8"
+  },
+  {
+    "path": "global-agents/setup-pre-commit/agents/openai.yaml",
+    "sha256": "946bfa9a3cab905f4241d8dcc127a11fdcf2994027b87e198f26f7e65d88f727"
+  },
+  {
+    "path": "global-agents/setup-pre-commit/SKILL.md",
+    "sha256": "b629d05103c53e48fa768517256d1d70946ecc4a471240e225ef36a240f022e7"
+  },
+  {
+    "path": "global-agents/setup-ts-deep-modules/agents/openai.yaml",
+    "sha256": "bf3d58c59b0e68ef3b0287ac3ab3d165b066dfd31e146ecf278e56e4df664610"
+  },
+  {
+    "path": "global-agents/setup-ts-deep-modules/dependency-cruiser.config.cjs",
+    "sha256": "d80c982bc496ff6fb65c91bfa5b3ffccd64396cd488f556779ce3f1bd770f376"
+  },
+  {
+    "path": "global-agents/setup-ts-deep-modules/SKILL.md",
+    "sha256": "29acca66ac99d4532e2a6f0370d8125d7cba1e87c9ac66573203c75189d3e6c7"
+  },
+  {
+    "path": "global-agents/smart-orchestrator/agents/openai.yaml",
+    "sha256": "35cbca67a843a8a061133dda87ab54804a68d156ab5ebf6efce99f22f080a7eb"
+  },
+  {
+    "path": "global-agents/smart-orchestrator/assets/execution-plan.example.json",
+    "sha256": "038c1dd119fde065f3ae8a24b6f80c7708cfc4544ace3ed165ede67fc4af5a5a"
+  },
+  {
+    "path": "global-agents/smart-orchestrator/references/contextual-review.md",
+    "sha256": "3b53a10ddc58d21cbff10dd9b81946f05314bedf7be7c83a0d133e115ca99671"
+  },
+  {
+    "path": "global-agents/smart-orchestrator/references/continuity.md",
+    "sha256": "067e5440fc535bfa18a7ba168e73030655310b9e7fa43375cc38c6bdd05e74c8"
+  },
+  {
+    "path": "global-agents/smart-orchestrator/references/controller.md",
+    "sha256": "fa9eeb77cedd05bfb79d91db42be86f243a7922052ff386e122f636049c1eedd"
+  },
+  {
+    "path": "global-agents/smart-orchestrator/references/metrics.md",
+    "sha256": "409f7aea3029cdb95dbdb263ff052be110a6a1b1755128ae735bde3cd1d08ef4"
+  },
+  {
+    "path": "global-agents/smart-orchestrator/references/planning-contract.md",
+    "sha256": "dcf76206d05a7a717aa57271c944a538fa9bd88ba51008e68a43b18e24970106"
+  },
+  {
+    "path": "global-agents/smart-orchestrator/references/quality-gates.md",
+    "sha256": "34c9c62d1a127905bda96af117b2ff49ea7ee3972d84cfaa18e91f11d5183caa"
+  },
+  {
+    "path": "global-agents/smart-orchestrator/references/scheduling.md",
+    "sha256": "d28d018b939901662822236ee070028fa48b3cc43d7d09dbfd4b766e56ee0a29"
+  },
+  {
+    "path": "global-agents/smart-orchestrator/references/synthetic-tests.md",
+    "sha256": "7efa9be5aafcb90ba05ca27636b83be38615654455b80b6c238ef99bf2bbeaba"
+  },
+  {
+    "path": "global-agents/smart-orchestrator/scripts/continuity.py",
+    "sha256": "126796bae302792947ee5f9d6443f97a50db655ffcad829d1f9e6d350ef8fccb"
+  },
+  {
+    "path": "global-agents/smart-orchestrator/scripts/controller.py",
+    "sha256": "97025c999af547fb393da9277137d6bcb19911261038d8ec7eb89c35575f0655"
+  },
+  {
+    "path": "global-agents/smart-orchestrator/scripts/test-results.json",
+    "sha256": "64c6ccd91285835ef11bc7dcd57400c8cac034b87940690ca359824fa2c2d27a"
+  },
+  {
+    "path": "global-agents/smart-orchestrator/scripts/test_controller.py",
+    "sha256": "02fee201135c21ae745d599685933c2b3eda7b243632a1b8cacd26562221b56d"
+  },
+  {
+    "path": "global-agents/smart-orchestrator/SKILL.md",
+    "sha256": "e7dd28eaf71348fbc9be3e7fa4a99818baf33851d0760e96c7ffebbd0f27a7ae"
+  },
+  {
+    "path": "global-agents/surgical-patch/agents/openai.yaml",
+    "sha256": "269d7ea7ce5a40499236f7b70d711727f5650a94686283b657076e3cbd56d92f"
+  },
+  {
+    "path": "global-agents/surgical-patch/SKILL.md",
+    "sha256": "26c24c3486c28c41b901363a12e7391692f66dae465b6ea94f610d7c41ac5d2d"
+  },
+  {
+    "path": "global-agents/tdd/agents/openai.yaml",
+    "sha256": "f8e2afc1fbcd6a6e1178c30f290ca9f2286c949a0b74b8b68fd14f198b78ebac"
+  },
+  {
+    "path": "global-agents/tdd/mocking.md",
+    "sha256": "73a10b6a26b56197c738a764c1e4205af98c74553f4a713795997f6bc35b917d"
+  },
+  {
+    "path": "global-agents/tdd/SKILL.md",
+    "sha256": "cb01f66bebfaa25fa1f88e6b7e769cd9fd9f35b1120b8563749820738814c927"
+  },
+  {
+    "path": "global-agents/tdd/tests.md",
+    "sha256": "0b401f98bd3684d2fea6440d6946afcf8f5f68ac6a65599dd7a2b90dd9f02eb5"
+  },
+  {
+    "path": "global-agents/teach/agents/openai.yaml",
+    "sha256": "80e96a4d492ad8538e609672361e8543b69e7b22ce83be0efc2e5532472ede69"
+  },
+  {
+    "path": "global-agents/teach/GLOSSARY-FORMAT.md",
+    "sha256": "22f851b265a3bec5a333937cc7ff1250136c9b6512787ae2eb51a2a14e35c341"
+  },
+  {
+    "path": "global-agents/teach/LEARNING-RECORD-FORMAT.md",
+    "sha256": "d49c754ea416a075534d0ba1428a0beba1327ae527c2d1af0333908d08e25d05"
+  },
+  {
+    "path": "global-agents/teach/MISSION-FORMAT.md",
+    "sha256": "44ea82d5f57a626086bde99c70cd229cdef67998e8502c1cbcd50504f57f989a"
+  },
+  {
+    "path": "global-agents/teach/RESOURCES-FORMAT.md",
+    "sha256": "377e70f83d41fdc2623037410600194655a2f7df41000925c24cc437da074ab5"
+  },
+  {
+    "path": "global-agents/teach/SKILL.md",
+    "sha256": "a32df9dcdfc0c4fdc1c98e1ed3940c5f56b84c1aa90ff60346f32b8b53915b43"
+  },
+  {
+    "path": "global-agents/templates-new-move/agents/openai.yaml",
+    "sha256": "03b7cea7df11038bbaa4030afb25ea25dbb3bbd63e2f1afebfd3419ae39d29cc"
+  },
+  {
+    "path": "global-agents/templates-new-move/SKILL.md",
+    "sha256": "3b5023b9fb0c74469b1b89984fce27454b7c6a5dec1a94a001579e8fc0208c04"
+  },
+  {
+    "path": "global-agents/to-questionnaire/agents/openai.yaml",
+    "sha256": "0b5ed84d805809777a15371c946a70f98321e3c6400fce5fcd74df71d40e860b"
+  },
+  {
+    "path": "global-agents/to-questionnaire/SKILL.md",
+    "sha256": "b5eb929842ee0e93d867c5e906d183d350f2f2d149eaeaa86967d94d8eda1d3b"
+  },
+  {
+    "path": "global-agents/to-spec/agents/openai.yaml",
+    "sha256": "ffa735de62d44d31f615c69a885b32d9581ce4ac8129703fda86f355fdfafec9"
+  },
+  {
+    "path": "global-agents/to-spec/SKILL.md",
+    "sha256": "d20e0006d4e617a93c3f93ee3797ad96df97aaeb992c8bbf4bc9acc947be2928"
+  },
+  {
+    "path": "global-agents/to-tickets/agents/openai.yaml",
+    "sha256": "4fc70a45f34963bfc9d85c2ea08dcc439f8b5c82450f9c7c02867cdc5feb4922"
+  },
+  {
+    "path": "global-agents/to-tickets/SKILL.md",
+    "sha256": "aa6c9352900830178f982739ecd1f8254cba3cc3de1f4d838b6f64fd9970c32d"
+  },
+  {
+    "path": "global-agents/triage/AGENT-BRIEF.md",
+    "sha256": "9160800ad5483816f5bcd7f5aa62cfb6dbb16e6343d0754b9bb739815145fa15"
+  },
+  {
+    "path": "global-agents/triage/agents/openai.yaml",
+    "sha256": "d930356b9f23b89361f5b8f4fef87c911b35531b15a9005956c944a1058973ae"
+  },
+  {
+    "path": "global-agents/triage/OUT-OF-SCOPE.md",
+    "sha256": "a48a2c63f0520eaa08cd68705030a77428e7ba6647834c7a644ad9cda396e4ae"
+  },
+  {
+    "path": "global-agents/triage/SKILL.md",
+    "sha256": "623a2ed692bdc77d2090e2a3dea3b627dd722ad3bbaca0be83aada75292c8fc4"
+  },
+  {
+    "path": "global-agents/verify-and-stop/agents/openai.yaml",
+    "sha256": "9efaaae6ffe812827c1c70af326ebc58b75455f99512f11dc3afccd0298cb45d"
+  },
+  {
+    "path": "global-agents/verify-and-stop/SKILL.md",
+    "sha256": "e5ec781cf6b127fbde18ce2f15720919bdaff131dbfd019ec62b05f5049425a5"
+  },
+  {
+    "path": "global-agents/wait-what/agents/openai.yaml",
+    "sha256": "e0d9beddf0093b3cf05de2722699affab5d240e5950469e208d59c1f0ed91bef"
+  },
+  {
+    "path": "global-agents/wait-what/SKILL.md",
+    "sha256": "e3f44e3ccbc0e7b62f20ba70b295fc9c9f4aa3f96c77168faee1c71bacbf4215"
+  },
+  {
+    "path": "global-agents/wayfinder/agents/openai.yaml",
+    "sha256": "3e698cdff8e84d0e900d8dec535060e9e6d16d923b313eefd881e958d164e37a"
+  },
+  {
+    "path": "global-agents/wayfinder/SKILL.md",
+    "sha256": "115f91968a37783cb4c43e6a31844fc2c5986927366b68ab36f7035fd1a63b48"
+  },
+  {
+    "path": "global-agents/wizard/agents/openai.yaml",
+    "sha256": "b9a0f4a716a64ada207aa4b38ce53981729cde053d87a39f2d51ad2dd30d3249"
+  },
+  {
+    "path": "global-agents/wizard/SKILL.md",
+    "sha256": "4a2652e0afb4026eb4d8dce09d012a35c6c03525fdf0c092f5f5ff17d5e6208f"
+  },
+  {
+    "path": "global-agents/wizard/template.sh",
+    "sha256": "174f41adf9227dd2e4336219baaee068636c10e6e8280fcbc509dd08c27380c3"
+  },
+  {
+    "path": "global-agents/writing-beats/agents/openai.yaml",
+    "sha256": "30ad45c6d16b7e3e58d656c8d2619c68916d14b96e218de3c042cac89ef85a84"
+  },
+  {
+    "path": "global-agents/writing-beats/SKILL.md",
+    "sha256": "a96abafa2372eede8267d770138b322d6125da8adaa7ccf0a5e08e4ee13ee71e"
+  },
+  {
+    "path": "global-agents/writing-for-agents/agents/openai.yaml",
+    "sha256": "486c388ed1babac6ea25001147b41d3ff6c8892b0128ae1b0bef8feea6363428"
+  },
+  {
+    "path": "global-agents/writing-for-agents/SKILL-MECHANICS.md",
+    "sha256": "86f112c08d785cc224c13dcda75c0724b74bd62622cc61d4b7ab3dbbaf37f6fc"
+  },
+  {
+    "path": "global-agents/writing-for-agents/SKILL.md",
+    "sha256": "6179c3a3d3ece8fed37e6ecabf878209b7e4d418011a2df07c2e30a7292d8039"
+  },
+  {
+    "path": "global-agents/writing-fragments/agents/openai.yaml",
+    "sha256": "d082f54a16e95d0eb5c3bcf3e2ff7b78b8c5b2e142c5d1b8897d7f3282adbedb"
+  },
+  {
+    "path": "global-agents/writing-fragments/SKILL.md",
+    "sha256": "298b0edd23df229183630de592ed8aa4289233560f2040691f6eb77caeaad4ea"
+  },
+  {
+    "path": "global-agents/writing-shape/agents/openai.yaml",
+    "sha256": "7f82f71f0849ada3acb686dfe9977a7b5b1af3c1fc049ac5275b8fdf3a18c299"
+  },
+  {
+    "path": "global-agents/writing-shape/SKILL.md",
+    "sha256": "f5e6c57bdd85178ace4a260c92f46da6b64ddee18215b461d875739c68976f72"
+  },
+  {
+    "path": "newmove-agents/agent-browser/SKILL.md",
+    "sha256": "403f359b777558ec1aa864669f5df9a29f630648f414ed28f3d00946fc25c9b4"
+  },
+  {
+    "path": "newmove-agents/ask-matt/agents/openai.yaml",
+    "sha256": "d30cfa5b0e84e2ca10b8d263b9dfcc13c3aa089ae6bc26096bc549fc037d274e"
+  },
+  {
+    "path": "newmove-agents/ask-matt/PHASE-BOUNDARIES.md",
+    "sha256": "4e2a891beb182df8c2eb2a7dfbff20ba43ae008d29c77ac41b005181018f7ccd"
+  },
+  {
+    "path": "newmove-agents/ask-matt/SKILL.md",
+    "sha256": "601405cb1243c9cccbbdd250599527874e19d7772755bb1f81f18b423c62cc7b"
+  },
+  {
+    "path": "newmove-agents/benchmark-validator/SKILL.md",
+    "sha256": "6deefc3c4528c1444c3b6604762c9a0d0f22ccafda6812bc5a603ce10aaf6271"
+  },
+  {
+    "path": "newmove-agents/caveman/README.md",
+    "sha256": "8849f5b8dbad1403aab44a01fcfc88a5b6eaa0f910d2f511b07d2d3fcfdf4b84"
+  },
+  {
+    "path": "newmove-agents/caveman/SKILL.md",
+    "sha256": "d6f0957ddb5eba7097734b4ffa5149ce30abbe9b9d7e40802d3e206b6ffc17eb"
+  },
+  {
+    "path": "newmove-agents/claude-handoff/agents/openai.yaml",
+    "sha256": "c49d051126b7ef690418b431a4317298a5bbb2bcf4cb0661d3a06f115ce12263"
+  },
+  {
+    "path": "newmove-agents/claude-handoff/SKILL.md",
+    "sha256": "f9fab164ef50a091c01016778500a87d3578a6ff23a956f176e6d22d66495f64"
+  },
+  {
+    "path": "newmove-agents/code-review/agents/openai.yaml",
+    "sha256": "3f72329747a916ac8ab2b4004490c79e1be6774a8a83e5b258d6ddc7e866abfe"
+  },
+  {
+    "path": "newmove-agents/code-review/SKILL.md",
+    "sha256": "d4242233dd0b89fc7b0489ccb51443252b8a1fdf76183253b7e05f62c5e1e2b5"
+  },
+  {
+    "path": "newmove-agents/codebase-design/agents/openai.yaml",
+    "sha256": "967df5c80a2a00e8fea9ce0e7914fb57114c93d16baa3b7743347a4dfeed61fc"
+  },
+  {
+    "path": "newmove-agents/codebase-design/DEEPENING.md",
+    "sha256": "a67260cb384580b60430486edeb47a6e656ea5f8a42b7196b24461459031f00c"
+  },
+  {
+    "path": "newmove-agents/codebase-design/DESIGN-IT-TWICE.md",
+    "sha256": "4c3b083988c0b34449dfef3f4fcee963e3d7fc614c71beacfaa51023f1b24d78"
+  },
+  {
+    "path": "newmove-agents/codebase-design/SKILL.md",
+    "sha256": "362b0bec828219d9f4b08ca7c466164e67253bdd817359258e60d2e9c5692a8f"
+  },
+  {
+    "path": "newmove-agents/diagnosing-bugs/agents/openai.yaml",
+    "sha256": "167ab1659754b8c53706ecca7502ccc7fb219ff14f0c36bfb1db05ae31a8ac58"
+  },
+  {
+    "path": "newmove-agents/diagnosing-bugs/scripts/hitl-loop.template.sh",
+    "sha256": "063ef14e7212113c7778258172e7c76e963926963e448934048f505d6e576e8f"
+  },
+  {
+    "path": "newmove-agents/diagnosing-bugs/SKILL.md",
+    "sha256": "db41113b1b284046b3ef7004d7cc657a2aa57eb35f7b186ae141acca67b3cdae"
+  },
+  {
+    "path": "newmove-agents/domain-modeling/ADR-FORMAT.md",
+    "sha256": "b7021c31a1c2485b07356a8110fd1fd1ae4facbab3e210983789f425f867d95b"
+  },
+  {
+    "path": "newmove-agents/domain-modeling/agents/openai.yaml",
+    "sha256": "ce496c77c77a090877bff10f198c9770fb52e23088351350ea0826380f948ff8"
+  },
+  {
+    "path": "newmove-agents/domain-modeling/CONTEXT-FORMAT.md",
+    "sha256": "6097d3a11b96be24425091ed6e8a744c53644d3685455b2d828100f1853b9b89"
+  },
+  {
+    "path": "newmove-agents/domain-modeling/SKILL.md",
+    "sha256": "d64826913fbd8145b14d47d2305a6f2197dacdcf0e47731424fe8c5bc4e42bc3"
+  },
+  {
+    "path": "newmove-agents/engineering-mission-playbook/SKILL.md",
+    "sha256": "5d3364d598d24f94f7368872774e0ee4b52966f11da1e355fd06b2e8a6bc0ff4"
+  },
+  {
+    "path": "newmove-agents/git-guardrails-claude-code/agents/openai.yaml",
+    "sha256": "9151961c68ab52e07e2463df15e8ff7c9331c3b7afbf716c3461623f87c57c14"
+  },
+  {
+    "path": "newmove-agents/git-guardrails-claude-code/scripts/block-dangerous-git.sh",
+    "sha256": "bb5dc3a96ae81924ff3b88b959979b4eb68b7810f6fa9bd395fb8f781e0d8c12"
+  },
+  {
+    "path": "newmove-agents/git-guardrails-claude-code/SKILL.md",
+    "sha256": "12d335b84bcf984b213b527014262233f27ffa1eb807db466832ff711b96f41f"
+  },
+  {
+    "path": "newmove-agents/grill-me/agents/openai.yaml",
+    "sha256": "c03a1eee1161bb70ca360b3d17705638b93bc8eec41319732725dc05a53196a5"
+  },
+  {
+    "path": "newmove-agents/grill-me/SKILL.md",
+    "sha256": "19e660207b447acf6ee0d600471c02e549c7aca8fb3ab38fdc2c7056aa442fc8"
+  },
+  {
+    "path": "newmove-agents/grill-with-docs/agents/openai.yaml",
+    "sha256": "81e6af95559517a292767439da8f46a468b4d88a6773a3316d511a428eb16ff3"
+  },
+  {
+    "path": "newmove-agents/grill-with-docs/SKILL.md",
+    "sha256": "3342905ce08c4911e506f7ef79871a6e6feff15dfc6044aeffc0bc55cf22a997"
+  },
+  {
+    "path": "newmove-agents/grilling/agents/openai.yaml",
+    "sha256": "ad75163922ff8263acdd25ebc37420e8fcf1fccb93483fd5742e9bd26f5c45f6"
+  },
+  {
+    "path": "newmove-agents/grilling/SKILL.md",
+    "sha256": "d806733216b16e51adad834e724bfec5540a436d06395bfc75b843cda9f7404b"
+  },
+  {
+    "path": "newmove-agents/handoff/agents/openai.yaml",
+    "sha256": "deb645c801764579994bd23d1954aa991ef1d0d55bf30043d47ada631fcff5f4"
+  },
+  {
+    "path": "newmove-agents/handoff/SKILL.md",
+    "sha256": "c0e7f37c2333a95a74536fe1f0ef3cdfc2c449dae55c2993a36af0e455eb6544"
+  },
+  {
+    "path": "newmove-agents/implement/agents/openai.yaml",
+    "sha256": "8494f83602c58f8ab33d047d0516cdb90b8c29e6d564de0cef810daaca378bcb"
+  },
+  {
+    "path": "newmove-agents/implement/SKILL.md",
+    "sha256": "4a62120803d20bc02ddfbd63a1e14ce7504de3db2e16956b17369209591a6d07"
+  },
+  {
+    "path": "newmove-agents/implement-spec/agents/openai.yaml",
+    "sha256": "3f7f8a55426d174c0fbe13405633d130a23e14a7b8e3157e1ba88da84c41c2d3"
+  },
+  {
+    "path": "newmove-agents/implement-spec/SKILL.md",
+    "sha256": "962955779aff648037afbfe6a9e15a61354fa4497780fb257ae2eda21bb289c9"
+  },
+  {
+    "path": "newmove-agents/improve-codebase-architecture/agents/openai.yaml",
+    "sha256": "6b69701fc3f4f31ec626c1ae5c090dc5c640fab147a63be81b575c2f9c5231fa"
+  },
+  {
+    "path": "newmove-agents/improve-codebase-architecture/HTML-REPORT.md",
+    "sha256": "870acb4262373ae536af7d1f4a9b56d33e7e7faa632bd425c09edb4f897fb828"
+  },
+  {
+    "path": "newmove-agents/improve-codebase-architecture/SKILL.md",
+    "sha256": "e16e8a5c73e32da809cf69dc367e9e3b0ddd11d5705e97a3ff3e1ee5176821d8"
+  },
+  {
+    "path": "newmove-agents/jetta-local-runtime/agents/openai.yaml",
+    "sha256": "2fb3045fd4fe8cbea91953f8564a871ccb8613f8ccb98c5a42fc253d4577f989"
+  },
+  {
+    "path": "newmove-agents/jetta-local-runtime/SKILL.md",
+    "sha256": "00808bdd822cc7bbd1089f431fa2fa8d36ebf2ea6ae04edcaccc075a17cdc5a1"
+  },
+  {
+    "path": "newmove-agents/loop-me/agents/openai.yaml",
+    "sha256": "ec257a7995d8eba46b6a95471f5fb569798aa975a1b1c438542b1a9c82bc33d3"
+  },
+  {
+    "path": "newmove-agents/loop-me/SKILL.md",
+    "sha256": "38ac316635d244abfdc1526edec49596f9284b36595f5a212fc5983894b6094a"
+  },
+  {
+    "path": "newmove-agents/luna-orchestrator/agents/openai.yaml",
+    "sha256": "1356e31c35c6d285dc1611c3449bcfefa2ac8c87bb8f83ee6745910138bdb0d8"
+  },
+  {
+    "path": "newmove-agents/luna-orchestrator/SKILL.md",
+    "sha256": "b120292fafaf2d6d2d93823ef3b0d5a2853bc4463f5b20a8f74176813e030401"
+  },
+  {
+    "path": "newmove-agents/migrate-to-shoehorn/agents/openai.yaml",
+    "sha256": "43d8fbb6347d771e82eb866bae6987acede6dc1d16d46b9c69e2b06930771180"
+  },
+  {
+    "path": "newmove-agents/migrate-to-shoehorn/SKILL.md",
+    "sha256": "200c11163ecd56d908ec431154e4b452cd6afeb3de91e5b54434f543f0822201"
+  },
+  {
+    "path": "newmove-agents/new-move/SKILL.md",
+    "sha256": "a0c33ff6735ba37ddde6b757a4369b532d71105759cc10d8019b3c1fef487a83"
+  },
+  {
+    "path": "newmove-agents/nosso-design/agents/openai.yaml",
+    "sha256": "48a915c91301e2f53b30809adadda68763502a221204998d9ca1af540d81933b"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/design-contract.md",
+    "sha256": "8875ba5d12e7e6ff39789caf70c3b4525fb29665e5a8719ed53821c42e08dfdc"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/icons-and-assets.md",
+    "sha256": "90e47ed855a3644eae2acd195c8eb85c9f0f2a379e610adf7fc64a5d84a1309d"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/INDEX.md",
+    "sha256": "fe4b2551bf058ef2c7e46d9193ad227990ad15c3f4823a945549982e3610cddc"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/layout-families.md",
+    "sha256": "6cb0db7fd033702c4497a08594733404d3e1b8deaa9fc7f382289e9b79671d85"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/operational-components.md",
+    "sha256": "170a78e183ba7d8581710fafa32ee9526d055a091f682ba391c2531a436674dc"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/admin.md",
+    "sha256": "30ed9fd6fd6d942a8aa0dd091f61250a0c79c67d72646b42d9c9dd61f833f3e8"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/admin__chamados.md",
+    "sha256": "d2a7cb463e593e670e2c78e1da1cfe9132090f653883ecc14753aa3a192a3945"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/admin__clientes.md",
+    "sha256": "e10c5f76ae68218a390e2135a7e5ce81bc91b8000ff290922e840f8ff26d10be"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/admin__clientes__-item-.md",
+    "sha256": "3202bf88d2897d3c7041714d359e1f93790f53049a6a12c3409e38cd98ef209d"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/admin__clientes__-item-__layout-config.md",
+    "sha256": "40b204e2453a7e159a782a96fa5ce53437b319b391343e875d124702498a0b81"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/admin__clientes__-item-__regras.md",
+    "sha256": "3d42c040e01b6ae848733cb1646a957d3420e70129891e9524bf40ef0ef35d1f"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/admin__clientes__novo.md",
+    "sha256": "d9f48ef959dc75192bcf05b2325f55efa72ade464f7fa70ef1215096241b5e93"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/admin__clientes__novo__layout-config.md",
+    "sha256": "f3f273c9336fe0b458fb6fcfdb892a23aa80aae4398e2fc1d04848a1c0ff6724"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/admin__clientes__novo__regras.md",
+    "sha256": "0e5cbb083f6d09375c01f4c9ae49fd8abcad1b9555db3ecb7d82ab31a72e1435"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/admin__email-queue.md",
+    "sha256": "6e3e52bbce462b4faba9f1039a8d827aac76b65de649f0a33ee950a62e8a0d9d"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/admin__erros.md",
+    "sha256": "582d0e0d0aae2960ffa6b53268a61f9d39d9f6709abcf82df223595861e72990"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/admin__usuarios.md",
+    "sha256": "d2f4282653d06901dbaf154151cc1942220cfa793a26fadde3097105f745f3f8"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/admin__webhooks.md",
+    "sha256": "be54107673f7751334df94c4e6743d29ac3769c2b20a4c65d5619710f15219fd"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/alterar-senha.md",
+    "sha256": "a56a6932e27973fb738bbfcd329acb90a90b9d13b30bf49cd02ebc14619d8016"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/captacao__completos.md",
+    "sha256": "d71cd9bab540c7b73d0ef3c090a91a4824d2b6b9c8f231bf789e4b0702c73eac"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/captacao__incompletos.md",
+    "sha256": "ee0262278c0b50590d0d6bf4904e9f76264f19be12b1bc1e92f386b10050dff3"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/chamados.md",
+    "sha256": "d198f63ec975ac3429fdc9c410522aa48299eb0397b5462caabc26b843e797fa"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__colaboradores.md",
+    "sha256": "fcbd740433a94350f8005f5d77412c136e87e6a7d60a074eb37bba8ddb17276b"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__colaboradores__novo.md",
+    "sha256": "49918f5724eeade9d08fca46f11bd4fa060d3b7de72d5523d3f15fa78de362a9"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__e-mails.md",
+    "sha256": "c9ed4f24706b4b54ea8b2c5aa11cde78027aeb36b08c6c9de98cf7e52d89fdd8"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__e-mails__-item-.md",
+    "sha256": "56aab60fbbb423242750b17447ef0033226086b00392abc0a19eccb620379b66"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__e-mails__novo.md",
+    "sha256": "52dcf8beccab738c5cca98f31cb08f66e6dc86f61e691a87b9c97059050ca8a3"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__motoristas.md",
+    "sha256": "8eac973907a1c3aea8f83124d7c15ec42d6132b6a4fb5603e99a9787c064a7bc"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__motoristas__-item-.md",
+    "sha256": "803edf3de8563dc7ecd4dd913434c2ac2fa3863bfbfbd1e47bdec249302d5f72"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__motoristas__novo.md",
+    "sha256": "56791e1d45bc0f946056386bc7dd58af407200e305732d3607a23404c7ef05b8"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__ocorrencias.md",
+    "sha256": "0cd9562f1e37abe21808752532aef34341a58daa110e9ee04f14c710bc603e66"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__ocorrencias__-item-.md",
+    "sha256": "586a9bc0976c96850253670d55e9fb0c61e2f58d882e55f2f4e5744dd1b2c699"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__ocorrencias__novo.md",
+    "sha256": "1fd1d26e81d1532a1f7b702892308604e5c183ac9fc395f50e31ac3679e4d3a8"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__dashboards__canhoto-digital.md",
+    "sha256": "bc03aef77ce74e5fad3a451aa64678f6e6e5495f174bd59cc5b64b8c90c5e56f"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__dashboards__ciclo-pedido.md",
+    "sha256": "724701726b5cbbea5ebffe9db089b57c8373337df2432c35b675a2b4343ab69f"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__dashboards__motoristas.md",
+    "sha256": "42acb3bb8d3077c6c44044c188d9e301aeba9d46f405e48109864e28545eefdf"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__dashboards__painel-frota.md",
+    "sha256": "c76e13386874a18a7219bea4423bc50fecbf7a81bbe8327bcd50da8b5d5160c3"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__fluxogramas.md",
+    "sha256": "022dce87ea6f7dd65337985a578528c96ea59ba7ce2457a6882bed478b5b040b"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__programacao__devolucao.md",
+    "sha256": "fae83ac4d7a9357b8f2dd23b1adbec0eb57388c760337709ebdb79fd856417f2"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__programacao__disponibilidade.md",
+    "sha256": "ff38f8279c2c2978680a099c158b039eeb146781f31b6b2aac0f46bf45e17033"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__programacao__gestao-paletes.md",
+    "sha256": "8d949162a425aba19efae8571aa162c4ab213128dd8a5b2b2aef7352d9e4113e"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__programacao__gestao-paletes__protocolo.md",
+    "sha256": "56f2f209e7285c6b32f12fdba5532ee673c1e9a99b4f9cb4ac6f687837b7ae82"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__programacao__programacao.md",
+    "sha256": "bedaee41503574916b9a1e5d6f119947e31b05b37bfabc7fe32461573d03cb31"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__programacao__reentregas.md",
+    "sha256": "983304b0a3f2042e3acb5f5e889023a5df2e53b557b9110273e5d5a523dbed25"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__sac__carros-em-rota.md",
+    "sha256": "b494e7688cbc931731e137ba7c104c9db7e4c62b0fd97918b29f659cf300a16e"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__sac__custo-extra.md",
+    "sha256": "98f152aee37a54bed7e5f56ee3f1328fa173fc66625d0dc304df103756444826"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__sac__ocorrencias.md",
+    "sha256": "d93b7a5c12420188dbdfc89b444dfbaa20b7d408bab63135de602d69b35a96bd"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__traferencia.md",
+    "sha256": "3f64dd96d0a1c955c09b65daf1796b64c512c9908be891687e5abc267e4e506d"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/conta__configuracoes.md",
+    "sha256": "47ad06cd1dc47cfdce96a288ff66dc8099700cb0a553fa4b8f45e8e5305f0c7c"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/csc.md",
+    "sha256": "c30ef4ceedaa17206f72ecaccdfc8582b0d23cd295396bd7fd2082bdb6a9d1c3"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/frota__3-coracoes__login.md",
+    "sha256": "b72896e0e463e6910cf2165d6f275d2f72c95a435ddbebd9b57237524125ebe4"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/guarulhos__comparativo.md",
+    "sha256": "774244801f592fbcff24817c9b156a5c8edb86a8288713bcc436a215a0363024"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/guarulhos__disponibilidade.md",
+    "sha256": "ec268f8f90e09121384258d16cd25c028a00536a1386d609a548a32595be591e"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/inicio.md",
+    "sha256": "64bb057cdab97883a14d20e2a0f02df9da65540f70afef823859a91cb987d4fd"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/operacoes.md",
+    "sha256": "3799783c39a5d805830f01a6b73f4a7b607e3acdaef23ca89d30c9d8b7ee15df"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/roterizacao.md",
+    "sha256": "cf03f105c6a9c48e6d8c7672f46b341ec1233bb9edeca78bece3bc3e59320d5b"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/selecionar-cliente.md",
+    "sha256": "3fbba83183b2ef38340acc2497a746d54c30a5267025c03778a20885132c740a"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/selecionar-unidade__3-coracoes.md",
+    "sha256": "ba8829a7668a43d13ed2109da0298d0050f30187708bef0248e49272b45430ef"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/sumare__disponibilidade.md",
+    "sha256": "7f5e038561a7aa76ffbd5159d9ef26f1d3bf1a82490f1f2be2cdcac169555434"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/vespasiano__disponibilidade.md",
+    "sha256": "dd69eab003ad0f76bbc8675247dd04213fbd0a2a4883dbec79e3134483b31567"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/pages/workshop.md",
+    "sha256": "1d7b7650e189413e61a7e244caf8afe36c3837dbfea01152690ef80f61db7470"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/routes.md",
+    "sha256": "abdbaa9c5957ddcdc293f43648da1f2821fd8106a13fa178946b5b66d972867b"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/admin.png",
+    "sha256": "ee4b0ecdd02876956f9ac384594548b2517b1eec6490d0e774bf622082d621c1"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/admin__chamados.png",
+    "sha256": "b076b013fd3051e886ef6ecf8729b73fec25bf02d6dadb60a44be8dbed915d63"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/admin__clientes.png",
+    "sha256": "e9bc68a2c6191cb2ac59b72345fb32b9dc492964efb336f835f1fe67ed35860e"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/admin__clientes__-item-.png",
+    "sha256": "8c842fc1cf1b964d72809031d785ee07acdf227392ee4b09692b783f9aaffd53"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/admin__clientes__-item-__layout-config.png",
+    "sha256": "9091f8f5b2f633a0efc547f8c37f89a7876e78b8bb3bd4b63f038cc262d02804"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/admin__clientes__-item-__regras.png",
+    "sha256": "be1daff94fc6ffb34b8ddc8a28715e50530ea6ae70600d41718df3368bb61617"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/admin__clientes__novo.png",
+    "sha256": "a4cf9d15c4a1b242532f7237b1b4439b544df7916d591b5b08ce0375fb7ace72"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/admin__clientes__novo__layout-config.png",
+    "sha256": "ee367effdccd5f293915f9fe0d4d4af48eb769a41ff7dfd364ec9ab436570430"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/admin__clientes__novo__regras.png",
+    "sha256": "e9a416cc50e33346e73950d99eb708f47949a78158373ea2b1248eced43b3cc9"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/admin__email-queue.png",
+    "sha256": "53fab9bd35d8a0b5a99d71be76d50f86d5e403735f35e166f49ad288bcc8e674"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/admin__erros.png",
+    "sha256": "c1fdf2e3b89d6626daac41a6f9d9f0e65d00e747cc0da578341ee96a7260c111"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/admin__usuarios.png",
+    "sha256": "7787f94bdf383e0ff784e47966d06b6618ddeec95345d6874e422fedf8818ce6"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/admin__webhooks.png",
+    "sha256": "4e6ce14e82d32834745ec4c3741b076d7ca58d9664a66f2e56e40524d12cec79"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/alterar-senha.png",
+    "sha256": "08b3479ea6b23e8cfdb057fdc66820ffbc6c6b2acc6b43ee2badbc463c9401fc"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/captacao__completos.png",
+    "sha256": "44ef0d12905a3b1cf98bad9660abe5eccb10d3f02f7af58949e24d64c2202673"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/captacao__incompletos.png",
+    "sha256": "74a09bf0f82665d245cc2f4209ea1cec77d165b8db5c2013418f99fa9841a47e"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/chamados.png",
+    "sha256": "f053ffc10a2c93571f07bd80c651eb6af1d17379177f94dcebafbbb5c4a5fe24"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__colaboradores.png",
+    "sha256": "1fc9c3fc572aafab70909c8e36d7db5996bc387344549aa17fb0f96e03589da8"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__colaboradores__novo.png",
+    "sha256": "8e010dae54a73fe995e52acf139e87be1dd20d8332aa54bd151cd0937226ffae"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__e-mails.png",
+    "sha256": "61337381efcb54e4e26c4607a49951b7988a6dc33963f84bd48a1c97f8347463"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__e-mails__-item-.png",
+    "sha256": "3b8929b993abf7ace121c8f612c4a598c4be459f720c5c5f8bd279e74a2db4ca"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__e-mails__novo.png",
+    "sha256": "b16d5b3a08eb1522e1a9db92d7f57f4288bdd7ea22fe964395ada89ee1a5f932"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__motoristas.png",
+    "sha256": "1dad484267a378810f5514c705799d5c1c8db52f62637473d0a308f293cd4a24"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__motoristas__-item-.png",
+    "sha256": "ca5285ea997247fa61a53a2ff2d70fb8e195dd70a424b4945166479414ad44cf"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__motoristas__novo.png",
+    "sha256": "004226bf3f8b59cef5a9498cbcf6e31a8167976fa038aa69f6eebe825ab8a28e"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__ocorrencias.png",
+    "sha256": "64eecf5a07ab4dc6a7146a6090840f8050272cd257e8b009e0be1090df27dcef"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__ocorrencias__-item-.png",
+    "sha256": "13a95be1a32a2797e28a092ee7a4bd90b4486e23ef2c960775bbfe1d98bc1642"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__ocorrencias__novo.png",
+    "sha256": "03194727033ec2db77b2b5b3d5d04d8c757c117056ac2190a86b4503a1b97ea7"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__dashboards__canhoto-digital.png",
+    "sha256": "50a818cda5e159e62c98e9da0002500c6454fea4b1578fb9126396d531cf112f"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__dashboards__ciclo-pedido.png",
+    "sha256": "0c4f14d51e7270db9b81424b11feb1324ca81890a86e34777f7bbaebe4bd8783"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__dashboards__motoristas.png",
+    "sha256": "4e6d1fea77b1d867cafc700c6f671a86bd3d6a9a28fbbc00025e4b3dc5c66940"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__dashboards__painel-frota.png",
+    "sha256": "8b093cb4fa863bf66fbfbc25ed018e58a2ef7cdae4d56da0801890903283b668"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__fluxogramas.png",
+    "sha256": "9cdbcb426ca23e6f9a7262f45df6346094f5a9a5d61fc1575267d1a262c66574"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__programacao__devolucao.png",
+    "sha256": "9962eb98cf8615b8e42f125cfe98515f1583a01409b158c306455b056286d5f3"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__programacao__disponibilidade.png",
+    "sha256": "00e5bc6cf0d0167f4014e65e28131d4d823e7ee18f2c7ac3c30960b1fc4a0921"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__programacao__gestao-paletes.png",
+    "sha256": "1305571117e7e003d46bb9840e1ce173543384f27b59d38f1d0a395fe466615b"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__programacao__gestao-paletes__protocolo.png",
+    "sha256": "d269973c2c998348f480c5634687fc19467e773f55840b3951d6c2b99e118bdf"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__programacao__programacao.png",
+    "sha256": "b8779174441153a32314692a15f00eedec37ebbfa6235617c950758e75e913dd"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__programacao__reentregas.png",
+    "sha256": "d301de760ad98dd0e773f5ca9532bd8cb23f99a3c1a3ccd1d022eb12edf43375"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__sac__carros-em-rota.png",
+    "sha256": "4bc5fad89fecaf36cf42e9763f7a5f35e0c202a21c8d2c0e883c60c189acd1b0"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__sac__custo-extra.png",
+    "sha256": "0ac125957fdd4d55a209f97c44db8d3527b49b929aba55dc1af2dddbd5d9ae47"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__sac__ocorrencias.png",
+    "sha256": "372c7669c706244a6961640bbb2b6528a5c8488a625ccf070d7e01ee26f92e66"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__traferencia.png",
+    "sha256": "e273b918a8a6e15d31501e1091adc7fa6f99a62c6382e6bc60a491b370da916b"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/conta__configuracoes.png",
+    "sha256": "3cb4430c6748ea9212618dee34a19cad62d1da6b97a47e83602bcaaee3a64215"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/csc.png",
+    "sha256": "7ebbff27d35315965d1db6f126978dffbbc1e4d13f3d9b98d56ccb34a197e006"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/frota__3-coracoes__login.png",
+    "sha256": "07646a4cc459acfc6078c17716f4933b003af41e8f9fada87c82e519cc11a772"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/guarulhos__comparativo.png",
+    "sha256": "f49740a7970117bd13e5d90263586d29380c22664365b9d4ae700d3ef8233abc"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/guarulhos__disponibilidade.png",
+    "sha256": "f9fc2033824d5761aa3f2496ac966a8f24f1cc54ff5ae169545d390ece02137c"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/inicio.png",
+    "sha256": "d78583706ded1f409822b22fd47dba5049c7eadeab4d1ce5ff9ce94b66ab89ac"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/operacoes.png",
+    "sha256": "f8e1a111578db686c5be97f47a3e9fb6e9e1e2313b9504b81848e67299877c86"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/roterizacao.png",
+    "sha256": "5d72835932ed8e30119f5229afa6a5cc81bb03bad87edffb543d6ad1072901ab"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/selecionar-cliente.png",
+    "sha256": "f3f8219d3b2f4ec4accc108a614b56bc94301faf155aff95c2583a132fb9b161"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/selecionar-unidade__3-coracoes.png",
+    "sha256": "43d41edb7fd9e03c23949ffe91127b0764009193d689bb2ff67b424f6a761244"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/sumare__disponibilidade.png",
+    "sha256": "f9fc2033824d5761aa3f2496ac966a8f24f1cc54ff5ae169545d390ece02137c"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/vespasiano__disponibilidade.png",
+    "sha256": "f9fc2033824d5761aa3f2496ac966a8f24f1cc54ff5ae169545d390ece02137c"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/screenshots/workshop.png",
+    "sha256": "63427cd6f5609bb589a134798de5204329114cd7690ecf6857034fa233932c83"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/source-assets.md",
+    "sha256": "75f6508e15ac13c5f9e3e93dcb74580fc94635d8b671f46ad4d58957d42135c3"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/source-components.md",
+    "sha256": "d6a1338d2fc89df815a191f831b131ce8ecf7a340b46cc00bc40c3d050b3d862"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/source-foundations.md",
+    "sha256": "98046631ed2008be431eb2e258f4053fac06978566128b3d63af0e4efa3f5f27"
+  },
+  {
+    "path": "newmove-agents/nosso-design/references/vehicle-assets.md",
+    "sha256": "180b2e98cad24e8c601a5f11efd04929750ed4b7624e6071ca6221dcd59ef3c0"
+  },
+  {
+    "path": "newmove-agents/nosso-design/scripts/capture-erp-design.mjs",
+    "sha256": "b5e7028ca79ad375d7f255dab51449383da33ab4b2f8dcefd755fd239d8f8b70"
+  },
+  {
+    "path": "newmove-agents/nosso-design/scripts/capture-erp-design.test.mjs",
+    "sha256": "47ae0ce2beb85860c9e74c7aa5c75580e6a9e3d4663fa7023c6ea1dd95d3b336"
+  },
+  {
+    "path": "newmove-agents/nosso-design/SKILL.md",
+    "sha256": "856d96bdd72924cdc892c05929d4f239ab0eee0e82d0ac3083dc67193f31bf2e"
+  },
+  {
+    "path": "newmove-agents/obsidian-ideia-blocos/agents/openai.yaml",
+    "sha256": "457cbbfefe6bd3edb60b556690017fb9e625d290fca59ebfc70318c293ad205c"
+  },
+  {
+    "path": "newmove-agents/obsidian-ideia-blocos/SKILL.md",
+    "sha256": "43178435c62da33b44d313b6c023c817b8fc1f4552398e90f09b007135dfe2aa"
+  },
+  {
+    "path": "newmove-agents/obsidian-visual-style/agents/openai.yaml",
+    "sha256": "6d46b93ab8e535a4565aae6ee8efd3c7b5e36ddde8ceef5741d717d4334b0aa8"
+  },
+  {
+    "path": "newmove-agents/obsidian-visual-style/SKILL.md",
+    "sha256": "d30913314f82fdedbf90701e996e5f18ed4f2d38da2ec997b22b8a027b69e156"
+  },
+  {
+    "path": "newmove-agents/optimization-mission-playbook/SKILL.md",
+    "sha256": "cb4f1fbc8cf28e67716d81ebd58a975a8538ce4c53a63b7446e0bc68b59428a5"
+  },
+  {
+    "path": "newmove-agents/pr/agents/openai.yaml",
+    "sha256": "33b71355c3ec06963d9a276baff9e9bf89a1ac69a5b9489a368c95021a8d6cc4"
+  },
+  {
+    "path": "newmove-agents/pr/CREDITS.md",
+    "sha256": "d11be215cc3759c29619338303e962e487a4c15dc074b5791b5492fb819e9109"
+  },
+  {
+    "path": "newmove-agents/pr/SKILL.md",
+    "sha256": "ff14ed2aa5e1f040b781afb5da44357b6f1dc2b0476089ca970a9e704ef05699"
+  },
+  {
+    "path": "newmove-agents/prototype/agents/openai.yaml",
+    "sha256": "cc1ce1ceaba1442c431dc76abb84b271ad72ecb94dcefee53130df742dc11787"
+  },
+  {
+    "path": "newmove-agents/prototype/LOGIC.md",
+    "sha256": "8d7e31de7ce73b8e62f207e3f3ecbd90a7a54fdc728f8965f5f0739976f9959a"
+  },
+  {
+    "path": "newmove-agents/prototype/SKILL.md",
+    "sha256": "0da4af72fac4b36af129fc1e37ac7ed89f5e294bd14f75461077324fed18fd59"
+  },
+  {
+    "path": "newmove-agents/prototype/UI.md",
+    "sha256": "5ea83263ba72174c9055d58045f053d6577c0db6802c1e15bd1468dd16f78a0b"
+  },
+  {
+    "path": "newmove-agents/research/agents/openai.yaml",
+    "sha256": "73840328dfa6b689d81ee645d8aaf8570a0cc44d64a32b119ea6091d2828d412"
+  },
+  {
+    "path": "newmove-agents/research/SKILL.md",
+    "sha256": "c3afbd60c98cd629fac9d4afe517b7b1b56b3032aa9bd0d59fcd8b5c9cd7298a"
+  },
+  {
+    "path": "newmove-agents/resolving-merge-conflicts/agents/openai.yaml",
+    "sha256": "ad953099f6df6fe1b1e6e395ce38dfab3eb3a4e37461cfb318b0e81a32a35b4b"
+  },
+  {
+    "path": "newmove-agents/resolving-merge-conflicts/SKILL.md",
+    "sha256": "7c82f2ef5c0bab87450af8049bfd6c44d19b1886e386fcb8e6528411cc05534d"
+  },
+  {
+    "path": "newmove-agents/retro/agents/openai.yaml",
+    "sha256": "61afaa61443da49b3ff8fcc9d04735362bfec03e213791226134a3a21a9c6fd3"
+  },
+  {
+    "path": "newmove-agents/retro/SKILL.md",
+    "sha256": "42110f533f169026d037cf141b9f6c2752c6d914903be4758c38a68349e83e78"
+  },
+  {
+    "path": "newmove-agents/scaffold-exercises/agents/openai.yaml",
+    "sha256": "f3ab550f1077150f0fe728fe3ff187e8672f4df7eedc7f233cdd1a61f347f1db"
+  },
+  {
+    "path": "newmove-agents/scaffold-exercises/SKILL.md",
+    "sha256": "de28db7a0954db55c11ba1e3cc0fd4c037bf0f5cb8313cb292e319bcce47f424"
+  },
+  {
+    "path": "newmove-agents/scrutiny-validator/SKILL.md",
+    "sha256": "7306ac8173fce1ca787b27d3f07f077ff91118eec3b3f24754afd8a6c5754cfc"
+  },
+  {
+    "path": "newmove-agents/setup-matt-pocock-skills/agents/openai.yaml",
+    "sha256": "53d0bf3786862a1cb5013ca78f12013b166d0819823dae0d3f9eb13eee2acdf2"
+  },
+  {
+    "path": "newmove-agents/setup-matt-pocock-skills/domain.md",
+    "sha256": "19f59c9e72afd05199a79f82500baae05f0c445528636282dcd4400da3facd54"
+  },
+  {
+    "path": "newmove-agents/setup-matt-pocock-skills/issue-tracker-github.md",
+    "sha256": "0809582ea8cf5f91fd72ae2b59aa62a07c1236ad194ef7dd40d9e2f01c3e753b"
+  },
+  {
+    "path": "newmove-agents/setup-matt-pocock-skills/issue-tracker-gitlab.md",
+    "sha256": "6fe462c8dbffdf90e66d2ee62f6fa74666d777d0933c244e2a22a295848cb3ab"
+  },
+  {
+    "path": "newmove-agents/setup-matt-pocock-skills/issue-tracker-local.md",
+    "sha256": "a604b658f0730eae3107671b09323ed8382bd546e82dc3bedc265bccbeb35021"
+  },
+  {
+    "path": "newmove-agents/setup-matt-pocock-skills/SKILL.md",
+    "sha256": "89785fd41cb43e13e89706941f4c8d1eccdf14acf8c24e4bee79cae2fb8b52a6"
+  },
+  {
+    "path": "newmove-agents/setup-matt-pocock-skills/triage-labels.md",
+    "sha256": "493d08d7a8007d3604cdf64d45717045034a5037c9e9917bae1ad9340fad75b8"
+  },
+  {
+    "path": "newmove-agents/setup-pre-commit/agents/openai.yaml",
+    "sha256": "946bfa9a3cab905f4241d8dcc127a11fdcf2994027b87e198f26f7e65d88f727"
+  },
+  {
+    "path": "newmove-agents/setup-pre-commit/SKILL.md",
+    "sha256": "e069e6a23069ebdba946d4dea11e5d663c10640c6b14b55c4585c81b1a256ac9"
+  },
+  {
+    "path": "newmove-agents/setup-ts-deep-modules/agents/openai.yaml",
+    "sha256": "bf3d58c59b0e68ef3b0287ac3ab3d165b066dfd31e146ecf278e56e4df664610"
+  },
+  {
+    "path": "newmove-agents/setup-ts-deep-modules/dependency-cruiser.config.cjs",
+    "sha256": "d80c982bc496ff6fb65c91bfa5b3ffccd64396cd488f556779ce3f1bd770f376"
+  },
+  {
+    "path": "newmove-agents/setup-ts-deep-modules/SKILL.md",
+    "sha256": "3709fc7d62ea75cd7da1d6f21e33d58d758766fb8f5247a859687d7ed63c213e"
+  },
+  {
+    "path": "newmove-agents/spec-workspace/integration.json",
+    "sha256": "2d2112b69ea1356b390a879485ce630b06a04365936bfbb12469b1877fb94f16"
+  },
+  {
+    "path": "newmove-agents/spec-workspace/scripts/spec_workspace.py",
+    "sha256": "b44a3b7eadd6f420e3a61cf4d7f3a9cc5556c877b1d9058a898bdc26ac314cb0"
+  },
+  {
+    "path": "newmove-agents/spec-workspace/scripts/test_spec_workspace.py",
+    "sha256": "9be890d511a4e47fb0e18d55d1de9cdc937abc6a59748c46f3b214cf5d49eb35"
+  },
+  {
+    "path": "newmove-agents/spec-workspace/SKILL.md",
+    "sha256": "2ce1986232c14c6abf91a206154ea67507407a8ac828b57ab1940998ff4812da"
+  },
+  {
+    "path": "newmove-agents/start-luna-orchestration/agents/openai.yaml",
+    "sha256": "77869cd5742cb995834be014e90f148b018d319ae457f20515330d596b10ed52"
+  },
+  {
+    "path": "newmove-agents/start-luna-orchestration/SKILL.md",
+    "sha256": "b59c23a315beb2cf541b5902a4710d710dc670bcf0edc8861455d0913722db2f"
+  },
+  {
+    "path": "newmove-agents/tdd/agents/openai.yaml",
+    "sha256": "f8e2afc1fbcd6a6e1178c30f290ca9f2286c949a0b74b8b68fd14f198b78ebac"
+  },
+  {
+    "path": "newmove-agents/tdd/mocking.md",
+    "sha256": "73a10b6a26b56197c738a764c1e4205af98c74553f4a713795997f6bc35b917d"
+  },
+  {
+    "path": "newmove-agents/tdd/SKILL.md",
+    "sha256": "87cc28cbe624108f606d02a0a5838394968de01cefb219711ca05698f78eca10"
+  },
+  {
+    "path": "newmove-agents/tdd/tests.md",
+    "sha256": "0b401f98bd3684d2fea6440d6946afcf8f5f68ac6a65599dd7a2b90dd9f02eb5"
+  },
+  {
+    "path": "newmove-agents/teach/agents/openai.yaml",
+    "sha256": "80e96a4d492ad8538e609672361e8543b69e7b22ce83be0efc2e5532472ede69"
+  },
+  {
+    "path": "newmove-agents/teach/GLOSSARY-FORMAT.md",
+    "sha256": "22f851b265a3bec5a333937cc7ff1250136c9b6512787ae2eb51a2a14e35c341"
+  },
+  {
+    "path": "newmove-agents/teach/LEARNING-RECORD-FORMAT.md",
+    "sha256": "d49c754ea416a075534d0ba1428a0beba1327ae527c2d1af0333908d08e25d05"
+  },
+  {
+    "path": "newmove-agents/teach/MISSION-FORMAT.md",
+    "sha256": "44ea82d5f57a626086bde99c70cd229cdef67998e8502c1cbcd50504f57f989a"
+  },
+  {
+    "path": "newmove-agents/teach/RESOURCES-FORMAT.md",
+    "sha256": "377e70f83d41fdc2623037410600194655a2f7df41000925c24cc437da074ab5"
+  },
+  {
+    "path": "newmove-agents/teach/SKILL.md",
+    "sha256": "3377485cbb1d62782122c1cc8cab4ceb37d5457c0543889784f3d7d9ca359e04"
+  },
+  {
+    "path": "newmove-agents/templates-new-move/agents/openai.yaml",
+    "sha256": "03b7cea7df11038bbaa4030afb25ea25dbb3bbd63e2f1afebfd3419ae39d29cc"
+  },
+  {
+    "path": "newmove-agents/templates-new-move/SKILL.md",
+    "sha256": "3b5023b9fb0c74469b1b89984fce27454b7c6a5dec1a94a001579e8fc0208c04"
+  },
+  {
+    "path": "newmove-agents/to-questionnaire/agents/openai.yaml",
+    "sha256": "0b5ed84d805809777a15371c946a70f98321e3c6400fce5fcd74df71d40e860b"
+  },
+  {
+    "path": "newmove-agents/to-questionnaire/SKILL.md",
+    "sha256": "2608aa105b2298c45a9cd2f589342ff2d18e9e01bb5eb61b479eb1161324abf2"
+  },
+  {
+    "path": "newmove-agents/to-spec/agents/openai.yaml",
+    "sha256": "55037139831219743dda1f716fe69eab3366e922529f69cc988fea3b1d34c74a"
+  },
+  {
+    "path": "newmove-agents/to-spec/SKILL.md",
+    "sha256": "622ba91ceb5866b06dd34dd9b292b92ee42489466ac4ec4b6fd12b3ccb77a1fb"
+  },
+  {
+    "path": "newmove-agents/to-tickets/agents/openai.yaml",
+    "sha256": "e396b8caaf6cdd95c94cf707a7ca2fa5c3a04b37ae5d4301b5b360a7ff7a34cb"
+  },
+  {
+    "path": "newmove-agents/to-tickets/SKILL.md",
+    "sha256": "6ac8d0ed5c02e16b8aec277a6243b897c5df455aeba85d2234a25080b45ee396"
+  },
+  {
+    "path": "newmove-agents/triage/AGENT-BRIEF.md",
+    "sha256": "9160800ad5483816f5bcd7f5aa62cfb6dbb16e6343d0754b9bb739815145fa15"
+  },
+  {
+    "path": "newmove-agents/triage/agents/openai.yaml",
+    "sha256": "d930356b9f23b89361f5b8f4fef87c911b35531b15a9005956c944a1058973ae"
+  },
+  {
+    "path": "newmove-agents/triage/OUT-OF-SCOPE.md",
+    "sha256": "a48a2c63f0520eaa08cd68705030a77428e7ba6647834c7a644ad9cda396e4ae"
+  },
+  {
+    "path": "newmove-agents/triage/SKILL.md",
+    "sha256": "3d9eb56d0a903d33e7fbb4cd4dfb11cf50dd899d049fbc1f6a6dc8de22c6c306"
+  },
+  {
+    "path": "newmove-agents/user-testing-validator/SKILL.md",
+    "sha256": "4d13023df11b50951bbee840cf27806e7e0811fbea720bf236759add53680577"
+  },
+  {
+    "path": "newmove-agents/wait-what/agents/openai.yaml",
+    "sha256": "e0d9beddf0093b3cf05de2722699affab5d240e5950469e208d59c1f0ed91bef"
+  },
+  {
+    "path": "newmove-agents/wait-what/SKILL.md",
+    "sha256": "2c7431bda924997c2c748b7027c3b1a46e40f0d9dbebeb32621f25555d45856d"
+  },
+  {
+    "path": "newmove-agents/wayfinder/agents/openai.yaml",
+    "sha256": "3e698cdff8e84d0e900d8dec535060e9e6d16d923b313eefd881e958d164e37a"
+  },
+  {
+    "path": "newmove-agents/wayfinder/SKILL.md",
+    "sha256": "378662b0136696308480908329a2f5b36377ced477dc3013a3c4445fcbf8db5f"
+  },
+  {
+    "path": "newmove-agents/wizard/agents/openai.yaml",
+    "sha256": "b9a0f4a716a64ada207aa4b38ce53981729cde053d87a39f2d51ad2dd30d3249"
+  },
+  {
+    "path": "newmove-agents/wizard/SKILL.md",
+    "sha256": "dbefb750eae07d9f8b05ab1084f6acfdda2752df2a6b577c46a505e2bc790164"
+  },
+  {
+    "path": "newmove-agents/wizard/template.sh",
+    "sha256": "174f41adf9227dd2e4336219baaee068636c10e6e8280fcbc509dd08c27380c3"
+  },
+  {
+    "path": "newmove-agents/writing-beats/agents/openai.yaml",
+    "sha256": "30ad45c6d16b7e3e58d656c8d2619c68916d14b96e218de3c042cac89ef85a84"
+  },
+  {
+    "path": "newmove-agents/writing-beats/SKILL.md",
+    "sha256": "b23f7851987dab7828c83d42df98090ccebff586b64908ce6a5e772440214621"
+  },
+  {
+    "path": "newmove-agents/writing-for-agents/agents/openai.yaml",
+    "sha256": "486c388ed1babac6ea25001147b41d3ff6c8892b0128ae1b0bef8feea6363428"
+  },
+  {
+    "path": "newmove-agents/writing-for-agents/SKILL-MECHANICS.md",
+    "sha256": "86f112c08d785cc224c13dcda75c0724b74bd62622cc61d4b7ab3dbbaf37f6fc"
+  },
+  {
+    "path": "newmove-agents/writing-for-agents/SKILL.md",
+    "sha256": "1c0c4ebf2d221917591144f0ced4fe46dae13301cb3d6d93fc88ecf0dda6aed2"
+  },
+  {
+    "path": "newmove-agents/writing-fragments/agents/openai.yaml",
+    "sha256": "d082f54a16e95d0eb5c3bcf3e2ff7b78b8c5b2e142c5d1b8897d7f3282adbedb"
+  },
+  {
+    "path": "newmove-agents/writing-fragments/SKILL.md",
+    "sha256": "3be6ffe9386ddd6de8b320c331295953995792fd65d0972aa2a28524ead73e90"
+  },
+  {
+    "path": "newmove-agents/writing-shape/agents/openai.yaml",
+    "sha256": "7f82f71f0849ada3acb686dfe9977a7b5b1af3c1fc049ac5275b8fdf3a18c299"
+  },
+  {
+    "path": "newmove-agents/writing-shape/SKILL.md",
+    "sha256": "c13cbc364fbceefce654d9a4b0331113ff47efe90ce2523c2de23ecef63fefbd"
+  },
+  {
+    "path": "newmove-codex/agent-browser/SKILL.md",
+    "sha256": "403f359b777558ec1aa864669f5df9a29f630648f414ed28f3d00946fc25c9b4"
+  },
+  {
+    "path": "newmove-codex/benchmark-validator/SKILL.md",
+    "sha256": "6deefc3c4528c1444c3b6604762c9a0d0f22ccafda6812bc5a603ce10aaf6271"
+  },
+  {
+    "path": "newmove-codex/engineering-mission-playbook/SKILL.md",
+    "sha256": "5d3364d598d24f94f7368872774e0ee4b52966f11da1e355fd06b2e8a6bc0ff4"
+  },
+  {
+    "path": "newmove-codex/jetta-local-runtime/agents/openai.yaml",
+    "sha256": "2fb3045fd4fe8cbea91953f8564a871ccb8613f8ccb98c5a42fc253d4577f989"
+  },
+  {
+    "path": "newmove-codex/jetta-local-runtime/SKILL.md",
+    "sha256": "00808bdd822cc7bbd1089f431fa2fa8d36ebf2ea6ae04edcaccc075a17cdc5a1"
+  },
+  {
+    "path": "newmove-codex/luna-orchestrator/agents/openai.yaml",
+    "sha256": "1356e31c35c6d285dc1611c3449bcfefa2ac8c87bb8f83ee6745910138bdb0d8"
+  },
+  {
+    "path": "newmove-codex/luna-orchestrator/SKILL.md",
+    "sha256": "02e67003cf57b931ae439f7c18f810d1ac986ae8776ac2f3a42ec1d7069b460c"
+  },
+  {
+    "path": "newmove-codex/nosso-design/agents/openai.yaml",
+    "sha256": "48a915c91301e2f53b30809adadda68763502a221204998d9ca1af540d81933b"
+  },
+  {
+    "path": "newmove-codex/nosso-design/scripts/capture-erp-design.mjs",
+    "sha256": "b5e7028ca79ad375d7f255dab51449383da33ab4b2f8dcefd755fd239d8f8b70"
+  },
+  {
+    "path": "newmove-codex/nosso-design/scripts/capture-erp-design.test.mjs",
+    "sha256": "47ae0ce2beb85860c9e74c7aa5c75580e6a9e3d4663fa7023c6ea1dd95d3b336"
+  },
+  {
+    "path": "newmove-codex/nosso-design/SKILL.md",
+    "sha256": "b84181a4656b9836e6b26dae57826d8472bd9efd560c62d854af547f1523cd9c"
+  },
+  {
+    "path": "newmove-codex/optimization-mission-playbook/SKILL.md",
+    "sha256": "cb4f1fbc8cf28e67716d81ebd58a975a8538ce4c53a63b7446e0bc68b59428a5"
+  },
+  {
+    "path": "newmove-codex/scrutiny-validator/SKILL.md",
+    "sha256": "98d0487c532d27047b9af645eb19e63cfe34f541f73452ae1fbe2ce6a43d7680"
+  },
+  {
+    "path": "newmove-codex/start-luna-orchestration/agents/openai.yaml",
+    "sha256": "77869cd5742cb995834be014e90f148b018d319ae457f20515330d596b10ed52"
+  },
+  {
+    "path": "newmove-codex/start-luna-orchestration/SKILL.md",
+    "sha256": "6e63e37531d66bc6b58f631b1e58b6f020a84de9b530dcef747bce4508850b61"
+  },
+  {
+    "path": "newmove-codex/user-testing-validator/SKILL.md",
+    "sha256": "95f554ee22407709d49c92b62cc598e15d29b75d06bbeeccd3a4cafbded751af"
+  },
+  {
+    "path": "jetta-agents/agent-browser/references/advanced.md",
+    "sha256": "51838837da6c97c55d54be4db5b202e1f1b3571f34f295cc0f08e21ccaa0efc6"
+  },
+  {
+    "path": "jetta-agents/agent-browser/references/commands.md",
+    "sha256": "d99d06d5daac78f16f39f0502ec6e7f545621a44c0beb37fb5a64bd64ee25ebe"
+  },
+  {
+    "path": "jetta-agents/agent-browser/SKILL.md",
+    "sha256": "83ef6f75c69ac5ae025911adc21d86b82b066358cb4671181114edd2fe7b8515"
+  },
+  {
+    "path": "jetta-agents/ask-matt/agents/openai.yaml",
+    "sha256": "d30cfa5b0e84e2ca10b8d263b9dfcc13c3aa089ae6bc26096bc549fc037d274e"
+  },
+  {
+    "path": "jetta-agents/ask-matt/PHASE-BOUNDARIES.md",
+    "sha256": "4e2a891beb182df8c2eb2a7dfbff20ba43ae008d29c77ac41b005181018f7ccd"
+  },
+  {
+    "path": "jetta-agents/ask-matt/SKILL.md",
+    "sha256": "80b850318a8370914717facb54372f3e7abad6ca7db53974effda4471ddeaa77"
+  },
+  {
+    "path": "jetta-agents/benchmark-validator/SKILL.md",
+    "sha256": "3f939f2f1f1263ed95ea19b29f608ac598a2b373911be5828bd7872953c3941d"
+  },
+  {
+    "path": "jetta-agents/caveman/README.md",
+    "sha256": "8849f5b8dbad1403aab44a01fcfc88a5b6eaa0f910d2f511b07d2d3fcfdf4b84"
+  },
+  {
+    "path": "jetta-agents/caveman/SKILL.md",
+    "sha256": "e34ef21a5808fe941123f007509c2519f19ff3e82a85b3dfa48d71222feef681"
+  },
+  {
+    "path": "jetta-agents/claude-handoff/agents/openai.yaml",
+    "sha256": "c49d051126b7ef690418b431a4317298a5bbb2bcf4cb0661d3a06f115ce12263"
+  },
+  {
+    "path": "jetta-agents/claude-handoff/SKILL.md",
+    "sha256": "596f18a60f09e6e8fd92696d498c9fe33a1b8007b366001ab8f9c862e290b48e"
+  },
+  {
+    "path": "jetta-agents/code-review/agents/openai.yaml",
+    "sha256": "3f72329747a916ac8ab2b4004490c79e1be6774a8a83e5b258d6ddc7e866abfe"
+  },
+  {
+    "path": "jetta-agents/code-review/SKILL.md",
+    "sha256": "9f4605496b649a825a766e567bf4c90b1070e0206625d6966b2fb8b956245fb0"
+  },
+  {
+    "path": "jetta-agents/codebase-design/agents/openai.yaml",
+    "sha256": "967df5c80a2a00e8fea9ce0e7914fb57114c93d16baa3b7743347a4dfeed61fc"
+  },
+  {
+    "path": "jetta-agents/codebase-design/DEEPENING.md",
+    "sha256": "a67260cb384580b60430486edeb47a6e656ea5f8a42b7196b24461459031f00c"
+  },
+  {
+    "path": "jetta-agents/codebase-design/DESIGN-IT-TWICE.md",
+    "sha256": "4c3b083988c0b34449dfef3f4fcee963e3d7fc614c71beacfaa51023f1b24d78"
+  },
+  {
+    "path": "jetta-agents/codebase-design/SKILL.md",
+    "sha256": "49e8f02342a33629eec7b8053c3bee344ac8703850b39d1a390c359349df6cbb"
+  },
+  {
+    "path": "jetta-agents/diagnosing-bugs/agents/openai.yaml",
+    "sha256": "167ab1659754b8c53706ecca7502ccc7fb219ff14f0c36bfb1db05ae31a8ac58"
+  },
+  {
+    "path": "jetta-agents/diagnosing-bugs/scripts/hitl-loop.template.sh",
+    "sha256": "063ef14e7212113c7778258172e7c76e963926963e448934048f505d6e576e8f"
+  },
+  {
+    "path": "jetta-agents/diagnosing-bugs/SKILL.md",
+    "sha256": "17c548b6f7bc9191eaf0c106dc8ffbbfdc026ad1685189be1c87c30e90e9f3ae"
+  },
+  {
+    "path": "jetta-agents/domain-modeling/ADR-FORMAT.md",
+    "sha256": "b7021c31a1c2485b07356a8110fd1fd1ae4facbab3e210983789f425f867d95b"
+  },
+  {
+    "path": "jetta-agents/domain-modeling/agents/openai.yaml",
+    "sha256": "ce496c77c77a090877bff10f198c9770fb52e23088351350ea0826380f948ff8"
+  },
+  {
+    "path": "jetta-agents/domain-modeling/CONTEXT-FORMAT.md",
+    "sha256": "6097d3a11b96be24425091ed6e8a744c53644d3685455b2d828100f1853b9b89"
+  },
+  {
+    "path": "jetta-agents/domain-modeling/SKILL.md",
+    "sha256": "7b7d6ecf9e8263f2b2624d70601caddc6f5ac6fa9598f4d371622f5f93d0f8ba"
+  },
+  {
+    "path": "jetta-agents/engineering-mission-playbook/SKILL.md",
+    "sha256": "ca5efaf2921895e6bb01f8144488d493500e7c79edcf7f87ff5ce3beba817e22"
+  },
+  {
+    "path": "jetta-agents/git-guardrails-claude-code/agents/openai.yaml",
+    "sha256": "9151961c68ab52e07e2463df15e8ff7c9331c3b7afbf716c3461623f87c57c14"
+  },
+  {
+    "path": "jetta-agents/git-guardrails-claude-code/scripts/block-dangerous-git.sh",
+    "sha256": "bb5dc3a96ae81924ff3b88b959979b4eb68b7810f6fa9bd395fb8f781e0d8c12"
+  },
+  {
+    "path": "jetta-agents/git-guardrails-claude-code/SKILL.md",
+    "sha256": "f5729b85402293efc3e58a5d02f3e25c93c971560ea028eec7e0575cf8250158"
+  },
+  {
+    "path": "jetta-agents/grill-me/agents/openai.yaml",
+    "sha256": "c03a1eee1161bb70ca360b3d17705638b93bc8eec41319732725dc05a53196a5"
+  },
+  {
+    "path": "jetta-agents/grill-me/SKILL.md",
+    "sha256": "caaf8b8de1684f96e26b28f3c29189db5c89cce4b73e1c93d86164f66ef88637"
+  },
+  {
+    "path": "jetta-agents/grill-with-docs/agents/openai.yaml",
+    "sha256": "81e6af95559517a292767439da8f46a468b4d88a6773a3316d511a428eb16ff3"
+  },
+  {
+    "path": "jetta-agents/grill-with-docs/SKILL.md",
+    "sha256": "e3f9b643bbb2e7a14926e67331eb6f019e7faa9f23151ae907e43713378bc05b"
+  },
+  {
+    "path": "jetta-agents/grilling/agents/openai.yaml",
+    "sha256": "ad75163922ff8263acdd25ebc37420e8fcf1fccb93483fd5742e9bd26f5c45f6"
+  },
+  {
+    "path": "jetta-agents/grilling/SKILL.md",
+    "sha256": "10ff989e7498b23b5acb49d5048f11dcd906757d2f79c5cdf8a00001381296f2"
+  },
+  {
+    "path": "jetta-agents/handoff/agents/openai.yaml",
+    "sha256": "deb645c801764579994bd23d1954aa991ef1d0d55bf30043d47ada631fcff5f4"
+  },
+  {
+    "path": "jetta-agents/handoff/SKILL.md",
+    "sha256": "57bd0887a320687700d968b8c68dfe903bb8b9687bd965ae2f5fe46910258c3a"
+  },
+  {
+    "path": "jetta-agents/implement/agents/openai.yaml",
+    "sha256": "8494f83602c58f8ab33d047d0516cdb90b8c29e6d564de0cef810daaca378bcb"
+  },
+  {
+    "path": "jetta-agents/implement/SKILL.md",
+    "sha256": "a0dc682139a802fe116d28bcf5e4ae3d17f8b18fda445a26af5c77562ddb5fc5"
+  },
+  {
+    "path": "jetta-agents/implement-spec/agents/openai.yaml",
+    "sha256": "3f7f8a55426d174c0fbe13405633d130a23e14a7b8e3157e1ba88da84c41c2d3"
+  },
+  {
+    "path": "jetta-agents/implement-spec/SKILL.md",
+    "sha256": "b447f10ba1535d81388542e1904d3d9678e732631a4cb2ed5ee43c6a011c1bf2"
+  },
+  {
+    "path": "jetta-agents/improve-codebase-architecture/agents/openai.yaml",
+    "sha256": "6b69701fc3f4f31ec626c1ae5c090dc5c640fab147a63be81b575c2f9c5231fa"
+  },
+  {
+    "path": "jetta-agents/improve-codebase-architecture/HTML-REPORT.md",
+    "sha256": "870acb4262373ae536af7d1f4a9b56d33e7e7faa632bd425c09edb4f897fb828"
+  },
+  {
+    "path": "jetta-agents/improve-codebase-architecture/SKILL.md",
+    "sha256": "b876ac9fc581b36a26682bcb0c66e4f927e2ad091023b90e4477b16d7aef4e7a"
+  },
+  {
+    "path": "jetta-agents/jetta-local-runtime/agents/openai.yaml",
+    "sha256": "2fb3045fd4fe8cbea91953f8564a871ccb8613f8ccb98c5a42fc253d4577f989"
+  },
+  {
+    "path": "jetta-agents/jetta-local-runtime/SKILL.md",
+    "sha256": "c9a03162d4ff46cbd35efff32ef78a448983b59beadb2a6b023d897b6150aad0"
+  },
+  {
+    "path": "jetta-agents/jetta-qa/assets/report.md",
+    "sha256": "fd25d90eb5007c02e26605b1d67e684a1ce5e72cc6a9c8b31969e3012cfa2dca"
+  },
+  {
+    "path": "jetta-agents/jetta-qa/references/contracts.md",
+    "sha256": "b3732d539166b827d28858371a6d82a2e97dea685f085b49cc22c9c2f9822211"
+  },
+  {
+    "path": "jetta-agents/jetta-qa/references/safety.md",
+    "sha256": "4629e4c3893dfb0815d43bfa09751f762cb1576ae22c501a7105ddbda7fbd32e"
+  },
+  {
+    "path": "jetta-agents/jetta-qa/references/strategies.md",
+    "sha256": "a506512b4acaa13d731be472828aefd4596ac0e0f12442920fbbfdaa80ea1baf"
+  },
+  {
+    "path": "jetta-agents/jetta-qa/references/visual.md",
+    "sha256": "9762f67cf2a6237cea75d4b8d38260f43b26e428d0083998ff6f3ad6f817c67a"
+  },
+  {
+    "path": "jetta-agents/jetta-qa/scripts/dispatch.py",
+    "sha256": "2b1bcf7dc0de53e32591639ac971756dfb9f72c22b8436abdb944b23e38ce2f2"
+  },
+  {
+    "path": "jetta-agents/jetta-qa/scripts/helpers.test.mjs",
+    "sha256": "0e0b7eccbaf5f070ecc5dc4b29cdfdc6f68c9464e12914ee693764959ba1fdb7"
+  },
+  {
+    "path": "jetta-agents/jetta-qa/scripts/plan.mjs",
+    "sha256": "8544320953c2904000623b12979adeb158d6d4e8d15bfdbf0e7c4a41e433e083"
+  },
+  {
+    "path": "jetta-agents/jetta-qa/scripts/validate-run.mjs",
+    "sha256": "4b20f85890a92f3ae71226959191a2dea2edc0e94575090192236f24087ef86b"
+  },
+  {
+    "path": "jetta-agents/jetta-qa/SKILL.md",
+    "sha256": "1fbb60e4fe38bab535c0c2922d89af5acf065a1b7765114d634451709aac72c8"
+  },
+  {
+    "path": "jetta-agents/loop-me/agents/openai.yaml",
+    "sha256": "ec257a7995d8eba46b6a95471f5fb569798aa975a1b1c438542b1a9c82bc33d3"
+  },
+  {
+    "path": "jetta-agents/loop-me/SKILL.md",
+    "sha256": "e44d1cc3e760fb86ac42964c2a5f1fcac511715db50fb375f3f7be814de1eaa7"
+  },
+  {
+    "path": "jetta-agents/luna-orchestrator/agents/openai.yaml",
+    "sha256": "1356e31c35c6d285dc1611c3449bcfefa2ac8c87bb8f83ee6745910138bdb0d8"
+  },
+  {
+    "path": "jetta-agents/luna-orchestrator/SKILL.md",
+    "sha256": "fddf3fc5ee1fd7e6856d7f2a74f06206f74fb46f4b41b97a2f47a2e06d84049e"
+  },
+  {
+    "path": "jetta-agents/migrate-to-shoehorn/agents/openai.yaml",
+    "sha256": "43d8fbb6347d771e82eb866bae6987acede6dc1d16d46b9c69e2b06930771180"
+  },
+  {
+    "path": "jetta-agents/migrate-to-shoehorn/SKILL.md",
+    "sha256": "de4da4c11d924fac79c924b2ee3d2db4a5cb98386eb490a599119463d036ae72"
+  },
+  {
+    "path": "jetta-agents/nosso-design/agents/openai.yaml",
+    "sha256": "48a915c91301e2f53b30809adadda68763502a221204998d9ca1af540d81933b"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/design-contract.md",
+    "sha256": "8875ba5d12e7e6ff39789caf70c3b4525fb29665e5a8719ed53821c42e08dfdc"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/icons-and-assets.md",
+    "sha256": "90e47ed855a3644eae2acd195c8eb85c9f0f2a379e610adf7fc64a5d84a1309d"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/INDEX.md",
+    "sha256": "fe4b2551bf058ef2c7e46d9193ad227990ad15c3f4823a945549982e3610cddc"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/layout-families.md",
+    "sha256": "6cb0db7fd033702c4497a08594733404d3e1b8deaa9fc7f382289e9b79671d85"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/operational-components.md",
+    "sha256": "170a78e183ba7d8581710fafa32ee9526d055a091f682ba391c2531a436674dc"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/admin.md",
+    "sha256": "30ed9fd6fd6d942a8aa0dd091f61250a0c79c67d72646b42d9c9dd61f833f3e8"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/admin__chamados.md",
+    "sha256": "d2a7cb463e593e670e2c78e1da1cfe9132090f653883ecc14753aa3a192a3945"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/admin__clientes.md",
+    "sha256": "e10c5f76ae68218a390e2135a7e5ce81bc91b8000ff290922e840f8ff26d10be"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/admin__clientes__-item-.md",
+    "sha256": "3202bf88d2897d3c7041714d359e1f93790f53049a6a12c3409e38cd98ef209d"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/admin__clientes__-item-__layout-config.md",
+    "sha256": "40b204e2453a7e159a782a96fa5ce53437b319b391343e875d124702498a0b81"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/admin__clientes__-item-__regras.md",
+    "sha256": "3d42c040e01b6ae848733cb1646a957d3420e70129891e9524bf40ef0ef35d1f"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/admin__clientes__novo.md",
+    "sha256": "d9f48ef959dc75192bcf05b2325f55efa72ade464f7fa70ef1215096241b5e93"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/admin__clientes__novo__layout-config.md",
+    "sha256": "f3f273c9336fe0b458fb6fcfdb892a23aa80aae4398e2fc1d04848a1c0ff6724"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/admin__clientes__novo__regras.md",
+    "sha256": "0e5cbb083f6d09375c01f4c9ae49fd8abcad1b9555db3ecb7d82ab31a72e1435"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/admin__email-queue.md",
+    "sha256": "6e3e52bbce462b4faba9f1039a8d827aac76b65de649f0a33ee950a62e8a0d9d"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/admin__erros.md",
+    "sha256": "582d0e0d0aae2960ffa6b53268a61f9d39d9f6709abcf82df223595861e72990"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/admin__usuarios.md",
+    "sha256": "d2f4282653d06901dbaf154151cc1942220cfa793a26fadde3097105f745f3f8"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/admin__webhooks.md",
+    "sha256": "be54107673f7751334df94c4e6743d29ac3769c2b20a4c65d5619710f15219fd"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/alterar-senha.md",
+    "sha256": "a56a6932e27973fb738bbfcd329acb90a90b9d13b30bf49cd02ebc14619d8016"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/captacao__completos.md",
+    "sha256": "d71cd9bab540c7b73d0ef3c090a91a4824d2b6b9c8f231bf789e4b0702c73eac"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/captacao__incompletos.md",
+    "sha256": "ee0262278c0b50590d0d6bf4904e9f76264f19be12b1bc1e92f386b10050dff3"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/chamados.md",
+    "sha256": "d198f63ec975ac3429fdc9c410522aa48299eb0397b5462caabc26b843e797fa"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__colaboradores.md",
+    "sha256": "fcbd740433a94350f8005f5d77412c136e87e6a7d60a074eb37bba8ddb17276b"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__colaboradores__novo.md",
+    "sha256": "49918f5724eeade9d08fca46f11bd4fa060d3b7de72d5523d3f15fa78de362a9"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__e-mails.md",
+    "sha256": "c9ed4f24706b4b54ea8b2c5aa11cde78027aeb36b08c6c9de98cf7e52d89fdd8"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__e-mails__-item-.md",
+    "sha256": "56aab60fbbb423242750b17447ef0033226086b00392abc0a19eccb620379b66"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__e-mails__novo.md",
+    "sha256": "52dcf8beccab738c5cca98f31cb08f66e6dc86f61e691a87b9c97059050ca8a3"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__motoristas.md",
+    "sha256": "8eac973907a1c3aea8f83124d7c15ec42d6132b6a4fb5603e99a9787c064a7bc"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__motoristas__-item-.md",
+    "sha256": "803edf3de8563dc7ecd4dd913434c2ac2fa3863bfbfbd1e47bdec249302d5f72"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__motoristas__novo.md",
+    "sha256": "56791e1d45bc0f946056386bc7dd58af407200e305732d3607a23404c7ef05b8"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__ocorrencias.md",
+    "sha256": "0cd9562f1e37abe21808752532aef34341a58daa110e9ee04f14c710bc603e66"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__ocorrencias__-item-.md",
+    "sha256": "586a9bc0976c96850253670d55e9fb0c61e2f58d882e55f2f4e5744dd1b2c699"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__cadastros__ocorrencias__novo.md",
+    "sha256": "1fd1d26e81d1532a1f7b702892308604e5c183ac9fc395f50e31ac3679e4d3a8"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__dashboards__canhoto-digital.md",
+    "sha256": "bc03aef77ce74e5fad3a451aa64678f6e6e5495f174bd59cc5b64b8c90c5e56f"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__dashboards__ciclo-pedido.md",
+    "sha256": "724701726b5cbbea5ebffe9db089b57c8373337df2432c35b675a2b4343ab69f"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__dashboards__motoristas.md",
+    "sha256": "42acb3bb8d3077c6c44044c188d9e301aeba9d46f405e48109864e28545eefdf"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__dashboards__painel-frota.md",
+    "sha256": "c76e13386874a18a7219bea4423bc50fecbf7a81bbe8327bcd50da8b5d5160c3"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__fluxogramas.md",
+    "sha256": "022dce87ea6f7dd65337985a578528c96ea59ba7ce2457a6882bed478b5b040b"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__programacao__devolucao.md",
+    "sha256": "fae83ac4d7a9357b8f2dd23b1adbec0eb57388c760337709ebdb79fd856417f2"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__programacao__disponibilidade.md",
+    "sha256": "ff38f8279c2c2978680a099c158b039eeb146781f31b6b2aac0f46bf45e17033"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__programacao__gestao-paletes.md",
+    "sha256": "8d949162a425aba19efae8571aa162c4ab213128dd8a5b2b2aef7352d9e4113e"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__programacao__gestao-paletes__protocolo.md",
+    "sha256": "56f2f209e7285c6b32f12fdba5532ee673c1e9a99b4f9cb4ac6f687837b7ae82"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__programacao__programacao.md",
+    "sha256": "bedaee41503574916b9a1e5d6f119947e31b05b37bfabc7fe32461573d03cb31"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__programacao__reentregas.md",
+    "sha256": "983304b0a3f2042e3acb5f5e889023a5df2e53b557b9110273e5d5a523dbed25"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__sac__carros-em-rota.md",
+    "sha256": "b494e7688cbc931731e137ba7c104c9db7e4c62b0fd97918b29f659cf300a16e"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__sac__custo-extra.md",
+    "sha256": "98f152aee37a54bed7e5f56ee3f1328fa173fc66625d0dc304df103756444826"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__sac__ocorrencias.md",
+    "sha256": "d93b7a5c12420188dbdfc89b444dfbaa20b7d408bab63135de602d69b35a96bd"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/clientes__3-coracoes__guarulhos__traferencia.md",
+    "sha256": "3f64dd96d0a1c955c09b65daf1796b64c512c9908be891687e5abc267e4e506d"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/conta__configuracoes.md",
+    "sha256": "47ad06cd1dc47cfdce96a288ff66dc8099700cb0a553fa4b8f45e8e5305f0c7c"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/csc.md",
+    "sha256": "c30ef4ceedaa17206f72ecaccdfc8582b0d23cd295396bd7fd2082bdb6a9d1c3"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/frota__3-coracoes__login.md",
+    "sha256": "b72896e0e463e6910cf2165d6f275d2f72c95a435ddbebd9b57237524125ebe4"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/guarulhos__comparativo.md",
+    "sha256": "774244801f592fbcff24817c9b156a5c8edb86a8288713bcc436a215a0363024"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/guarulhos__disponibilidade.md",
+    "sha256": "ec268f8f90e09121384258d16cd25c028a00536a1386d609a548a32595be591e"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/inicio.md",
+    "sha256": "64bb057cdab97883a14d20e2a0f02df9da65540f70afef823859a91cb987d4fd"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/operacoes.md",
+    "sha256": "3799783c39a5d805830f01a6b73f4a7b607e3acdaef23ca89d30c9d8b7ee15df"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/roterizacao.md",
+    "sha256": "cf03f105c6a9c48e6d8c7672f46b341ec1233bb9edeca78bece3bc3e59320d5b"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/selecionar-cliente.md",
+    "sha256": "3fbba83183b2ef38340acc2497a746d54c30a5267025c03778a20885132c740a"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/selecionar-unidade__3-coracoes.md",
+    "sha256": "ba8829a7668a43d13ed2109da0298d0050f30187708bef0248e49272b45430ef"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/sumare__disponibilidade.md",
+    "sha256": "7f5e038561a7aa76ffbd5159d9ef26f1d3bf1a82490f1f2be2cdcac169555434"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/vespasiano__disponibilidade.md",
+    "sha256": "dd69eab003ad0f76bbc8675247dd04213fbd0a2a4883dbec79e3134483b31567"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/pages/workshop.md",
+    "sha256": "1d7b7650e189413e61a7e244caf8afe36c3837dbfea01152690ef80f61db7470"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/routes.md",
+    "sha256": "abdbaa9c5957ddcdc293f43648da1f2821fd8106a13fa178946b5b66d972867b"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/admin.png",
+    "sha256": "ee4b0ecdd02876956f9ac384594548b2517b1eec6490d0e774bf622082d621c1"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/admin__chamados.png",
+    "sha256": "b076b013fd3051e886ef6ecf8729b73fec25bf02d6dadb60a44be8dbed915d63"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/admin__clientes.png",
+    "sha256": "e9bc68a2c6191cb2ac59b72345fb32b9dc492964efb336f835f1fe67ed35860e"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/admin__clientes__-item-.png",
+    "sha256": "8c842fc1cf1b964d72809031d785ee07acdf227392ee4b09692b783f9aaffd53"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/admin__clientes__-item-__layout-config.png",
+    "sha256": "9091f8f5b2f633a0efc547f8c37f89a7876e78b8bb3bd4b63f038cc262d02804"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/admin__clientes__-item-__regras.png",
+    "sha256": "be1daff94fc6ffb34b8ddc8a28715e50530ea6ae70600d41718df3368bb61617"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/admin__clientes__novo.png",
+    "sha256": "a4cf9d15c4a1b242532f7237b1b4439b544df7916d591b5b08ce0375fb7ace72"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/admin__clientes__novo__layout-config.png",
+    "sha256": "ee367effdccd5f293915f9fe0d4d4af48eb769a41ff7dfd364ec9ab436570430"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/admin__clientes__novo__regras.png",
+    "sha256": "e9a416cc50e33346e73950d99eb708f47949a78158373ea2b1248eced43b3cc9"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/admin__email-queue.png",
+    "sha256": "53fab9bd35d8a0b5a99d71be76d50f86d5e403735f35e166f49ad288bcc8e674"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/admin__erros.png",
+    "sha256": "c1fdf2e3b89d6626daac41a6f9d9f0e65d00e747cc0da578341ee96a7260c111"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/admin__usuarios.png",
+    "sha256": "7787f94bdf383e0ff784e47966d06b6618ddeec95345d6874e422fedf8818ce6"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/admin__webhooks.png",
+    "sha256": "4e6ce14e82d32834745ec4c3741b076d7ca58d9664a66f2e56e40524d12cec79"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/alterar-senha.png",
+    "sha256": "08b3479ea6b23e8cfdb057fdc66820ffbc6c6b2acc6b43ee2badbc463c9401fc"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/captacao__completos.png",
+    "sha256": "44ef0d12905a3b1cf98bad9660abe5eccb10d3f02f7af58949e24d64c2202673"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/captacao__incompletos.png",
+    "sha256": "74a09bf0f82665d245cc2f4209ea1cec77d165b8db5c2013418f99fa9841a47e"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/chamados.png",
+    "sha256": "f053ffc10a2c93571f07bd80c651eb6af1d17379177f94dcebafbbb5c4a5fe24"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__colaboradores.png",
+    "sha256": "1fc9c3fc572aafab70909c8e36d7db5996bc387344549aa17fb0f96e03589da8"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__colaboradores__novo.png",
+    "sha256": "8e010dae54a73fe995e52acf139e87be1dd20d8332aa54bd151cd0937226ffae"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__e-mails.png",
+    "sha256": "61337381efcb54e4e26c4607a49951b7988a6dc33963f84bd48a1c97f8347463"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__e-mails__-item-.png",
+    "sha256": "3b8929b993abf7ace121c8f612c4a598c4be459f720c5c5f8bd279e74a2db4ca"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__e-mails__novo.png",
+    "sha256": "b16d5b3a08eb1522e1a9db92d7f57f4288bdd7ea22fe964395ada89ee1a5f932"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__motoristas.png",
+    "sha256": "1dad484267a378810f5514c705799d5c1c8db52f62637473d0a308f293cd4a24"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__motoristas__-item-.png",
+    "sha256": "ca5285ea997247fa61a53a2ff2d70fb8e195dd70a424b4945166479414ad44cf"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__motoristas__novo.png",
+    "sha256": "004226bf3f8b59cef5a9498cbcf6e31a8167976fa038aa69f6eebe825ab8a28e"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__ocorrencias.png",
+    "sha256": "64eecf5a07ab4dc6a7146a6090840f8050272cd257e8b009e0be1090df27dcef"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__ocorrencias__-item-.png",
+    "sha256": "13a95be1a32a2797e28a092ee7a4bd90b4486e23ef2c960775bbfe1d98bc1642"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__cadastros__ocorrencias__novo.png",
+    "sha256": "03194727033ec2db77b2b5b3d5d04d8c757c117056ac2190a86b4503a1b97ea7"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__dashboards__canhoto-digital.png",
+    "sha256": "50a818cda5e159e62c98e9da0002500c6454fea4b1578fb9126396d531cf112f"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__dashboards__ciclo-pedido.png",
+    "sha256": "0c4f14d51e7270db9b81424b11feb1324ca81890a86e34777f7bbaebe4bd8783"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__dashboards__motoristas.png",
+    "sha256": "4e6d1fea77b1d867cafc700c6f671a86bd3d6a9a28fbbc00025e4b3dc5c66940"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__dashboards__painel-frota.png",
+    "sha256": "8b093cb4fa863bf66fbfbc25ed018e58a2ef7cdae4d56da0801890903283b668"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__fluxogramas.png",
+    "sha256": "9cdbcb426ca23e6f9a7262f45df6346094f5a9a5d61fc1575267d1a262c66574"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__programacao__devolucao.png",
+    "sha256": "9962eb98cf8615b8e42f125cfe98515f1583a01409b158c306455b056286d5f3"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__programacao__disponibilidade.png",
+    "sha256": "00e5bc6cf0d0167f4014e65e28131d4d823e7ee18f2c7ac3c30960b1fc4a0921"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__programacao__gestao-paletes.png",
+    "sha256": "1305571117e7e003d46bb9840e1ce173543384f27b59d38f1d0a395fe466615b"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__programacao__gestao-paletes__protocolo.png",
+    "sha256": "d269973c2c998348f480c5634687fc19467e773f55840b3951d6c2b99e118bdf"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__programacao__programacao.png",
+    "sha256": "b8779174441153a32314692a15f00eedec37ebbfa6235617c950758e75e913dd"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__programacao__reentregas.png",
+    "sha256": "d301de760ad98dd0e773f5ca9532bd8cb23f99a3c1a3ccd1d022eb12edf43375"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__sac__carros-em-rota.png",
+    "sha256": "4bc5fad89fecaf36cf42e9763f7a5f35e0c202a21c8d2c0e883c60c189acd1b0"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__sac__custo-extra.png",
+    "sha256": "0ac125957fdd4d55a209f97c44db8d3527b49b929aba55dc1af2dddbd5d9ae47"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__sac__ocorrencias.png",
+    "sha256": "372c7669c706244a6961640bbb2b6528a5c8488a625ccf070d7e01ee26f92e66"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/clientes__3-coracoes__guarulhos__traferencia.png",
+    "sha256": "e273b918a8a6e15d31501e1091adc7fa6f99a62c6382e6bc60a491b370da916b"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/conta__configuracoes.png",
+    "sha256": "3cb4430c6748ea9212618dee34a19cad62d1da6b97a47e83602bcaaee3a64215"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/csc.png",
+    "sha256": "7ebbff27d35315965d1db6f126978dffbbc1e4d13f3d9b98d56ccb34a197e006"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/frota__3-coracoes__login.png",
+    "sha256": "07646a4cc459acfc6078c17716f4933b003af41e8f9fada87c82e519cc11a772"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/guarulhos__comparativo.png",
+    "sha256": "f49740a7970117bd13e5d90263586d29380c22664365b9d4ae700d3ef8233abc"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/guarulhos__disponibilidade.png",
+    "sha256": "f9fc2033824d5761aa3f2496ac966a8f24f1cc54ff5ae169545d390ece02137c"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/inicio.png",
+    "sha256": "d78583706ded1f409822b22fd47dba5049c7eadeab4d1ce5ff9ce94b66ab89ac"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/operacoes.png",
+    "sha256": "f8e1a111578db686c5be97f47a3e9fb6e9e1e2313b9504b81848e67299877c86"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/roterizacao.png",
+    "sha256": "5d72835932ed8e30119f5229afa6a5cc81bb03bad87edffb543d6ad1072901ab"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/selecionar-cliente.png",
+    "sha256": "f3f8219d3b2f4ec4accc108a614b56bc94301faf155aff95c2583a132fb9b161"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/selecionar-unidade__3-coracoes.png",
+    "sha256": "43d41edb7fd9e03c23949ffe91127b0764009193d689bb2ff67b424f6a761244"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/sumare__disponibilidade.png",
+    "sha256": "f9fc2033824d5761aa3f2496ac966a8f24f1cc54ff5ae169545d390ece02137c"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/vespasiano__disponibilidade.png",
+    "sha256": "f9fc2033824d5761aa3f2496ac966a8f24f1cc54ff5ae169545d390ece02137c"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/screenshots/workshop.png",
+    "sha256": "63427cd6f5609bb589a134798de5204329114cd7690ecf6857034fa233932c83"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/source-assets.md",
+    "sha256": "75f6508e15ac13c5f9e3e93dcb74580fc94635d8b671f46ad4d58957d42135c3"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/source-components.md",
+    "sha256": "d6a1338d2fc89df815a191f831b131ce8ecf7a340b46cc00bc40c3d050b3d862"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/source-foundations.md",
+    "sha256": "98046631ed2008be431eb2e258f4053fac06978566128b3d63af0e4efa3f5f27"
+  },
+  {
+    "path": "jetta-agents/nosso-design/references/vehicle-assets.md",
+    "sha256": "180b2e98cad24e8c601a5f11efd04929750ed4b7624e6071ca6221dcd59ef3c0"
+  },
+  {
+    "path": "jetta-agents/nosso-design/scripts/capture-erp-design.mjs",
+    "sha256": "b5e7028ca79ad375d7f255dab51449383da33ab4b2f8dcefd755fd239d8f8b70"
+  },
+  {
+    "path": "jetta-agents/nosso-design/scripts/capture-erp-design.test.mjs",
+    "sha256": "47ae0ce2beb85860c9e74c7aa5c75580e6a9e3d4663fa7023c6ea1dd95d3b336"
+  },
+  {
+    "path": "jetta-agents/nosso-design/SKILL.md",
+    "sha256": "03461d39465a656d06c41360134fab68de8606c8f8442bacc2f73c8cb05a4440"
+  },
+  {
+    "path": "jetta-agents/obsidian-ideia-blocos/agents/openai.yaml",
+    "sha256": "457cbbfefe6bd3edb60b556690017fb9e625d290fca59ebfc70318c293ad205c"
+  },
+  {
+    "path": "jetta-agents/obsidian-ideia-blocos/SKILL.md",
+    "sha256": "c8be3ceee5e27ed5fc8892eca4216b099f4008460331b2df1ac9a9496a89d2e2"
+  },
+  {
+    "path": "jetta-agents/obsidian-visual-style/agents/openai.yaml",
+    "sha256": "6d46b93ab8e535a4565aae6ee8efd3c7b5e36ddde8ceef5741d717d4334b0aa8"
+  },
+  {
+    "path": "jetta-agents/obsidian-visual-style/SKILL.md",
+    "sha256": "473bf38162d662ca8b07deebc374ec0fc0c5e7ebf29560047ff7a19dffae8c7f"
+  },
+  {
+    "path": "jetta-agents/optimization-mission-playbook/SKILL.md",
+    "sha256": "17de15a4c89257d9703d74a87f66f33a5a5718fd973ee019fbf88fac6ff5b38c"
+  },
+  {
+    "path": "jetta-agents/pr/agents/openai.yaml",
+    "sha256": "33b71355c3ec06963d9a276baff9e9bf89a1ac69a5b9489a368c95021a8d6cc4"
+  },
+  {
+    "path": "jetta-agents/pr/CREDITS.md",
+    "sha256": "d11be215cc3759c29619338303e962e487a4c15dc074b5791b5492fb819e9109"
+  },
+  {
+    "path": "jetta-agents/pr/SKILL.md",
+    "sha256": "e91dc57fa0ee1d8d2fd35562425c943d377f0acdfba6245858a619990fcff0e8"
+  },
+  {
+    "path": "jetta-agents/prototype/agents/openai.yaml",
+    "sha256": "cc1ce1ceaba1442c431dc76abb84b271ad72ecb94dcefee53130df742dc11787"
+  },
+  {
+    "path": "jetta-agents/prototype/LOGIC.md",
+    "sha256": "8d7e31de7ce73b8e62f207e3f3ecbd90a7a54fdc728f8965f5f0739976f9959a"
+  },
+  {
+    "path": "jetta-agents/prototype/SKILL.md",
+    "sha256": "e447a197df9e130f393d55216456980c20025cf8b0731ddf64e15aff1910a6b5"
+  },
+  {
+    "path": "jetta-agents/prototype/UI.md",
+    "sha256": "5ea83263ba72174c9055d58045f053d6577c0db6802c1e15bd1468dd16f78a0b"
+  },
+  {
+    "path": "jetta-agents/research/agents/openai.yaml",
+    "sha256": "73840328dfa6b689d81ee645d8aaf8570a0cc44d64a32b119ea6091d2828d412"
+  },
+  {
+    "path": "jetta-agents/research/SKILL.md",
+    "sha256": "9432cc6bcb70a660fc29d60c9ac65d171b8dab5369a77a7a6ab8097ce11e5960"
+  },
+  {
+    "path": "jetta-agents/resolving-merge-conflicts/agents/openai.yaml",
+    "sha256": "ad953099f6df6fe1b1e6e395ce38dfab3eb3a4e37461cfb318b0e81a32a35b4b"
+  },
+  {
+    "path": "jetta-agents/resolving-merge-conflicts/SKILL.md",
+    "sha256": "8e11fd969e40244e0b5f8acd34af1b27610e6fdc442e4e00f55cdd02f080458f"
+  },
+  {
+    "path": "jetta-agents/retro/agents/openai.yaml",
+    "sha256": "61afaa61443da49b3ff8fcc9d04735362bfec03e213791226134a3a21a9c6fd3"
+  },
+  {
+    "path": "jetta-agents/retro/SKILL.md",
+    "sha256": "33fbc28568e3146f20fd908b12998bc0ab30aa4f4c87288199a40793efa94696"
+  },
+  {
+    "path": "jetta-agents/scaffold-exercises/agents/openai.yaml",
+    "sha256": "f3ab550f1077150f0fe728fe3ff187e8672f4df7eedc7f233cdd1a61f347f1db"
+  },
+  {
+    "path": "jetta-agents/scaffold-exercises/SKILL.md",
+    "sha256": "0c2809b1944cc67023619b246505d5dc6b2aada9587a1af955675328bea5cf6d"
+  },
+  {
+    "path": "jetta-agents/scrutiny-validator/SKILL.md",
+    "sha256": "e8f089499d3043c62e268d042815fd914a57d03f00c36536b8a0fc6ac637e756"
+  },
+  {
+    "path": "jetta-agents/setup-matt-pocock-skills/agents/openai.yaml",
+    "sha256": "53d0bf3786862a1cb5013ca78f12013b166d0819823dae0d3f9eb13eee2acdf2"
+  },
+  {
+    "path": "jetta-agents/setup-matt-pocock-skills/domain.md",
+    "sha256": "19f59c9e72afd05199a79f82500baae05f0c445528636282dcd4400da3facd54"
+  },
+  {
+    "path": "jetta-agents/setup-matt-pocock-skills/issue-tracker-github.md",
+    "sha256": "0809582ea8cf5f91fd72ae2b59aa62a07c1236ad194ef7dd40d9e2f01c3e753b"
+  },
+  {
+    "path": "jetta-agents/setup-matt-pocock-skills/issue-tracker-gitlab.md",
+    "sha256": "6fe462c8dbffdf90e66d2ee62f6fa74666d777d0933c244e2a22a295848cb3ab"
+  },
+  {
+    "path": "jetta-agents/setup-matt-pocock-skills/issue-tracker-local.md",
+    "sha256": "a604b658f0730eae3107671b09323ed8382bd546e82dc3bedc265bccbeb35021"
+  },
+  {
+    "path": "jetta-agents/setup-matt-pocock-skills/SKILL.md",
+    "sha256": "345b7e64eb754c36baa5a86bcd0616cfc7f5950b2fbdf368b6b2c60b934cf2aa"
+  },
+  {
+    "path": "jetta-agents/setup-matt-pocock-skills/triage-labels.md",
+    "sha256": "493d08d7a8007d3604cdf64d45717045034a5037c9e9917bae1ad9340fad75b8"
+  },
+  {
+    "path": "jetta-agents/setup-pre-commit/agents/openai.yaml",
+    "sha256": "946bfa9a3cab905f4241d8dcc127a11fdcf2994027b87e198f26f7e65d88f727"
+  },
+  {
+    "path": "jetta-agents/setup-pre-commit/SKILL.md",
+    "sha256": "b629d05103c53e48fa768517256d1d70946ecc4a471240e225ef36a240f022e7"
+  },
+  {
+    "path": "jetta-agents/setup-ts-deep-modules/agents/openai.yaml",
+    "sha256": "bf3d58c59b0e68ef3b0287ac3ab3d165b066dfd31e146ecf278e56e4df664610"
+  },
+  {
+    "path": "jetta-agents/setup-ts-deep-modules/dependency-cruiser.config.cjs",
+    "sha256": "d80c982bc496ff6fb65c91bfa5b3ffccd64396cd488f556779ce3f1bd770f376"
+  },
+  {
+    "path": "jetta-agents/setup-ts-deep-modules/SKILL.md",
+    "sha256": "29acca66ac99d4532e2a6f0370d8125d7cba1e87c9ac66573203c75189d3e6c7"
+  },
+  {
+    "path": "jetta-agents/spec-workspace/integration.json",
+    "sha256": "2d2112b69ea1356b390a879485ce630b06a04365936bfbb12469b1877fb94f16"
+  },
+  {
+    "path": "jetta-agents/spec-workspace/scripts/spec_workspace.py",
+    "sha256": "b44a3b7eadd6f420e3a61cf4d7f3a9cc5556c877b1d9058a898bdc26ac314cb0"
+  },
+  {
+    "path": "jetta-agents/spec-workspace/scripts/test_spec_workspace.py",
+    "sha256": "9be890d511a4e47fb0e18d55d1de9cdc937abc6a59748c46f3b214cf5d49eb35"
+  },
+  {
+    "path": "jetta-agents/spec-workspace/SKILL.md",
+    "sha256": "777e63c0605960a87ebf169762d9b6eddd8504dbfa006b44f0bfc648124d9904"
+  },
+  {
+    "path": "jetta-agents/start-luna-orchestration/agents/openai.yaml",
+    "sha256": "77869cd5742cb995834be014e90f148b018d319ae457f20515330d596b10ed52"
+  },
+  {
+    "path": "jetta-agents/start-luna-orchestration/SKILL.md",
+    "sha256": "793eec62386343294e7793d5710e6d335445dee938cec9ea9189890437c9502f"
+  },
+  {
+    "path": "jetta-agents/tdd/agents/openai.yaml",
+    "sha256": "f8e2afc1fbcd6a6e1178c30f290ca9f2286c949a0b74b8b68fd14f198b78ebac"
+  },
+  {
+    "path": "jetta-agents/tdd/mocking.md",
+    "sha256": "73a10b6a26b56197c738a764c1e4205af98c74553f4a713795997f6bc35b917d"
+  },
+  {
+    "path": "jetta-agents/tdd/SKILL.md",
+    "sha256": "2589fecf1d36dd76edfac0e89a68a428920094bf831a35c4325b39b35bc5d2d8"
+  },
+  {
+    "path": "jetta-agents/tdd/tests.md",
+    "sha256": "0b401f98bd3684d2fea6440d6946afcf8f5f68ac6a65599dd7a2b90dd9f02eb5"
+  },
+  {
+    "path": "jetta-agents/teach/agents/openai.yaml",
+    "sha256": "80e96a4d492ad8538e609672361e8543b69e7b22ce83be0efc2e5532472ede69"
+  },
+  {
+    "path": "jetta-agents/teach/GLOSSARY-FORMAT.md",
+    "sha256": "22f851b265a3bec5a333937cc7ff1250136c9b6512787ae2eb51a2a14e35c341"
+  },
+  {
+    "path": "jetta-agents/teach/LEARNING-RECORD-FORMAT.md",
+    "sha256": "d49c754ea416a075534d0ba1428a0beba1327ae527c2d1af0333908d08e25d05"
+  },
+  {
+    "path": "jetta-agents/teach/MISSION-FORMAT.md",
+    "sha256": "44ea82d5f57a626086bde99c70cd229cdef67998e8502c1cbcd50504f57f989a"
+  },
+  {
+    "path": "jetta-agents/teach/RESOURCES-FORMAT.md",
+    "sha256": "377e70f83d41fdc2623037410600194655a2f7df41000925c24cc437da074ab5"
+  },
+  {
+    "path": "jetta-agents/teach/SKILL.md",
+    "sha256": "a32df9dcdfc0c4fdc1c98e1ed3940c5f56b84c1aa90ff60346f32b8b53915b43"
+  },
+  {
+    "path": "jetta-agents/to-questionnaire/agents/openai.yaml",
+    "sha256": "0b5ed84d805809777a15371c946a70f98321e3c6400fce5fcd74df71d40e860b"
+  },
+  {
+    "path": "jetta-agents/to-questionnaire/SKILL.md",
+    "sha256": "fa626efa8e385df651180e75f678e9d4604b47f9bdef89360ef7ad827a5f136c"
+  },
+  {
+    "path": "jetta-agents/to-spec/agents/openai.yaml",
+    "sha256": "55037139831219743dda1f716fe69eab3366e922529f69cc988fea3b1d34c74a"
+  },
+  {
+    "path": "jetta-agents/to-spec/SKILL.md",
+    "sha256": "693624a761265d898c14cc962254ff50530fee75c15736b9d2f75e0559bb9cde"
+  },
+  {
+    "path": "jetta-agents/to-tickets/agents/openai.yaml",
+    "sha256": "e396b8caaf6cdd95c94cf707a7ca2fa5c3a04b37ae5d4301b5b360a7ff7a34cb"
+  },
+  {
+    "path": "jetta-agents/to-tickets/SKILL.md",
+    "sha256": "c4271f13f6caa7f2748a672403f7d35750bd1424449007a2e1442357dc4733ea"
+  },
+  {
+    "path": "jetta-agents/triage/AGENT-BRIEF.md",
+    "sha256": "9160800ad5483816f5bcd7f5aa62cfb6dbb16e6343d0754b9bb739815145fa15"
+  },
+  {
+    "path": "jetta-agents/triage/agents/openai.yaml",
+    "sha256": "d930356b9f23b89361f5b8f4fef87c911b35531b15a9005956c944a1058973ae"
+  },
+  {
+    "path": "jetta-agents/triage/OUT-OF-SCOPE.md",
+    "sha256": "a48a2c63f0520eaa08cd68705030a77428e7ba6647834c7a644ad9cda396e4ae"
+  },
+  {
+    "path": "jetta-agents/triage/SKILL.md",
+    "sha256": "2bcb73e67946fa87275f3147f25d8ce2549a15c4b4fd5634a64e25660313c886"
+  },
+  {
+    "path": "jetta-agents/user-testing-validator/SKILL.md",
+    "sha256": "aa54e3e4e4edb122f2da3a055614d417319e4e97e43c43f7031e7700c152425d"
+  },
+  {
+    "path": "jetta-agents/wait-what/agents/openai.yaml",
+    "sha256": "e0d9beddf0093b3cf05de2722699affab5d240e5950469e208d59c1f0ed91bef"
+  },
+  {
+    "path": "jetta-agents/wait-what/SKILL.md",
+    "sha256": "b1650c1fc8d0a7f38311ff856dff3beb791b931ba5e590760e67fd4f6b287cc2"
+  },
+  {
+    "path": "jetta-agents/wayfinder/agents/openai.yaml",
+    "sha256": "3e698cdff8e84d0e900d8dec535060e9e6d16d923b313eefd881e958d164e37a"
+  },
+  {
+    "path": "jetta-agents/wayfinder/SKILL.md",
+    "sha256": "72263df5290365f0713338ed00549d2a2259b1baf068252d1afdd5bfc6d98038"
+  },
+  {
+    "path": "jetta-agents/wizard/agents/openai.yaml",
+    "sha256": "b9a0f4a716a64ada207aa4b38ce53981729cde053d87a39f2d51ad2dd30d3249"
+  },
+  {
+    "path": "jetta-agents/wizard/SKILL.md",
+    "sha256": "4a2652e0afb4026eb4d8dce09d012a35c6c03525fdf0c092f5f5ff17d5e6208f"
+  },
+  {
+    "path": "jetta-agents/wizard/template.sh",
+    "sha256": "174f41adf9227dd2e4336219baaee068636c10e6e8280fcbc509dd08c27380c3"
+  },
+  {
+    "path": "jetta-agents/writing-beats/agents/openai.yaml",
+    "sha256": "30ad45c6d16b7e3e58d656c8d2619c68916d14b96e218de3c042cac89ef85a84"
+  },
+  {
+    "path": "jetta-agents/writing-beats/SKILL.md",
+    "sha256": "a96abafa2372eede8267d770138b322d6125da8adaa7ccf0a5e08e4ee13ee71e"
+  },
+  {
+    "path": "jetta-agents/writing-for-agents/agents/openai.yaml",
+    "sha256": "486c388ed1babac6ea25001147b41d3ff6c8892b0128ae1b0bef8feea6363428"
+  },
+  {
+    "path": "jetta-agents/writing-for-agents/SKILL-MECHANICS.md",
+    "sha256": "86f112c08d785cc224c13dcda75c0724b74bd62622cc61d4b7ab3dbbaf37f6fc"
+  },
+  {
+    "path": "jetta-agents/writing-for-agents/SKILL.md",
+    "sha256": "6179c3a3d3ece8fed37e6ecabf878209b7e4d418011a2df07c2e30a7292d8039"
+  },
+  {
+    "path": "jetta-agents/writing-fragments/agents/openai.yaml",
+    "sha256": "d082f54a16e95d0eb5c3bcf3e2ff7b78b8c5b2e142c5d1b8897d7f3282adbedb"
+  },
+  {
+    "path": "jetta-agents/writing-fragments/SKILL.md",
+    "sha256": "298b0edd23df229183630de592ed8aa4289233560f2040691f6eb77caeaad4ea"
+  },
+  {
+    "path": "jetta-agents/writing-shape/agents/openai.yaml",
+    "sha256": "7f82f71f0849ada3acb686dfe9977a7b5b1af3c1fc049ac5275b8fdf3a18c299"
+  },
+  {
+    "path": "jetta-agents/writing-shape/SKILL.md",
+    "sha256": "f5e6c57bdd85178ace4a260c92f46da6b64ddee18215b461d875739c68976f72"
+  }
+]

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blocos Obsidian"
+  short_description: "Defina features em blocos funcionais no Obsidian"
+  default_prompt: "Use $obsidian-feature-blocks para analisar a nota informada, conduzir o Grill e propor blocos para aprovação."

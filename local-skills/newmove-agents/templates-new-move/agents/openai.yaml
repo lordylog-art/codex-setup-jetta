@@ -1,0 +1,4 @@
+interface:
+  display_name: "Templates New Move"
+  short_description: "Selecionar, reutilizar e ampliar templates do Move"
+  default_prompt: "Use $templates-new-move para escolher e reutilizar o template adequado a este fluxo do Move."

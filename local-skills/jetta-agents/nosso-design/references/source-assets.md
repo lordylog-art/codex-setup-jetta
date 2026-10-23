@@ -1,0 +1,90 @@
+# Imagens, ícones e fontes disponíveis
+
+Use um ativo existente antes de desenhar, gerar ou importar outro. Confirme o uso pelo nome e pelas referências de tela.
+
+- `apps/web/public/SVG Customizado/cash-banknote.svg`
+- `apps/web/public/SVG Customizado/clipboard-check.svg`
+- `apps/web/public/SVG Customizado/clock-hour-4.svg`
+- `apps/web/public/SVG Customizado/file-description.svg`
+- `apps/web/public/SVG Customizado/mail.svg`
+- `apps/web/public/SVG Customizado/map-pin.svg`
+- `apps/web/public/SVG Customizado/paperclip.svg`
+- `apps/web/public/SVG Customizado/pencil.svg`
+- `apps/web/public/SVG Customizado/receipt.svg`
+- `apps/web/public/SVG Customizado/route.svg`
+- `apps/web/public/SVG Customizado/scale.svg`
+- `apps/web/public/SVG Customizado/truck-delivery.svg`
+- `apps/web/public/SVG Customizado/user-check.svg`
+- `apps/web/public/assets/barcode-scanner-animation.gif`
+- `apps/web/public/assets/barcode-scanner-reading-animation.svg`
+- `apps/web/public/assets/brands/descartes-greenmile.svg`
+- `apps/web/public/assets/brands/opentech.svg`
+- `apps/web/public/assets/painel-frota/fleet-road-ambient.webp`
+- `apps/web/public/assets/painel-frota/fleet-road-day.png`
+- `apps/web/public/assets/status/greenmile/greenmile-status-error.svg`
+- `apps/web/public/assets/status/greenmile/greenmile-status-pending.svg`
+- `apps/web/public/assets/status/greenmile/greenmile-status-processing.svg`
+- `apps/web/public/assets/status/greenmile/greenmile-status-success.svg`
+- `apps/web/public/clientes/3-coracoes.jpg`
+- `apps/web/public/file.svg`
+- `apps/web/public/fonts/fe.ttf`
+- `apps/web/public/globe.svg`
+- `apps/web/public/icons/gerir-operacoes.svg`
+- `apps/web/public/images/backgrounds/login-truck-background-dark.png`
+- `apps/web/public/images/backgrounds/login-truck-background-dark.webp`
+- `apps/web/public/images/backgrounds/login-truck-background.png`
+- `apps/web/public/images/backgrounds/login-truck-background.webp`
+- `apps/web/public/images/capture-partner-journey.svg`
+- `apps/web/public/images/clients/3-cora-es.jpg`
+- `apps/web/public/images/clients/cooperflora.png`
+- `apps/web/public/images/clients/grupo-3coracoes-logo.png`
+- `apps/web/public/images/plates/brazil.png`
+- `apps/web/public/images/plates/merco.png`
+- `apps/web/public/images/vehicles/34.png`
+- `apps/web/public/images/vehicles/cavalo-cavalo-trucado.png`
+- `apps/web/public/images/vehicles/fiorino-isometric-v1.svg`
+- `apps/web/public/images/vehicles/fiorino.png`
+- `apps/web/public/images/vehicles/toco.png`
+- `apps/web/public/images/vehicles/truck-truck-alongado.png`
+- `apps/web/public/images/vehicles/van.png`
+- `apps/web/public/images/vehicles/vuc-iveco.png`
+- `apps/web/public/jetta-j-loading.svg`
+- `apps/web/public/jetta-logo-solid.svg`
+- `apps/web/public/jetta-logo-white.svg`
+- `apps/web/public/jetta-logo.svg`
+- `apps/web/public/next.svg`
+- `apps/web/public/vendor/bootstrap-icons/arrow-right-circle.svg`
+- `apps/web/public/vendor/bootstrap-icons/boxes.svg`
+- `apps/web/public/vendor/bootstrap-icons/calendar-check.svg`
+- `apps/web/public/vendor/bootstrap-icons/calendar3.svg`
+- `apps/web/public/vendor/bootstrap-icons/card-checklist.svg`
+- `apps/web/public/vendor/bootstrap-icons/card-list.svg`
+- `apps/web/public/vendor/bootstrap-icons/check-circle.svg`
+- `apps/web/public/vendor/bootstrap-icons/clock-history.svg`
+- `apps/web/public/vendor/bootstrap-icons/exclamation-circle.svg`
+- `apps/web/public/vendor/bootstrap-icons/geo-alt.svg`
+- `apps/web/public/vendor/bootstrap-icons/hourglass.svg`
+- `apps/web/public/vendor/bootstrap-icons/people.svg`
+- `apps/web/public/vendor/bootstrap-icons/person-check.svg`
+- `apps/web/public/vendor/bootstrap-icons/person-x.svg`
+- `apps/web/public/vendor/bootstrap-icons/person.svg`
+- `apps/web/public/vendor/bootstrap-icons/play-circle.svg`
+- `apps/web/public/vendor/bootstrap-icons/receipt.svg`
+- `apps/web/public/vendor/bootstrap-icons/signpost-split.svg`
+- `apps/web/public/vendor/bootstrap-icons/slash-circle.svg`
+- `apps/web/public/vendor/bootstrap-icons/truck.svg`
+- `apps/web/public/vendor/bootstrap-icons/x-circle.svg`
+- `apps/web/public/vercel.svg`
+- `apps/web/public/window.svg`
+- `apps/web/public/workshop/background-slide-2.png`
+- `apps/web/public/workshop/background-slides-3-5.png`
+- `apps/web/public/workshop/caminhao-invertido.png`
+- `apps/web/public/workshop/caminhao.png`
+- `apps/web/public/workshop/homem-feliz.png`
+- `apps/web/public/workshop/icon-excel.svg`
+- `apps/web/public/workshop/icon-outlook.svg`
+- `apps/web/public/workshop/icon-whatsapp.svg`
+- `apps/web/public/workshop/jetta-move.png`
+- `apps/web/public/workshop/jetta-truck-hero-poster.png`
+- `apps/web/public/workshop/mulher-brava.png`
+- `apps/web/public/workshop/slide-6.png`

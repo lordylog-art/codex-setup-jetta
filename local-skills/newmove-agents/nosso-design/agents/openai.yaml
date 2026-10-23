@@ -1,0 +1,6 @@
+interface:
+  display_name: "Nosso Design"
+  short_description: "Aplica padrões visuais às telas do próprio ERP Jetta"
+  default_prompt: "Use $nosso-design para implementar uma tela do próprio ERP Jetta, seguindo os padrões existentes. Confira primeiro a aplicação que renderiza o arquivo; ferramentas auxiliares e HTML avulso usam seu próprio fluxo visual."
+policy:
+  allow_implicit_invocation: true
