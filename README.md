@@ -43,4 +43,4 @@ No novo PC, execute `git pull` dentro deste repositório e rode novamente o inst
 
 ## Snapshot completo das skills locais
 
-O diretório [local-skills](local-skills/README.md) contém as versões globais e por projeto enviadas em 22/10/2026, incluindo skills de terceiros. O instalador acima continua usando sua estrutura original.
+O diretório [local-skills](local-skills/README.md) contém as versões globais e por projeto atualizadas em 25/11/2026, incluindo skills de terceiros. O instalador acima continua usando sua estrutura original.

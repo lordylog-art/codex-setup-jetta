@@ -1,0 +1,6 @@
+interface:
+  display_name: "Feature supervisor"
+  short_description: "Supervisionar features com tickets e provas persistentes"
+  default_prompt: "Use $feature-supervisor para supervisionar a feature Obsidian indicada no projeto e escopo autorizados."
+policy:
+  allow_implicit_invocation: false

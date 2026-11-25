@@ -5,6 +5,8 @@ description: Escolher provas de comportamento e executar RED/GREEN, distinguindo
 
 # TDD — qualidade e força da prova
 
+Com referência explícita ou herdada ao Obsidian, consulte [Spec Workspace](../spec-workspace/SKILL.md) para resolver o destino das evidências.
+
 Esta skill define prova e ciclo RED/GREEN. [Implement](../implement/SKILL.md) define ordem, gates e fechamento. Use interfaces do contrato aprovado; consulte CONTEXT/ADRs da área quando necessários. Fronteiras já explícitas no pedido/ticket não exigem nova aprovação; pergunte apenas se a escolha alterar materialmente escopo, contrato ou autorização.
 
 ## Prova discriminante

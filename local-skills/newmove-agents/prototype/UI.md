@@ -1,5 +1,9 @@
 # UI Prototype
 
+## New Move override
+
+For New Move, use [the template studio workflow](../templates-new-move/SKILL.md#protótipos-visuais-no-estúdio). It replaces the route, switcher, variation count and promotion instructions in this file. Include all screens in scope in one studio review; compare materially different internal compositions per item, with independent controls, comments and decisions. Changing only modal size, illustration or color does not satisfy a request for alternatives. Follow the [internal variation rules](../templates-new-move/SKILL.md#alternativas-de-composição-interna): no fixed minimum, default or maximum count; generate the useful distinct compositions supported by that surface. Existing components may be recomposed without copying an entire example's body unchanged. Preserve actual catalog contracts and flag missing capabilities. The generic workflow below applies outside this branch.
+
 Generate **several radically different UI variations** on a single route, switchable from a floating bottom bar. The user flips between variants in the browser, picks one (or steals bits from each), then throws the rest away.
 
 If the question is about logic/state rather than what something looks like, this is the wrong branch. Use [LOGIC.md](LOGIC.md).

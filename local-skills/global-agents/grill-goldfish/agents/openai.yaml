@@ -1,0 +1,5 @@
+interface:
+  display_name: "Grill com peixinhos"
+  short_description: "Perguntas, blocos e tickets com revisão Goldfish"
+policy:
+  allow_implicit_invocation: false

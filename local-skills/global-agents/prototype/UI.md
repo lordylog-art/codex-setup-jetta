@@ -1,6 +1,6 @@
 # UI Prototype
 
-Generate **several radically different UI variations** on a single route, switchable from a floating bottom bar. The user flips between variants in the browser, picks one (or steals bits from each), then throws the rest away.
+Generate **several radically different UI variations** on a single route, switchable from the draggable studio overlay's Protótipo dropdown. The user flips between variants in the browser, picks one (or steals bits from each), then throws the rest away.
 
 If the question is about logic/state rather than what something looks like, this is the wrong branch. Use [LOGIC.md](LOGIC.md).
 
@@ -29,7 +29,7 @@ Create a **throwaway route** following whatever routing convention the project a
 
 Before committing to sub-shape B, sanity-check: is there really no existing page this could be embedded in? An empty route hides design problems that a populated one would expose.
 
-In both sub-shapes the floating bottom bar is identical.
+Both sub-shapes use the same studio and product-stage arrangement defined in [STUDIO.md](STUDIO.md).
 
 ## Process
 
@@ -62,10 +62,12 @@ Create a single switcher component on the route:
 const variant = searchParams.get('variant') ?? 'A';
 return (
   <>
-    {variant === 'A' && <VariantA {...data} />}
-    {variant === 'B' && <VariantB {...data} />}
-    {variant === 'C' && <VariantC {...data} />}
-    <PrototypeSwitcher variants={['A','B','C']} current={variant} />
+    <PrototypeStudio variants={['A','B','C']} current={variant} />
+    <ProductStage>
+      {variant === 'A' && <VariantA {...data} />}
+      {variant === 'B' && <VariantB {...data} />}
+      {variant === 'C' && <VariantC {...data} />}
+    </ProductStage>
   </>
 );
 ```
@@ -74,22 +76,19 @@ For sub-shape A (existing page): keep all the existing data fetching above the s
 
 For sub-shape B (new page): the throwaway route under `/prototype/<name>` mounts the same switcher.
 
-### 4. Build the floating switcher
+### 4. Build the draggable studio overlay
 
-A small fixed-position bar at the bottom-centre of the screen with three pieces:
-
-- **Left arrow**: cycles to the previous variant (wraps around).
-- **Variant label**: shows the current variant key and, if the variant exports a name, that name too. e.g. `B (Sidebar layout)`.
-- **Right arrow**: cycles forward (wraps around).
+Reuse the mandatory [approved floating studio assets](assets/floating-studio/README.md), following [STUDIO.md](STUDIO.md), instead of implementing a new bar. Preserve the same markup, CSS, JavaScript, icons, order and menus; connect the host stage using its adapter/props. When multiple variants exist, expose them through the existing Protótipo dropdown. Keep Cenário separate for the active variant's states and journeys. Keep the host site's surrounding UI inside the stage; a modal remains part of that product UI.
 
 Behaviour:
 
-- Clicking an arrow updates the URL search param (use the framework's router, e.g. `router.replace` on Next, `navigate` on React Router, etc) so the variant is shareable and reload-stable.
-- Keyboard: `←` and `→` arrow keys also cycle. Don't intercept arrow keys when an `<input>`, `<textarea>`, or `[contenteditable]` is focused.
-- Visually distinct from the page (e.g. high-contrast pill, subtle shadow) so it's obviously not part of the design being evaluated.
+- Choosing a variant updates the URL search param (use the framework's router, e.g. `router.replace` on Next, `navigate` on React Router, etc) so the variant is shareable and reload-stable.
+- Changing a variant cancels playback and resets its demonstration state. Resolve action targets within the active variant and support the same applicable scenarios across variants.
+- Keyboard: keep the Protótipo dropdown keyboard-accessible and indicate the selected variant semantically. Optional cycling shortcuts must not intercept keys used by focused controls or product inputs.
+- Visually distinct from the site inside the stage, following the shared studio presentation rules.
 - Hidden in production builds: gate on `process.env.NODE_ENV !== 'production'` or an equivalent check, so a stray prototype merge can't ship the bar to users.
 
-Put the switcher in a single shared component so both sub-shapes can reuse it. Locate it wherever shared UI lives in the project.
+Put the overlay and its distinct Protótipo and Cenário dropdowns in a single shared component so both sub-shapes can reuse it. Locate it wherever shared UI lives in the project.
 
 ### 5. Hand it over
 
@@ -109,4 +108,4 @@ The full set of variants is the primary source, so it lands on the throwaway bra
 - **Variants that differ only in colour or copy.** That's a tweak, not a prototype. Real variants disagree about structure.
 - **Sharing too much code between variants.** A shared `<Header>` is fine; a shared `<Layout>` defeats the point. Each variant should be free to throw out the layout.
 - **Wiring variants to real mutations.** Read-only prototypes are fine. If a variant needs to mutate, point it at a stub: the question is "what should this look like", not "does the backend work".
-- **Promoting the prototype directly to production.** The variant code was written under prototype constraints (no tests, minimal error handling). Rewrite it properly when you fold it in.
+- **Promoting the prototype directly to production.** Focused demonstration checks do not establish production readiness. Apply the project's production validation when you fold it in.

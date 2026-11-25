@@ -1,0 +1,26 @@
+import assert from 'node:assert/strict';
+import {playScenario} from './scenario-player.mjs';
+import { createRequire } from 'node:module';
+const require=createRequire(new URL('../../../../package.json',import.meta.url));
+const {JSDOM}=require('jsdom');
+const {window}=new JSDOM('<textarea></textarea><input /><select><option value="ok">OK</option></select>');
+for(const element of window.document.querySelectorAll('textarea,input,select')){
+  element.getClientRects=()=>[{}];element.scrollIntoView=()=>{};
+  const events=[];element.addEventListener(element.tagName==='SELECT'?'change':'input',event=>events.push(event.type));
+  await playScenario(window.document,[{label:'Preencher controle nativo',action:element.tagName==='SELECT'?'select':'fill',selector:element.tagName.toLowerCase(),value:'ok'}],{delay:0});
+  assert.equal(element.value,'ok');assert.ok(events.length>0);
+}
+window.close();
+let clicked=0,marked=false;
+const target={textContent:'Sucesso',getClientRects:()=>[{}],setAttribute(){marked=true},removeAttribute(){marked=false},scrollIntoView(){},click(){clicked++}};
+const doc={querySelector:selector=>selector==='#result'?target:null};
+const events=[];
+await playScenario(doc,[{label:'Enviar',action:'click',selector:'#result'},{label:'Conferir',action:'assert',selector:'#result',text:'Sucesso'}],{delay:0,report:e=>events.push(e)});
+assert.equal(clicked,1);assert.equal(events.filter(e=>e.status==='passed').length,2);assert.equal(marked,false);
+await assert.rejects(playScenario(doc,[{label:'Ausente',action:'click',selector:'#missing'}],{delay:0,timeout:0}),/resultado esperado/);
+target.disabled=true;await assert.rejects(playScenario(doc,[{label:'Bloqueado',action:'click',selector:'#result'}],{delay:0}),/indisponível/);target.disabled=false;
+const controller=new AbortController();controller.abort();await assert.rejects(playScenario(doc,[{label:'Cancelar',action:'click',selector:'#result'}],{signal:controller.signal,delay:0}),{name:'AbortError'});
+assert.equal(clicked,1);
+let paused=true;const waiting=playScenario(doc,[{label:'Pausa',action:'click',selector:'#result'}],{paused:()=>paused,delay:0});
+await new Promise(r=>setTimeout(r,80));assert.equal(clicked,1);paused=false;await waiting;assert.equal(clicked,2);
+console.log('5 verificações: cliques, resultado ausente, botão bloqueado, cancelamento e pausa.');

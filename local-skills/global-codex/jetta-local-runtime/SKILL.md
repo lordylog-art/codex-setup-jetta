@@ -1,50 +1,29 @@
 ---
 name: jetta-local-runtime
-description: "Start, validate or diagnose the local ERP Jetta only when its API, Web, PostgreSQL or authentication must run. Excludes other localhost tools."
+description: Ligar, reutilizar ou diagnosticar o localhost do ERP Jetta/New Move pelo MCP e entregar acesso ADMIN humano autenticado. Use quando a tarefa depender da API, Web, PostgreSQL ou login desse ERP.
 ---
 
-# Runtime local do ERP Jetta
+# Localhost do Jetta pelo MCP
 
-## Quando executar
+Use somente quando o usuário pedir o ERP ligado ou o trabalho depender dele em execução. Documentação, skills e testes isolados dispensam runtime; outros aplicativos usam seus próprios fluxos.
 
-Execute o fluxo somente para iniciar/parar o ERP local por pedido do usuário ou quando uma implementação, validação ou diagnóstico depender concretamente do ERP em execução. Antes de qualquer comando de runtime, identifique qual comportamento da API/Web, banco ou autenticação do ERP precisa ser exercitado.
+## Fluxo padrão para todos os chats
 
-Estar neste repositório, mencionar localhost ou editar código não basta. Documentação, planejamento, skills, Git, análises estáticas, testes que dispensam o ERP e ferramentas auxiliares como Jetta Control ou scripts de deploy seguem seu próprio fluxo. Use esta skill nesses trabalhos apenas se houver uma etapa concreta que dependa do ERP local; execute-a nessa etapa, não como preparação automática.
+1. Reutilize o contexto já resolvido de `AGENTS.md` e determine a raiz do checkout solicitado (principal neste PC: `D:/newmove`). Use primeiro o servidor MCP `jetta-local-runtime`:
+   - Para ligar/reutilizar uma instância com autorização do pedido: `jetta_local_start({project: "D:/newmove", authorized: true})`.
+   - Para consultar sem iniciar: `jetta_local_status({project: "D:/newmove"})`.
+   - Em `STARTING`, respeite `retryAfterMs` e consulte status; outra chamada de start é desnecessária. Em `BLOCKED` ou `FAILED`, investigue a causa antes de repetir. O MCP reutiliza o launcher rápido, verifica o repositório/checkout e coordena partidas concorrentes.
 
-Para validação visual, confirme que o arquivo alterado é renderizado por uma rota do próprio ERP. Uma UI de Jetta Control, outro programa ou HTML avulso deve ser aberta no seu próprio ambiente; uma exigência genérica de screenshot, browser ou teste visual não autoriza iniciar o ERP. Confira o alvo antes do primeiro comando de status ou bootstrap.
+2. Em `READY`, siga o objeto `authentication` no navegador do usuário, preferindo o interno quando não houver preferência explícita. Reutilize a sessão do host exato e confira `/api/auth/me`. Confirme a conta humana esperada e papel `ADMIN`; no checkout principal, a conta humana já usada é `a@a.com`.
+   - Se faltar sessão, faça login pelo formulário existente com as credenciais humanas autorizadas disponíveis e **Manter conectado**. Guarde credenciais em fonte privada autorizada, nunca nesta skill ou na chamada MCP. Se não houver sessão nem credencial disponível, peça apenas o dado que falta.
+   - `READY` comprova o runtime, não o login humano. `SEED_ADMIN_*`, `TEST_LOGIN_*`, `-WithCodexBrowser`, `/api/auth/codex/*` e state Playwright não substituem a sessão humana.
+   - Um novo login por senha pode invalidar a sessão anterior da mesma conta. Faça a entrega humana por último e preserve-a, sem login posterior em runner.
 
-Opere somente a instância do worktree atual. `tools/start-erp.ps1` é a fonte de verdade; para bootstrap, baseline ou recriação, leia [docs/local-runtime.md](../../../docs/local-runtime.md).
+3. Confirme a página real carregada, mantenha a aba aberta (marque-a como entregável quando necessário) e entregue a URL clicável, saúde e identidade resumida. Deixe o runtime ligado. Evite novas instalações, limpezas de cache, QA global e benchmarks para uma simples abertura.
 
-## Ambiente principal
+## Falha e fallback
 
-Use sempre `C:\Projetos\Jeta Move\.env` como origem do ambiente em toda operação oficial do runtime, inclusive `status`, `start`, autenticação e `stop`. Antes de cada comando, defina `JETTA_RUNTIME_ENV` somente no processo que invoca o launcher:
-
-```powershell
-rtk proxy powershell -NoProfile -ExecutionPolicy Bypass -Command '$env:JETTA_RUNTIME_ENV = "C:\Projetos\Jeta Move\.env"; & npm.cmd run status'
-```
-
-Troque `status` pela ação solicitada e preserve o mesmo caminho durante todo o ciclo. Se o arquivo ou as chaves necessárias não existirem, pare e reporte apenas os nomes ausentes. Nunca mostre valores nem copie segredos para `runtime.env`; não permita fallback silencioso para outra configuração.
-
-## Guardrails
-
-- Leia `AGENTS.md`; prefixe todo shell com `rtk` e use `rtk proxy` apenas sem suporte nativo.
-- Preserve a fronteira do launcher, que deriva IP, portas, database, JWT, lease e sessão próprios. Use os scripts npm, não inicie workspaces diretamente.
-- Relate apenas URLs sanitizadas, saúde e caminhos. Não exponha env, connection strings, tokens, cookies, bodies ou conteúdo do state.
-- Bloqueie destino externo, ownership duvidoso ou efeito externo habilitado. Produção, VPS, deploy e Git remoto estão fora do escopo.
-
-## Fluxo
-
-1. Ao confirmar que o ticket depende concretamente do ERP local, dispare logo no início um sub-agent Luna Low, exclusivamente para preparar o runtime da worktree atual. Ele deve usar esta skill, executar primeiro `rtk npm run status`, apenas reportar se a instância já estiver saudável ou, se estiver parada, seguir os passos abaixo para iniciá-la e autenticar quando necessário. Ele não deve editar código funcional, implementar o ticket, decidir produto/arquitetura ou executar testes do agente principal; pode fazer somente checks necessários para confirmar saúde/autenticação. Enquanto ele trabalha, prossiga imediatamente com spec/ticket, investigação e tarefas independentes do runtime. Se o ambiente não suportar sub-agents, execute este bootstrap no agente principal sem bloquear o restante do workflow.
-2. Consulte `rtk npm run status`. Se faltar configuração compartilhada, rode `rtk npm run local:configure` somente em checkout com `.env` autorizado. Se o baseline faltar ou divergir, rode `rtk npm run local:baseline:create`. Nenhum comando deve imprimir valores.
-3. Rode `rtk npm start -- -WithCodexBrowser`. Aceite apenas instância saudável e URL fixa de autorização efêmera. Abra-a no Browser interno: a API a consome uma vez, grava cookie host-only e redireciona à Web. Não transporte token por URL ou chat.
-4. Valide `/api/auth/me` pelo Browser sem copiar cookie ou payload. Se necessário, use `rtk npm run auth:local:playwright`; aceite somente o caminho do state e o perfil resumido. O gerador reutiliza state válido ou corrige uma sessão expirada uma vez.
-5. Ao concluir, mantenha a instância saudável ativa para reutilização na mesma worktree e informe isso no relatório. Não recrie baseline/configuração/instância sem necessidade concreta. Rode `rtk npm run stop` somente por pedido do usuário, cleanup/finalização ou remoção da worktree, conflito ou dúvida de ownership, estado corrompido que exija recriação ou requisito específico de validação/segurança; nesse caso, confirme `parada` com `rtk npm run status`.
-
-## Recuperação
-
-- Configuração ausente: `rtk npm run local:configure` no checkout-fonte; o bootstrap recusa overwrite.
-- Baseline ausente/incompatível: `rtk npm run local:baseline:create`; nunca use database compartilhado.
-- Prisma incompatível: aceite a única regeneração indicada pelo launcher e execute `rtk npm start` uma vez depois.
-- Autorização expirada: repita `rtk npm start -- -WithCodexBrowser` e abra só a nova URL.
-- Estado descartável corrompido: com a instância parada, `rtk npm run local:instance:recreate` remove apenas database/state do worktree e restaura o baseline.
-- Stop recusado: preserve a lease e reporte a mensagem sanitizada; ownership duvidoso não autoriza matar por porta ou PID.
+- `BLOCKED` não significa MCP indisponível nem autoriza contornar suas proteções por shell. Logs são privados; leia só os caminhos/etapas pertinentes, protegendo valores de env, cookies, tokens e senhas. Coordenação incerta pede reconciliação de ownership.
+- Se a ferramenta ainda não estiver disponível em um chat aberto, reconecte os MCPs ou use um novo chat quando possível. Apenas se o MCP estiver de fato indisponível, siga o launcher oficial no checkout: remova `JETTA_RUNTIME_ENV` e `JETTA_LOCAL_FROZEN_SOURCES` herdados do processo, consulte `npm run status` e execute `npm start` somente se parado. Repita as remoções em cada novo shell. Em D:/newmove, preserve o ambiente privado resolvido pelo launcher, sem forçar `.env` legado. Configurações explícitas de outras instâncias seguem seu `AGENTS.md`.
+- Leia `docs/local-runtime.md` do checkout somente para configuração, recuperação ou detalhes do MCP. Não use fontes congeladas como atalho; preserve a recarga automática. Não mate processos por porta, remova lease/lock ou recrie dados por tentativa.
+- Preserve banco, arquivos, credenciais, permissões, ativações, integrações e agendas configuradas. O MCP não para/recria instâncias nem concede autorização para produção, VPS, deploy, push, CI ou novos envios externos.

@@ -43,11 +43,11 @@ Lay it out with a clean hierarchy, top to bottom:
 1. **Title and one-line explanation** of what this demo lets you explore (the question from step 1).
 2. **Current state**: the full relevant state, rendered as a readable panel (labelled fields, not a raw JSON dump), re-rendered after every click so the change is visible. Where it helps a non-developer follow, call out what just changed.
 3. **Free-play buttons**: one button per action, always available, so anyone can poke at the model in any order. Each click dispatches its action and re-renders the state.
-4. **Guided walkthroughs**: a set of **scenarios**, one per tab. Each tab holds a short plain-language description of the scenario (the situation it sets up and what to watch for) and underneath it, the ordered **buttons to press** for that scenario. Each step is a real button: clicking it performs that action and moves to the next step. Starting a walkthrough resets to a known initial state so the scenario runs the same way every time.
+4. **Guided walkthroughs**: selectable scenarios using the mandatory [studio](STUDIO.md). Each shows a plain-language description, expected outcome and ordered actions. Support both automated cursor playback and manually pressing the real controls. Starting a walkthrough resets to a known initial state so the scenario runs the same way every time. Include the happy path, applicable stress/error cases and recovery.
 
 Choose scenarios that demonstrate the awkward cases, the ones hard to reason about on paper: the happy path, a tricky edge case, an attempt at something that should be illegal.
 
-Keep it beautiful but restrained: clean typography, generous spacing, one accent colour. No animations, no gimmicks: nothing that competes with the state and the buttons.
+Keep it beautiful but restrained: clean typography, generous spacing, one accent colour. Use motion to explain the cursor's actions, clicks and typing; keep the state and controls readable throughout playback.
 
 ### 4. Hand it over
 
@@ -59,7 +59,7 @@ Once the prototype has answered its question, capture the answer, then capture t
 
 ## Anti-patterns
 
-- **Don't add tests.** A prototype that needs tests is no longer a prototype.
+- **Keep verification focused.** Check playback controls, deterministic reset, representative stress/error states and recovery; avoid an unrelated production test suite.
 - **Don't wire it to the real database.** Use in-memory state unless the question is specifically about persistence.
 - **Don't generalise.** No "what if we wanted to support X later." The prototype answers one question.
 - **Don't blur the logic and the page together.** If the pure module references the DOM, `document`, or button handlers, it's no longer liftable. Keep the page as a thin shell over a pure module.

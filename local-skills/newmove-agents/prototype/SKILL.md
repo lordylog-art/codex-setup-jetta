@@ -7,6 +7,16 @@ description: Build a throwaway prototype to answer a design question. Use when t
 
 A prototype is **throwaway code that answers a question**. The question decides the shape.
 
+## New Move: visual prototypes use the template studio
+
+For New Move UI, follow [Templates New Move](../templates-new-move/SKILL.md#protótipos-visuais-no-estúdio) before the generic UI branch below. Show every screen in the requested scope, including secondary dialogs and relevant states, in the existing interactive studio with per-screen options and controls. Do not build a separate switcher or insert prototype variants into operational routes. Logic-only prototypes still use LOGIC.md.
+
+Explore materially different internal compositions, not just modal dimensions or mascot placement. Follow the [internal variation rules](../templates-new-move/SKILL.md#alternativas-de-composição-interna): vary information hierarchy, attachment presentation, KPI placement, cards, actions and semantic SVGs using compatible existing components. The number of useful alternatives depends on the specific surface; the generic default of three and cap of five do not apply to New Move. Keep the same task, data and capabilities across alternatives so the user can compare fairly.
+
+Populate every alternative with realistic, explicitly mocked data from the same fixture set. Include relevant ready/pending/invalid records, meaningful attachments, short and long content, and locally interactive actions; derive KPI values from those fixtures. Do not deliver empty shells or interchangeable placeholder cards. Use the [approved comparison pattern](../../../docs/templates-revisao-interativa-skill.md#padrão-aprovado-para-as-próximas-prévias--02112026), confirmed by the user on 02/11/2026, as the default for future New Move previews. That approval covers the exploration method, not individual variants or product implementation.
+
+This branch overrides the generic rules below about skipping polish/tests, keeping all state in memory, and folding a winner into real code: preserve review drafts, use the studio's visual and interaction checks, and set `prototypeOnly: true` when only prototyping was requested. Visual approval alone does not authorize implementation. Capture the decision and artifacts without automatically committing, pushing or promoting code.
+
 For an explicit or inherited Obsidian Spec Driven workflow, use [the shared Spec Workspace Adapter](../spec-workspace/SKILL.md): keep runnable prototype code at its normal technical location, and save any Markdown verdict or decision note in `Research/` with links to the spec/ticket. Otherwise follow the existing artifact locations below.
 
 ## Pick a branch

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Akita incremental delivery"
+  short_description: "Do protótipo aprovado a entregas verificáveis"
+  default_prompt: "Use $akita-incremental-delivery para analisar o protótipo aprovado deste projeto e propor entregas incrementais para minha aprovação, antes de salvar no Obsidian."

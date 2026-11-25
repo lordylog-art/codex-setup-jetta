@@ -1,0 +1,8 @@
+{
+  "name": "VibeDev ID 12-jam summary",
+  "script": "~/.hermes/scripts/vibedev-id-summary.py",
+  "schedule": "0 5,17 * * *",
+  "deliver": "whatsapp:120363402262217562@g.us",
+  "prompt": "Use default prompt from hermes-wag-summarizer/templates/default-summary-prompt.txt",
+  "note": "This is an example configuration. Adjust chat ID, schedule, and group name as needed."
+}

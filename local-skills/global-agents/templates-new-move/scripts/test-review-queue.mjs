@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {remainingSurfaces,acceptDelivered} from './review-queue.mjs';
+const surfaces=[{id:'a'},{id:'b'},{id:'c'}];
+const draft={items:[{id:'a',decision:'agree',text:''},{id:'b',decision:'disagree',text:'Ajustar'},{id:'c',decision:'pending',text:''}]};
+const feedback=structuredClone(draft.items);
+acceptDelivered(draft,{feedback,delivery:{status:'failed'}});assert.equal(remainingSurfaces(surfaces,draft).length,3);
+acceptDelivered(draft,{feedback,delivery:{status:'sent'}});assert.deepEqual(remainingSurfaces(surfaces,draft).map(s=>s.id),['b','c']);
+assert.equal(draft.items.length,3);assert.equal(remainingSurfaces(surfaces,JSON.parse(JSON.stringify(draft))).length,2);
+draft.items[0].text='Alterado depois';assert.equal(remainingSurfaces(surfaces,draft).length,3);
+acceptDelivered(draft,{feedback,delivery:{status:'sent'}});assert.equal(remainingSurfaces(surfaces,draft).length,3);
+for(const item of draft.items)item.decision='agree';acceptDelivered(draft,{feedback:structuredClone(draft.items),delivery:{status:'sent'}});
+assert.equal(remainingSurfaces(surfaces,draft).length,0);console.log('Fila: falha preserva, aprovação sai, demais ficam, reload preserva, edição reabre, aceite total encerra.');

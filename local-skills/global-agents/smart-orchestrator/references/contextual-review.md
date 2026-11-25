@@ -19,9 +19,9 @@ Sem reviewer independente disponível, registrar bloqueio da etapa que o exige. 
 
 ## Ciclo conduzido pelo implementador
 
-Ao selecionar e chamar reviewers, aplique a regra de modelo de [Delegação](../SKILL.md#delegação), inclusive nas reavaliações.
+Ao selecionar e chamar reviewers, aplique a rota de [Delegação](../SKILL.md#delegação), inclusive nas reavaliações. Com `$ponte-chatgpt` explicitamente ativa junto ao orquestrador, use seu `references/review.md` em lugar dos reviewers filhos descritos abaixo: commit/push do recorte, revisão do pacote de SHAs publicados, preparado via Git no Codex e anexado ao GPT Web privado Extra High e correções/reavaliações por SHA. Preserve os mesmos pacotes, gates e responsabilidade do implementador; não abra reviewers subagentes em paralelo ou como fallback automático. Sem essa ativação, siga o fluxo abaixo.
 
-Por padrão, o implementador conduz o ticket até candidato revisado: implementa, executa provas locais, chama os reviewers exigidos como subagentes filhos somente leitura, recebe achados diretamente, corrige e pede aos mesmos reviewers a reavaliação do delta e impactos. Congele o candidato durante cada revisão; retome escritas após os pareceres. Reviewer filho continua distinto do autor; preserve os modos e a independência exigidos pelo risco/protocolo.
+Por padrão, o implementador conduz o ticket até candidato revisado: implementa, executa provas locais, chama os reviewers exigidos como subagentes filhos somente leitura, recebe achados diretamente, corrige e pede aos mesmos reviewers a reavaliação do delta e impactos. Congele o recorte e suas dependências durante cada revisão; trabalho independente pode continuar fora dele. Revisão de código e visual podem ocorrer em paralelo sobre o mesmo candidato estável se houver slots e recursos separados. Reviewer filho continua distinto do autor; preserve os modos e a independência exigidos pelo risco/protocolo.
 
 Conduza esse ciclo sem devolver cada achado ao principal para redistribuição. Mantenha provas, achados e transições no controlador/registro existente, com as identidades reais dos avaliadores. Retorne candidato/base, arquivos, provas por critério, pareceres e limitações quando os gates dessa etapa estiverem válidos e os achados materiais resolvidos; integração e aceite final permanecem com os responsáveis designados.
 

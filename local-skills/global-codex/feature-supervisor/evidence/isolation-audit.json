@@ -1,0 +1,342 @@
+{
+  "result": "PASS",
+  "scope": "Actual Python helper CLI and byte-identical copied native adapter",
+  "sandbox": "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed",
+  "source_hashes_before": {
+    "C:\\Users\\caila\\.codex\\skills\\feature-supervisor\\scripts\\feature_supervisor.py": "085b4344ae85fe39a0c4715b0947fdbeaf8ecd5bc0395b3072a01b77d09f0cc2",
+    "D:\\newmove\\.agents\\skills\\spec-workspace\\scripts\\spec_workspace.py": "b44a3b7eadd6f420e3a61cf4d7f3a9cc5556c877b1d9058a898bdc26ac314cb0",
+    "C:\\Users\\caila\\.codex\\skills\\feature-supervisor\\SKILL.md": "ebfad165b484c3831d0ffe4c7e3143db21c306399775d09de4b20b3f6e7770b8",
+    "C:\\Users\\caila\\.codex\\skills\\feature-supervisor\\references\\contract.md": "617b3e1368738f6d7f29cd507b9c6c167140b11cac1178f5c79c1f954fe605f9",
+    "C:\\Users\\caila\\.codex\\skills\\feature-supervisor\\references\\validation.md": "d701eb9e90cb6678ff956757936a8b3400f2c896ab63c23279a6b371fc13ef78"
+  },
+  "source_hashes_after": {
+    "C:\\Users\\caila\\.codex\\skills\\feature-supervisor\\scripts\\feature_supervisor.py": "085b4344ae85fe39a0c4715b0947fdbeaf8ecd5bc0395b3072a01b77d09f0cc2",
+    "D:\\newmove\\.agents\\skills\\spec-workspace\\scripts\\spec_workspace.py": "b44a3b7eadd6f420e3a61cf4d7f3a9cc5556c877b1d9058a898bdc26ac314cb0",
+    "C:\\Users\\caila\\.codex\\skills\\feature-supervisor\\SKILL.md": "ebfad165b484c3831d0ffe4c7e3143db21c306399775d09de4b20b3f6e7770b8",
+    "C:\\Users\\caila\\.codex\\skills\\feature-supervisor\\references\\contract.md": "617b3e1368738f6d7f29cd507b9c6c167140b11cac1178f5c79c1f954fe605f9",
+    "C:\\Users\\caila\\.codex\\skills\\feature-supervisor\\references\\validation.md": "d701eb9e90cb6678ff956757936a8b3400f2c896ab63c23279a6b371fc13ef78"
+  },
+  "protected_standins_before": {
+    "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\protected-erp-and-tickets\\erp-source.txt": "61f43608ebc80726f02870b886ac5b93aa6b32af26131d823f69b71c3d7c2574",
+    "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\protected-erp-and-tickets\\Index.md": "e9c7e7caf1205ec4211083864b8ca122d4901ff8de7fe9a1b1f8b6296e857a35",
+    "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\protected-erp-and-tickets\\Tickets\\t01.md": "a21da428e9c83229f3b8f039512cde92b6bec7fd1775d000413e5937b13d2a54"
+  },
+  "protected_standins_after": {
+    "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\protected-erp-and-tickets\\erp-source.txt": "61f43608ebc80726f02870b886ac5b93aa6b32af26131d823f69b71c3d7c2574",
+    "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\protected-erp-and-tickets\\Index.md": "e9c7e7caf1205ec4211083864b8ca122d4901ff8de7fe9a1b1f8b6296e857a35",
+    "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\protected-erp-and-tickets\\Tickets\\t01.md": "a21da428e9c83229f3b8f039512cde92b6bec7fd1775d000413e5937b13d2a54"
+  },
+  "copied_adapter_sha256": "b44a3b7eadd6f420e3a61cf4d7f3a9cc5556c877b1d9058a898bdc26ac314cb0",
+  "runs": [
+    {
+      "label": "initial read-only inspection",
+      "exit_code": 0,
+      "stdout": "{\"workspace\": \"C:\\\\Users\\\\caila\\\\AppData\\\\Local\\\\Temp\\\\feature-supervisor-isolation-ffhg1emb\\\\allowed\\\\feature\", \"feature\": \"C:\\\\Users\\\\caila\\\\AppData\\\\Local\\\\Temp\\\\feature-supervisor-isolation-ffhg1emb\\\\allowed\\\\feature\", \"mode\": \"direct\", \"frontier\": [\"t01\"], \"tickets\": [{\"ticket\": \"t01\", \"block\": null, \"dependencies\": [], \"ticket_status\": \"open\", \"checkpoint\": null}]}",
+      "stderr": "",
+      "pid": 3956,
+      "events": [
+        {
+          "event": "open",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\audit-0.json"
+          ],
+          "allowed": true
+        }
+      ]
+    },
+    {
+      "label": "claim in process one",
+      "exit_code": 0,
+      "stdout": "{\"version\": 1, \"ticket\": \"t01\", \"owner\": \"isolated-owner\", \"run\": \"isolated-run\", \"agent\": \"pending-dispatch\", \"feature\": \"C:\\\\Users\\\\caila\\\\AppData\\\\Local\\\\Temp\\\\feature-supervisor-isolation-ffhg1emb\\\\allowed\\\\feature\", \"block\": null, \"dependencies\": [], \"timestamp\": \"2026-11-03T09:14:55.181461+00:00\", \"attempts\": 1, \"max_attempts\": 2, \"status\": \"CLAIMED\", \"evidence\": [], \"validators\": [], \"supervisor_review\": null, \"checkpoint\": \"Claimed\", \"next_action\": \"Execute ticket\", \"ticket_revision\": \"0adc2063595fe60069efc85e9fa9232c2f44b2e3b5729ccc6b1afa3b22b9d2f2\"}",
+      "stderr": "",
+      "pid": 26888,
+      "events": [
+        {
+          "event": "os.mkdir",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "open",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Index.md.lock"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "os.mkdir",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Tickets"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "open",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Tickets\\t01.md.lock"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "open",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Tickets\\t01.md.tmp"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "os.rename",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Tickets\\t01.md.tmp",
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Tickets\\t01.md"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "open",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Tickets\\t01.md.tmp"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "os.rename",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Tickets\\t01.md.tmp",
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Tickets\\t01.md"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "os.remove",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Tickets\\t01.md.lock"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "os.remove",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Index.md.lock"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "open",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\audit-1.json"
+          ],
+          "allowed": true
+        }
+      ]
+    },
+    {
+      "label": "checkpoint in process two",
+      "exit_code": 0,
+      "stdout": "{\"version\": 1, \"ticket\": \"t01\", \"owner\": \"isolated-owner\", \"run\": \"isolated-run\", \"agent\": \"isolated-native-id\", \"feature\": \"C:\\\\Users\\\\caila\\\\AppData\\\\Local\\\\Temp\\\\feature-supervisor-isolation-ffhg1emb\\\\allowed\\\\feature\", \"block\": null, \"dependencies\": [], \"timestamp\": \"2026-11-03T09:14:55.377186+00:00\", \"attempts\": 1, \"max_attempts\": 2, \"status\": \"RUNNING\", \"evidence\": [], \"validators\": [], \"supervisor_review\": null, \"checkpoint\": \"Persisted before process exit\", \"next_action\": \"Resume same ticket\", \"ticket_revision\": \"0adc2063595fe60069efc85e9fa9232c2f44b2e3b5729ccc6b1afa3b22b9d2f2\"}",
+      "stderr": "",
+      "pid": 892,
+      "events": [
+        {
+          "event": "os.mkdir",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "open",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Index.md.lock"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "os.mkdir",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Tickets"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "open",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Tickets\\t01.md.lock"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "open",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Tickets\\t01.md.tmp"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "os.rename",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Tickets\\t01.md.tmp",
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Tickets\\t01.md"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "os.remove",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Tickets\\t01.md.lock"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "os.remove",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Index.md.lock"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "open",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\audit-2.json"
+          ],
+          "allowed": true
+        }
+      ]
+    },
+    {
+      "label": "new process reconstructs persisted state",
+      "exit_code": 0,
+      "stdout": "{\"workspace\": \"C:\\\\Users\\\\caila\\\\AppData\\\\Local\\\\Temp\\\\feature-supervisor-isolation-ffhg1emb\\\\allowed\\\\feature\", \"feature\": \"C:\\\\Users\\\\caila\\\\AppData\\\\Local\\\\Temp\\\\feature-supervisor-isolation-ffhg1emb\\\\allowed\\\\feature\", \"mode\": \"direct\", \"frontier\": [], \"tickets\": [{\"ticket\": \"t01\", \"block\": null, \"dependencies\": [], \"ticket_status\": \"claimed\", \"checkpoint\": {\"version\": 1, \"ticket\": \"t01\", \"owner\": \"isolated-owner\", \"run\": \"isolated-run\", \"agent\": \"isolated-native-id\", \"feature\": \"C:\\\\Users\\\\caila\\\\AppData\\\\Local\\\\Temp\\\\feature-supervisor-isolation-ffhg1emb\\\\allowed\\\\feature\", \"block\": null, \"dependencies\": [], \"timestamp\": \"2026-11-03T09:14:55.377186+00:00\", \"attempts\": 1, \"max_attempts\": 2, \"status\": \"RUNNING\", \"evidence\": [], \"validators\": [], \"supervisor_review\": null, \"checkpoint\": \"Persisted before process exit\", \"next_action\": \"Resume same ticket\", \"ticket_revision\": \"0adc2063595fe60069efc85e9fa9232c2f44b2e3b5729ccc6b1afa3b22b9d2f2\"}}]}",
+      "stderr": "",
+      "pid": 48216,
+      "events": [
+        {
+          "event": "open",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\audit-3.json"
+          ],
+          "allowed": true
+        }
+      ]
+    },
+    {
+      "label": "new process idempotent claim",
+      "exit_code": 0,
+      "stdout": "{\"version\": 1, \"ticket\": \"t01\", \"owner\": \"isolated-owner\", \"run\": \"isolated-run\", \"agent\": \"isolated-native-id\", \"feature\": \"C:\\\\Users\\\\caila\\\\AppData\\\\Local\\\\Temp\\\\feature-supervisor-isolation-ffhg1emb\\\\allowed\\\\feature\", \"block\": null, \"dependencies\": [], \"timestamp\": \"2026-11-03T09:14:55.377186+00:00\", \"attempts\": 1, \"max_attempts\": 2, \"status\": \"RUNNING\", \"evidence\": [], \"validators\": [], \"supervisor_review\": null, \"checkpoint\": \"Persisted before process exit\", \"next_action\": \"Resume same ticket\", \"ticket_revision\": \"0adc2063595fe60069efc85e9fa9232c2f44b2e3b5729ccc6b1afa3b22b9d2f2\"}",
+      "stderr": "",
+      "pid": 61800,
+      "events": [
+        {
+          "event": "os.mkdir",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "open",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Index.md.lock"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "os.mkdir",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Tickets"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "open",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Tickets\\t01.md.lock"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "os.remove",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Tickets\\t01.md.lock"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "os.remove",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\feature\\Index.md.lock"
+          ],
+          "allowed": true
+        },
+        {
+          "event": "open",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\audit-4.json"
+          ],
+          "allowed": true
+        }
+      ]
+    },
+    {
+      "label": "outside workspace claim blocked before write",
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "{\"error\": \"Audit boundary rejected filesystem mutation: C:\\\\Users\\\\caila\\\\AppData\\\\Local\\\\Temp\\\\feature-supervisor-isolation-ffhg1emb\\\\protected-erp-and-tickets\\\\Index.md.lock\", \"recoverable\": true}",
+      "pid": 45732,
+      "events": [
+        {
+          "event": "os.mkdir",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\protected-erp-and-tickets"
+          ],
+          "allowed": false
+        },
+        {
+          "event": "open",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\protected-erp-and-tickets\\Index.md.lock"
+          ],
+          "allowed": false
+        },
+        {
+          "event": "open",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\audit-5.json"
+          ],
+          "allowed": true
+        }
+      ]
+    },
+    {
+      "label": "explicit outside file mutation blocked",
+      "exit_code": 77,
+      "stdout": "",
+      "stderr": "Audit boundary rejected filesystem mutation: C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\protected-erp-and-tickets\\erp-source.txt",
+      "pid": 7516,
+      "events": [
+        {
+          "event": "open",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\protected-erp-and-tickets\\erp-source.txt"
+          ],
+          "allowed": false
+        },
+        {
+          "event": "open",
+          "paths": [
+            "C:\\Users\\caila\\AppData\\Local\\Temp\\feature-supervisor-isolation-ffhg1emb\\allowed\\audit-6.json"
+          ],
+          "allowed": true
+        }
+      ]
+    }
+  ],
+  "restart": "Separate child processes exited normally; persisted claim/checkpoint reread with no duplicate",
+  "limits": [
+    "No real ERP tickets or data were mutated or snapshotted",
+    "Audit hook covers observed Python filesystem mutations; not an OS security sandbox",
+    "No Codex App/chat closure, machine restart, forced crash or native agent restart was tested"
+  ]
+}

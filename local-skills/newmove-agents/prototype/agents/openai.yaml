@@ -1,3 +1,4 @@
 interface:
   display_name: "Prototype"
   short_description: "Prototype to answer a design question"
+  default_prompt: "Use $prototype para explorar a questão solicitada. No New Move, use o Estúdio de templates com composições internas distintas e os mesmos dados mockados realistas por opção; a quantidade depende das alternativas úteis. Pedido somente de protótipo usa prototypeOnly: true."

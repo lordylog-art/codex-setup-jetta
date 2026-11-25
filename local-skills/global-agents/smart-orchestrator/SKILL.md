@@ -1,65 +1,29 @@
 ---
 name: smart-orchestrator
-description: "Execute authorized multi-ticket features or dependent increments through implementation, review, integration and acceptance. Handle trivial changes directly."
+description: Aplicar a lógica de implementação, revisão, QA e integração nas entregas autorizadas, por chamada explícita ou implementação; coordenar frentes reais sem servidor MCP.
 ---
 
 # Smart Orchestrator
 
-Entregue os tickets autorizados com implementação direta, verificação proporcional e conclusão clara. Use o [contrato proporcional](references/planning-contract.md): reaproveite a base pronta, execute o delta restante e pare após cumprir o pedido. Critérios vêm do usuário, das regras aplicáveis ou de risco concreto introduzido pela mudança; melhorias opcionais não bloqueiam entrega.
+Aplique esta skill quando chamada e antes de implementar uma mudança autorizada, inclusive por invocação implícita. A coordenação pertence ao chat atual; o servidor MCP Smart Orchestrator permanece desativado. Referências legadas ao MCP ou à sua skill de roteamento devem ser atendidas por esta skill local, fontes atuais e memória existente, sem iniciar ponte stdio ou servidor substituto.
 
+Use o menor processo que entrega o pedido. Esta revisão substitui cerimônias anteriores também na continuação: conserve requisitos, autorizações, estado/provas válidas; não descarte/migre controller ativo silenciosamente.
 
-Execute as skills especialistas diretamente, preservando seus gates e permissões. Selecione modelos pelas regras de [Delegação](#delegação); profundidade de QA e modelo são decisões independentes.
+1. Resolva uma vez pedido, instruções locais, ticket/contrato pertinente e delta restante. Consulte diretamente as fontes locais e o ai-memory já conectado ao chat, reaproveitando a consulta focal inicial. Leia páginas pertinentes antes de apoiar decisões nelas; histórico não é autorização nem prova atual. Indisponibilidade bloqueia só informação/ação indispensável.
+2. Correção pequena/frente única: execução direta. Use quantos subagentes forem necessários por independência útil ou revisão necessária, com ownership e contexto curto, sem teto numérico próprio por ticket, bloco ou árvore. Despache frentes elegíveis conforme a capacidade atual do runtime e dos recursos compartilhados; não reutilize cotas de sessões anteriores. Propague essa regra aos executores e respeite preferências explícitas. Quando aplicável/disponível, Sol implementa/revisa, Terra valida visual e Luna faz pesquisa simples. Não exija troca de modelo sem ganho ou gate específico.
+3. Aplique [Super QA local](../super-qa/SKILL.md), com personas e fronteiras pertinentes, usando runners sob demanda. Teste a menor fatia pronta; amplie aos consumidores/fronteiras atingidos. Segurança, dados, migração, concorrência e custo conservam prova real. Consulte references/quality-gates.md só para dúvida de risco/validade, não como checklist integral.
+4. Baixo risco: autoverificação focal. Médio: revisão conjunta quando necessária. Alto/exigência explícita: revisão independente. Um parecer pode cobrir código e requisitos. Reuse reviewer/contexto para correções; principal confere cobertura sem repetir auditoria inteira.
+5. Integre quando necessário ao consumidor/aceite, agrupando builds compatíveis. Preserve ambiente/dados/agendas. Repita só prova invalidada. Documento não consumido pelo teste não exige rerun; resultado bruto BLOCKED permanece registrado, com equivalência seletiva quando demonstrável.
+6. Registre uma vez no ticket existente resultado, prova e pendências. Termine quando pedido atendido. Documentação administrativa, sugestão opcional ou falha fora do recorte não ampliam aceite.
 
-## Entrada e estado
+Bloqueio pertence à etapa dependente; avance trabalho independente autorizado. Após duas tentativas equivalentes sem informação nova, mude hipótese/método. Espere só por evento que libere ação útil, sem agentes de vigilância.
 
-Identifique objetivo autorizado, fontes canônicas, tickets existentes, trabalho concluído/em andamento, regras aplicáveis e ferramentas disponíveis. Preserve trabalho alheio. Criar a skill ou discutir uma fila não autoriza executar produto. Coordene **quando e por que**; skills especialistas instaladas definem **como**, sem substituir gates existentes.
+To-Tickets para planejamento solicitado. V2/controller só por escolha explícita; nesse caso consulte seções V2 de references/planning-contract.md e references/controller.md. Manifestos/hashes formais apenas quando necessários à identidade da prova ou contrato vigente, sem instrumentação global por rotina.
 
-Padrão, inclusive em filas: execução direta e verificação focal, sem DAG formal, controller, subagentes ou relatório dedicado obrigatórios. Leia [quality-gates.md](references/quality-gates.md) para escolher revisão/prova conforme risco. Consulte scheduling/metrics apenas quando houver problema concreto de escalonamento ou pedido de estimativa. Não acione um playbook de missão completo apenas por haver mudança durável ou vários tickets.
+New Move: reuse composição aprovada; Templates para decisão visual pertinente. Bots separados/ponte-chatgpt exigem pedido explícito. CODEX_AUTOMATION_BOT=1 não inicia bots recursivos. CI/push/deploy/produção/envios exigem autorização específica.
 
-Mantenha no ticket/registro existente apenas resultado atual, trabalho restante, verificação e bloqueio concreto quando houver. Estimativas, CP e ledger de recursos pertencem ao modo V2 ou a uma necessidade demonstrada.
+[Protocolo anterior detalhado](SKILL.detalhado.md): consulta pontual quando o contrato vigente exigir; não é fluxo padrão. Regras atuais deste arquivo prevalecem sobre suas cerimônias.
 
-Distinga pendente, em execução, candidato pronto, em validação, validado, integrado, aceito e bloqueado. Bloqueio pertence à etapa afetada; código pronto não implica aceite. Reaproveite registros, sem criar sistema de tickets paralelo.
+## Limite da simplificação
 
-## Contrato e controlador V2 — modo explícito
-
-Use este modo somente quando explicitamente solicitado; complexidade ou existência de plano antigo não o ativam automaticamente. No modo direto, tickets e decisões atuais bastam; falta de JSON/controller não bloqueia código. Se o usuário pedir simplificação de uma fila V2 ativa, registre a reconciliação uma vez, conserve histórico/provas e requisitos do produto e prossiga no modo direto. Não altere silenciosamente hashes ou declare gates antigos aprovados.
-
-Quando V2 for escolhido, leia as seções V2 de [planning-contract.md](references/planning-contract.md) e consuma o execution-plan vinculado à SPEC/Index. Respeite decisões e restrições atuais, inclusive isolamento e gates explícitos de produto.
-
-Antes de dispatch/review/integração/aceite, use [controller.md](references/controller.md): inicialize ou retome estado da worktree, confira elegibilidade, reserve recursos e registre provas/transições. Não improvise esses controles em tabelas do chat. O controlador verifica registros, dependências e hashes; os agentes decidem suficiência semântica, classificação de risco e alcance. Sincronize o status no tracker canônico pelo adaptador existente; estado operacional não é outro tracker. Não importe PASS histórico sem conferir equivalência e artefatos.
-
-Estados: PLANNED → IN_PROGRESS → CODE_READY → REVIEW_READY → REVIEWED → INTEGRATION_READY → ACCEPTED; BLOCKED preserva etapa e causa. CODE_READY não autoriza QA funcional final: a maturidade e dependências do gate precisam estar satisfeitas. Review antecipado de contrato/segurança tem recorte próprio e não certifica jornada futura. Use [contextual-review.md](references/contextual-review.md) no handoff e nas correções. Revisão local não substitui integração exigida.
-
-## Continuidade
-
-No modo direto, retome pelo ticket e registro existentes, preservando provas válidas. Somente no modo V2, checkpoints são automáticos nas gravações do controller e a retomada usa `recover` conforme [continuity.md](references/continuity.md). A compactação pertence ao runtime nativo; nunca troque de chat para compactar.
-
-## Decisão por evento
-
-Eventos: conclusão, candidato disponível, validação aprovada/reprovada, bloqueio/resolução, contrato alterado, integração ou mudança material de recursos.
-
-A cada mudança relevante, escolha trabalho útil: implementar, corrigir, verificar ou integrar. Dependência de integração bloqueia a integração afetada; avance código independente contra o contrato disponível, preservando ownership e ativação segura. Issue OPEN ou metadado ausente não demonstram indisponibilidade técnica. Prossiga até cumprir critérios autorizados ou encontrar impedimento real; sem mudança material, continue a ação escolhida em vez de replanejar.
-
-Use espera por evento apenas quando a mudança esperada puder liberar uma ação concreta. Sem trabalho independente nem nova informação, relate uma vez o bloqueio e sua condição de retomada; evite turnos sucessivos apenas para reler o mesmo status. Nenhum agente existe apenas para vigiar outro.
-
-## Delegação
-
-Antes de delegar, confirme autorização, ganho plausível após coordenação/validação, slot, ownership disjunto e capacidade de aceite. Conte o principal quando incluído no limite da ferramenta e todos os agentes descendentes no mesmo limite global. Combine no handoff a capacidade disponível para reviewers filhos; novos filhos dependem de slots e recursos confirmados. Adapte ao inventário real, sem número fixo de agentes/modelos. Sem subagentes disponíveis/autorizados, execute sequencialmente e declare a limitação.
-
-Pesquisas/research, leitura de documentação, exploração de código e levantamentos usam **GPT-6 Luna** (`gpt-6-luna`) por padrão, inclusive quando delegados por implementadores ou reviewers Sol. Informe o modelo explicitamente no handoff e no despacho, evitando herdar Sol do agente pai. Use esforço low para coleta objetiva, medium para cruzar fontes e high para investigação delimitada mais complexa. Escale a pesquisa para GPT-6.1 Sol somente por indisponibilidade do Luna, lacuna material demonstrada após tentativa Luna ou decisão crítica que a pesquisa não resolva; registre a justificativa. Use ferramentas diretamente para buscas determinísticas simples e preserve fontes, evidências e critérios de conclusão.
-
-Code review independente escolhe modelo e esforço pelo risco. Para autorização, segurança e fluxos críticos, use GPT-6.1 Sol (`gpt-6.1-sol`) com esforço medium. Para deltas simples e bem delimitados, use GPT-6 Luna (`gpt-6-luna`) com esforço high. Não use Sol com esforço high por padrão; reserve-o para risco crítico ou complexidade demonstrada e registre a justificativa. Se o modelo indicado estiver indisponível, escolha a combinação disponível mais próxima e registre a substituição.
-
-Handoff: objetivo/escopo, arquivos/fronteiras exclusivas, dependências, critérios, verificação e permissões; retorno com candidato, arquivos, resultados e bloqueios. O implementador conduz testes, correções e revisão quando exigida pelo risco, conforme [contextual-review.md](references/contextual-review.md); inclua essa responsabilidade no prompt. Informe que outros agentes atuam e devem preservar suas alterações.
-
-Confirme ownership e disponibilidade dos recursos usados antes de delegar; ledger formal só no modo V2. Ownership exclusivo para escrita; worktrees isoladas quando justificadas, reutilizando organização existente. Worktree não isola navegador, banco, portas, runner ou index Git compartilhado. Um titular controla cada integração/reconciliação. Sobreposição inesperada suspende escritas afetadas e preserva diffs para esse titular.
-
-Principal conserva prioridades, ownership, integração e responsabilidade pela entrega. DAG e reservas formais apenas no modo V2. Use subagentes quando houver ganho concreto ou revisão independente exigida; chats separados só se solicitados pelo usuário. Delegar não amplia autorização para CI, deploy, publicação ou ações externas.
-
-## Gargalos, falhas e conclusão
-
-Validação congestionada reduz novos candidatos; gate indisponível prioriza recuperação e trabalho independente útil, preservando estoque. Falha repetida exige assinatura/etapa, hipótese causal discriminante e menor prova útil. Repita só após mudança de hipótese, código ou ambiente. Sem ação viável, registre bloqueio, responsável e condição de retomada. Separe defeito do produto de infraestrutura.
-
-Integre candidatos aprovados progressivamente quando contratos, dependências, conflitos, provas e permissões permitirem. Revalide delta/impactos invalidantes. Integração parcial não aceita a feature inteira.
-
-Encerre quando todos os critérios tiverem provas válidas e integração exigida, sem achados materiais pendentes. Informe aceitos, falhas, bloqueados e superfícies não executadas com rastreabilidade. Pare de ampliar provas após gates cumpridos; sugestões opcionais não reabrem escopo. Estimativa não é promessa; bloqueio nunca vira aceite.
+A redução remove repetição de processo, não requisitos do produto. Preserve gates específicos de segurança/dados, prova real da fronteira alterada, aceites humanos de composição nova, testes exigidos pelo risco e autorizações de efeito externo. Não use esta política para marcar critério sem prova, alterar permissões, desligar proteção ou suprimir requisito do usuário.

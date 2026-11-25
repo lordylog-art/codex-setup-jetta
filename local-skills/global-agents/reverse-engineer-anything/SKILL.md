@@ -1,6 +1,6 @@
 ---
 name: reverse-engineer-anything
-description: "Reverse engineer shipped binaries, packages or runtime behavior with REA; excludes ordinary source-code investigation."
+description: "Reverse engineer shipped binaries, packages or runtime behavior with REA; route website element reproduction/adaptation to clone-website and its design router. Excludes ordinary source-code investigation."
 metadata:
   version: "42"
   tool_count: 207
@@ -13,6 +13,14 @@ passive application runtime evidence, or comparison with
 behavior not established by available source. For ordinary analysis of a
 complete source repository, use normal repository tools and do not run REA
 readiness or provider commands.
+
+## Website reproduction and element reuse
+
+When the user's REA request includes reproducing or adapting a website, page or selected elements into their project, automatically read [clone-website](C:/Users/caila/.codex/skills/clone-website/SKILL.md) and follow its automatic REA/design routing. That route also loads design-engineer-router; the user need not name either skill.
+
+Keep the original source URL, selected elements, destination, fidelity/adaptation requirements and authorization scope. Complete or reuse the relevant REA investigation, then pass its evidence, limitations and unresolved questions to clone-website for the authorized implementation and visual validation. If clone-website initiated this investigation, return the evidence to that existing flow without loading or invoking it again. Load companions once per task and reuse captures rather than cycling between skills.
+
+A request only to inspect, understand or compare a site remains analysis-only. Binary, package and non-web investigations keep their existing routes. A request to configure this routing changes instructions only; it does not start website extraction or implementation.
 
 ## Connect only when needed
 
